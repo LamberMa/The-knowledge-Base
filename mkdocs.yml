@@ -24,9 +24,6 @@ theme:
         previous: 80 # p
         search: 83   # s
 
-# extra_css: 
-#   - css/vue.css
-
 extra:
   social:
     - type: github
@@ -87,3 +84,5 @@ nav:
       - '03-DRF的认证': django/DRF/03-DRF的认证.md
       - '04-DRF的权限': django/DRF/04-DRF权限.md 
       - '05-DRF访问限制': django/DRF/05-DRF访问限制.md
+      - '06-DRF版本&解析器': django/DRF/06-DRF版本&解析器.md
+      - '07-DRF序列化': django/DRF/07-DRF序列化.md

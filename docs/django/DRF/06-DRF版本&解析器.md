@@ -1,6 +1,8 @@
 # DRF版本&解析器
 
-> restframework你都继承过哪些类
+> - 编辑日期：2019-2-13
+>
+> 思考一个问题：restframework你都继承过哪些类
 
 ## DRF版本
 
@@ -13,7 +15,6 @@ def initial(self, request, *args, **kwargs):
     """
     self.format_kwarg = self.get_format_suffix(**kwargs)
 
-    # Perform content negotiation and store the accepted info on the request
     neg = self.perform_content_negotiation(request)
     request.accepted_renderer, request.accepted_media_type = neg
 
@@ -52,7 +53,7 @@ class UserView(APIView):
     authentication_classes = []
     permission_classes = []
     throttle_classes = []
-    # 重要
+
     versioning_class = ParamVersion
 
     def get(self, request, *args, **kwargs):
