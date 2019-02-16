@@ -1,2 +1,20 @@
 site_name: 雨下不停的知识库
 site_authod: 雨下不停
+
+# 设置Git相关信息
+repo_name: 'caimengzhi/books'
+repo_url: 'https://github.com/LamberMa/The-knowledge-Base.git'
+theme:
+  name: material
+  highlightjs: true
+  palette:
+    primary: 'Blue Grey'
+    accent: 'Pink'
+  feature:
+    tabs: false
+  language: 'zh'
+  shortcuts:
+        help: 191    # ?
+        next: 78     # n
+        previous: 80 # p
+        search: 83   # s
