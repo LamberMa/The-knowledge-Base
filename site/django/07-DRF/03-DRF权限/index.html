@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../../../img/favicon.ico">
+        <title>DjangoRestFrameWork权限 - 雨下不停的知识库</title>
+        <link href="../../../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+        <script src="../../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../../js/bootstrap-3.0.3.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+
+                <!-- Collapsed navigation -->
+                <div class="navbar-header">
+                    <!-- Expander button -->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="../../..">雨下不停的知识库</a>
+                </div>
+
+                <!-- Expanded navigation -->
+                <div class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li >
+                                <a href="../../..">Welcome to MkDocs</a>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Django <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+  <li class="dropdown-submenu">
+    <a href="#">07 DRF</a>
+    <ul class="dropdown-menu">
+            
+<li >
+    <a href="../01-Restful/">DRF</a>
+</li>
+            
+<li >
+    <a href="../02-DRF认证/">Django Rest FrameWork</a>
+</li>
+            
+<li class="active">
+    <a href="./">DjangoRestFrameWork权限</a>
+</li>
+            
+<li >
+    <a href="../04-DRF访问限制/">DRF访问限制</a>
+</li>
+            
+<li >
+    <a href="../05-DRF解析器/">DRF版本&解析器</a>
+</li>
+            
+<li >
+    <a href="../06-DRF序列化/">DRF序列化</a>
+</li>
+            
+<li >
+    <a href="../07-DRF分页/">分页</a>
+</li>
+            
+<li >
+    <a href="../08-DRF视图/">08 DRF视图</a>
+</li>
+    </ul>
+  </li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li >
+                                <a rel="next" href="../02-DRF认证/">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li >
+                                <a rel="prev" href="../04-DRF访问限制/">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="main active"><a href="#djangorestframework">DjangoRestFrameWork权限</a></li>
+            <li><a href="#_1">权限的基本使用</a></li>
+            <li><a href="#_2">源码流程</a></li>
+            <li><a href="#_3">内置权限</a></li>
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
+
+<h1 id="djangorestframework">DjangoRestFrameWork权限</h1>
+<h2 id="_1">权限的基本使用</h2>
+<p>注意全局的是在settings配置文件配置即可，如果是局部的是单独在自己定义的类中加。全局的就是所有人用，如果是有特殊的那就单独给某一个特殊的加一个perimission_class的列表就可以了。</p>
+<h2 id="_2">源码流程</h2>
+<blockquote>
+<p>在源码流程部分其实和认证部分是大同小异的，入口依旧是dispatch。</p>
+</blockquote>
+<p>找到dispatch中封装的initial方法</p>
+<pre><code class="python"> def initial(self, request, *args, **kwargs):
+
+     &quot;&quot;&quot;此处省略很多代码~~~~~&quot;&quot;&quot;
+
+     self.perform_authentication(request)
+
+     # 找到这一步骤
+     self.check_permissions(request)
+     self.check_throttles(request)
+</code></pre>
+
+<p>看看check_permissions做了什么</p>
+<pre><code class="python">def check_permissions(self, request):
+    &quot;&quot;&quot;
+    Check if the request should be permitted.
+    Raises an appropriate exception if the request is not permitted.
+    &quot;&quot;&quot;
+    for permission in self.get_permissions():
+        if not permission.has_permission(request, self):
+            self.permission_denied(
+                request, message=getattr(permission, 'message', None)
+            )
+</code></pre>
+
+<p>我们发现它又在self（也就是我们CBV的对象里）找这个get_permissions了，如果我们自己没有定义的话那么就会去父类里面找。找到父类的APIView，对应的有这么一条：</p>
+<pre><code class="python">class APIView(View):
+
+    ………………
+    permission_classes = api_settings.DEFAULT_PERMISSION_CLASSES
+    ………………
+</code></pre>
+
+<p>这样就和之前的认证部分一致了，如果要自己定义的话记得KEY要写成对应的上面的名字，别写错了，否则是不会生效的。</p>
+<p>继续来看check_permissions：</p>
+<pre><code class="python"># get_permissions()做了一件事就是遍历self.permission_classes然后通过列表生成式返回所有权限类的对象列表。
+def get_permissions(self):
+    &quot;&quot;&quot;
+    Instantiates and returns the list of permissions that this view requires.
+    &quot;&quot;&quot;
+    return [permission() for permission in self.permission_classes]
+
+# permission_denied中抛出了异常
+def permission_denied(self, request, message=None):
+    &quot;&quot;&quot;
+    If request is not permitted, determine what kind of exception to raise.
+    &quot;&quot;&quot;
+    if request.authenticators and not request.successful_authenticator:
+        raise exceptions.NotAuthenticated()
+    raise exceptions.PermissionDenied(detail=message)
+
+for permission in self.get_permissions():
+    # 调用权限对象的has_permission方法，如果返回的是True，即权限通过则继续循环
+    # 如果返回False，则权限不通过，进入if条件中。
+    if not permission.has_permission(request, self):
+        # 调用self的permission_denied，
+        self.permission_denied(
+            # messages在permission中取了信息，也就是说我们可以自定义这个message
+            request, message=getattr(permission, 'message', None)
+        )
+</code></pre>
+
+<h2 id="_3">内置权限</h2>
+<pre><code class="python">@six.add_metaclass(BasePermissionMetaclass)
+class BasePermission(object):
+    &quot;&quot;&quot;
+    A base class from which all permission classes should inherit.
+    &quot;&quot;&quot;
+
+    def has_permission(self, request, view):
+        &quot;&quot;&quot;
+        Return `True` if permission is granted, `False` otherwise.
+        &quot;&quot;&quot;
+        return True
+
+    def has_object_permission(self, request, view, obj):
+        &quot;&quot;&quot;
+        Return `True` if permission is granted, `False` otherwise.
+        &quot;&quot;&quot;
+        return True
+</code></pre>
+
+<p>为了规范，我们写的权限类都要继承BasePermission类，其他的还有一些默认的权限类，这里仅作参考，一般生产环境的时候是不会用到这些内置类的，而是根据业务自己开发权限。</p>
+<pre><code class="python">class AllowAny(BasePermission):
+    &quot;&quot;&quot;
+    Allow any access.
+    This isn't strictly required, since you could use an empty
+    permission_classes list, but it's useful because it makes the intention
+    more explicit.
+    &quot;&quot;&quot;
+
+    def has_permission(self, request, view):
+        return True
+
+
+class IsAuthenticated(BasePermission):
+    &quot;&quot;&quot;
+    Allows access only to authenticated users.
+    &quot;&quot;&quot;
+
+    def has_permission(self, request, view):
+        return bool(request.user and request.user.is_authenticated)
+
+
+class IsAdminUser(BasePermission):
+    &quot;&quot;&quot;
+    Allows access only to admin users.
+    &quot;&quot;&quot;
+
+    def has_permission(self, request, view):
+        return bool(request.user and request.user.is_staff)
+
+
+class IsAuthenticatedOrReadOnly(BasePermission):
+    &quot;&quot;&quot;
+    The request is authenticated as a user, or is a read-only request.
+    &quot;&quot;&quot;
+
+    def has_permission(self, request, view):
+        return bool(
+            request.method in SAFE_METHODS or
+            request.user and
+            request.user.is_authenticated
+        )
+
+
+class DjangoModelPermissions(BasePermission):
+    &quot;&quot;&quot;
+    The request is authenticated using `django.contrib.auth` permissions.
+    See: https://docs.djangoproject.com/en/dev/topics/auth/#permissions
+
+    It ensures that the user is authenticated, and has the appropriate
+    `add`/`change`/`delete` permissions on the model.
+
+    This permission can only be applied against view classes that
+    provide a `.queryset` attribute.
+    &quot;&quot;&quot;
+
+    # Map methods into required permission codes.
+    # Override this if you need to also provide 'view' permissions,
+    # or if you want to provide custom permission codes.
+    perms_map = {
+        'GET': [],
+        'OPTIONS': [],
+        'HEAD': [],
+        'POST': ['%(app_label)s.add_%(model_name)s'],
+        'PUT': ['%(app_label)s.change_%(model_name)s'],
+        'PATCH': ['%(app_label)s.change_%(model_name)s'],
+        'DELETE': ['%(app_label)s.delete_%(model_name)s'],
+    }
+
+    authenticated_users_only = True
+
+    def get_required_permissions(self, method, model_cls):
+        &quot;&quot;&quot;
+        Given a model and an HTTP method, return the list of permission
+        codes that the user is required to have.
+        &quot;&quot;&quot;
+        kwargs = {
+            'app_label': model_cls._meta.app_label,
+            'model_name': model_cls._meta.model_name
+        }
+
+        if method not in self.perms_map:
+            raise exceptions.MethodNotAllowed(method)
+
+        return [perm % kwargs for perm in self.perms_map[method]]
+
+    def _queryset(self, view):
+        assert hasattr(view, 'get_queryset') \
+            or getattr(view, 'queryset', None) is not None, (
+            'Cannot apply {} on a view that does not set '
+            '`.queryset` or have a `.get_queryset()` method.'
+        ).format(self.__class__.__name__)
+
+        if hasattr(view, 'get_queryset'):
+            queryset = view.get_queryset()
+            assert queryset is not None, (
+                '{}.get_queryset() returned None'.format(view.__class__.__name__)
+            )
+            return queryset
+        return view.queryset
+
+    def has_permission(self, request, view):
+        # Workaround to ensure DjangoModelPermissions are not applied
+        # to the root view when using DefaultRouter.
+        if getattr(view, '_ignore_model_permissions', False):
+            return True
+
+        if not request.user or (
+           not request.user.is_authenticated and self.authenticated_users_only):
+            return False
+
+        queryset = self._queryset(view)
+        perms = self.get_required_permissions(request.method, queryset.model)
+
+        return request.user.has_perms(perms)
+
+
+class DjangoModelPermissionsOrAnonReadOnly(DjangoModelPermissions):
+    &quot;&quot;&quot;
+    Similar to DjangoModelPermissions, except that anonymous users are
+    allowed read-only access.
+    &quot;&quot;&quot;
+    authenticated_users_only = False
+
+
+class DjangoObjectPermissions(DjangoModelPermissions):
+    &quot;&quot;&quot;
+    The request is authenticated using Django's object-level permissions.
+    It requires an object-permissions-enabled backend, such as Django Guardian.
+
+    It ensures that the user is authenticated, and has the appropriate
+    `add`/`change`/`delete` permissions on the object using .has_perms.
+
+    This permission can only be applied against view classes that
+    provide a `.queryset` attribute.
+    &quot;&quot;&quot;
+    perms_map = {
+        'GET': [],
+        'OPTIONS': [],
+        'HEAD': [],
+        'POST': ['%(app_label)s.add_%(model_name)s'],
+        'PUT': ['%(app_label)s.change_%(model_name)s'],
+        'PATCH': ['%(app_label)s.change_%(model_name)s'],
+        'DELETE': ['%(app_label)s.delete_%(model_name)s'],
+    }
+
+    def get_required_object_permissions(self, method, model_cls):
+        kwargs = {
+            'app_label': model_cls._meta.app_label,
+            'model_name': model_cls._meta.model_name
+        }
+
+        if method not in self.perms_map:
+            raise exceptions.MethodNotAllowed(method)
+
+        return [perm % kwargs for perm in self.perms_map[method]]
+
+    def has_object_permission(self, request, view, obj):
+        # authentication checks have already executed via has_permission
+        queryset = self._queryset(view)
+        model_cls = queryset.model
+        user = request.user
+
+        perms = self.get_required_object_permissions(request.method, model_cls)
+
+        if not user.has_perms(perms, obj):
+            # If the user does not have permissions we need to determine if
+            # they have read permissions to see 403, or not, and simply see
+            # a 404 response.
+
+            if request.method in SAFE_METHODS:
+                # Read permissions already checked and failed, no need
+                # to make another lookup.
+                raise Http404
+
+            read_perms = self.get_required_object_permissions('GET', model_cls)
+            if not user.has_perms(read_perms, obj):
+                raise Http404
+
+            # Has read permissions.
+            return False
+
+        return True
+</code></pre></div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "../../..",
+                shortcuts = {"search": 83, "next": 78, "help": 191, "previous": 80};
+        </script>
+        <script src="../../../js/base.js" defer></script>
+        <script src="../../../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form role="form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="Keyboard Shortcuts Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Keyboard Shortcuts</h4>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

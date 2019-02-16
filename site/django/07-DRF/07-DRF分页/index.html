@@ -7,11 +7,11 @@
         
         
         
-        <link rel="shortcut icon" href="/img/favicon.ico">
-        <title>雨下不停的知识库</title>
-        <link href="/css/bootstrap-custom.min.css" rel="stylesheet">
-        <link href="/css/font-awesome.min.css" rel="stylesheet">
-        <link href="/css/base.css" rel="stylesheet">
+        <link rel="shortcut icon" href="../../../img/favicon.ico">
+        <title>分页 - 雨下不停的知识库</title>
+        <link href="../../../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../../css/base.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
@@ -19,8 +19,8 @@
             <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
 
-        <script src="/js/jquery-1.10.2.min.js" defer></script>
-        <script src="/js/bootstrap-3.0.3.min.js" defer></script>
+        <script src="../../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../../js/bootstrap-3.0.3.min.js" defer></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
         <script>hljs.initHighlightingOnLoad();</script> 
     </head>
@@ -39,7 +39,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="/.">雨下不停的知识库</a>
+                    <a class="navbar-brand" href="../../..">雨下不停的知识库</a>
                 </div>
 
                 <!-- Expanded navigation -->
@@ -47,9 +47,9 @@
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
                             <li >
-                                <a href="/.">Welcome to MkDocs</a>
+                                <a href="../../..">Welcome to MkDocs</a>
                             </li>
-                            <li class="dropdown">
+                            <li class="dropdown active">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Django <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
@@ -58,35 +58,35 @@
     <ul class="dropdown-menu">
             
 <li >
-    <a href="/django/07-DRF/01-Restful/">DRF</a>
+    <a href="../01-Restful/">DRF</a>
 </li>
             
 <li >
-    <a href="/django/07-DRF/02-DRF认证/">Django Rest FrameWork</a>
+    <a href="../02-DRF认证/">Django Rest FrameWork</a>
 </li>
             
 <li >
-    <a href="/django/07-DRF/03-DRF权限/">DjangoRestFrameWork权限</a>
+    <a href="../03-DRF权限/">DjangoRestFrameWork权限</a>
 </li>
             
 <li >
-    <a href="/django/07-DRF/04-DRF访问限制/">DRF访问限制</a>
+    <a href="../04-DRF访问限制/">DRF访问限制</a>
 </li>
             
 <li >
-    <a href="/django/07-DRF/05-DRF解析器/">DRF版本&解析器</a>
+    <a href="../05-DRF解析器/">DRF版本&解析器</a>
 </li>
             
 <li >
-    <a href="/django/07-DRF/06-DRF序列化/">DRF序列化</a>
+    <a href="../06-DRF序列化/">DRF序列化</a>
+</li>
+            
+<li class="active">
+    <a href="./">分页</a>
 </li>
             
 <li >
-    <a href="/django/07-DRF/07-DRF分页/">分页</a>
-</li>
-            
-<li >
-    <a href="/django/07-DRF/08-DRF视图/">08 DRF视图</a>
+    <a href="../08-DRF视图/">08 DRF视图</a>
 </li>
     </ul>
   </li>
@@ -100,21 +100,49 @@
                                 <i class="fa fa-search"></i> Search
                             </a>
                         </li>
+                            <li >
+                                <a rel="next" href="../06-DRF序列化/">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li >
+                                <a rel="prev" href="../08-DRF视图/">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
                     </ul>
                 </div>
             </div>
         </div>
 
         <div class="container">
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="main active"><a href="#_1">分页</a></li>
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
 
-    <div class="row-fluid">
-      <div id="main-content" class="span12">
-        <h1 id="404-page-not-found" style="text-align: center">404</h1>
-        <p style="text-align: center"><strong>Page not found</strong></p>
-      </div>
-    </div>
-
-
+<h1 id="_1">分页</h1>
+<blockquote>
+<ul>
+<li>简单分页：看第n页，每页显示m条数据</li>
+<li>
+<p>指定分页：在第n个位置，向后查看n条数据。</p>
+</li>
+<li>
+<p>加密分页：只能看上一页下一页</p>
+</li>
+</ul>
+</blockquote>
+<pre><code class="python">class GenericViewSet(ViewSetMixin, generics.GenericAPIView):
+    &quot;&quot;&quot;
+    The GenericViewSet class does not provide any actions by default,
+    but does include the base set of generic view behavior, such as
+    the `get_object` and `get_queryset` methods.
+    &quot;&quot;&quot;
+    pass
+</code></pre></div>
         </div>
 
         <footer class="col-md-12">
@@ -122,11 +150,11 @@
             <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
         </footer>
         <script>
-            var base_url = "/",
+            var base_url = "../../..",
                 shortcuts = {"search": 83, "next": 78, "help": 191, "previous": 80};
         </script>
-        <script src="/js/base.js" defer></script>
-        <script src="/search/main.js" defer></script>
+        <script src="../../../js/base.js" defer></script>
+        <script src="../../../search/main.js" defer></script>
 
         <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
     <div class="modal-dialog">

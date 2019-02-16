@@ -7,11 +7,11 @@
         
         
         
-        <link rel="shortcut icon" href="/img/favicon.ico">
-        <title>雨下不停的知识库</title>
-        <link href="/css/bootstrap-custom.min.css" rel="stylesheet">
-        <link href="/css/font-awesome.min.css" rel="stylesheet">
-        <link href="/css/base.css" rel="stylesheet">
+        <link rel="shortcut icon" href="../../../img/favicon.ico">
+        <title>08 DRF视图 - 雨下不停的知识库</title>
+        <link href="../../../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../../css/base.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
@@ -19,8 +19,8 @@
             <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
 
-        <script src="/js/jquery-1.10.2.min.js" defer></script>
-        <script src="/js/bootstrap-3.0.3.min.js" defer></script>
+        <script src="../../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../../js/bootstrap-3.0.3.min.js" defer></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
         <script>hljs.initHighlightingOnLoad();</script> 
     </head>
@@ -39,7 +39,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="/.">雨下不停的知识库</a>
+                    <a class="navbar-brand" href="../../..">雨下不停的知识库</a>
                 </div>
 
                 <!-- Expanded navigation -->
@@ -47,9 +47,9 @@
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
                             <li >
-                                <a href="/.">Welcome to MkDocs</a>
+                                <a href="../../..">Welcome to MkDocs</a>
                             </li>
-                            <li class="dropdown">
+                            <li class="dropdown active">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Django <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
@@ -58,35 +58,35 @@
     <ul class="dropdown-menu">
             
 <li >
-    <a href="/django/07-DRF/01-Restful/">DRF</a>
+    <a href="../01-Restful/">DRF</a>
 </li>
             
 <li >
-    <a href="/django/07-DRF/02-DRF认证/">Django Rest FrameWork</a>
+    <a href="../02-DRF认证/">Django Rest FrameWork</a>
 </li>
             
 <li >
-    <a href="/django/07-DRF/03-DRF权限/">DjangoRestFrameWork权限</a>
+    <a href="../03-DRF权限/">DjangoRestFrameWork权限</a>
 </li>
             
 <li >
-    <a href="/django/07-DRF/04-DRF访问限制/">DRF访问限制</a>
+    <a href="../04-DRF访问限制/">DRF访问限制</a>
 </li>
             
 <li >
-    <a href="/django/07-DRF/05-DRF解析器/">DRF版本&解析器</a>
+    <a href="../05-DRF解析器/">DRF版本&解析器</a>
 </li>
             
 <li >
-    <a href="/django/07-DRF/06-DRF序列化/">DRF序列化</a>
+    <a href="../06-DRF序列化/">DRF序列化</a>
 </li>
             
 <li >
-    <a href="/django/07-DRF/07-DRF分页/">分页</a>
+    <a href="../07-DRF分页/">分页</a>
 </li>
             
-<li >
-    <a href="/django/07-DRF/08-DRF视图/">08 DRF视图</a>
+<li class="active">
+    <a href="./">08 DRF视图</a>
 </li>
     </ul>
   </li>
@@ -100,21 +100,40 @@
                                 <i class="fa fa-search"></i> Search
                             </a>
                         </li>
+                            <li >
+                                <a rel="next" href="../07-DRF分页/">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="disabled">
+                                <a rel="prev" >
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
                     </ul>
                 </div>
             </div>
         </div>
 
         <div class="container">
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="main active"><a href="#route">Route</a></li>
+        <li class="main "><a href="#_1">渲染器</a></li>
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
 
-    <div class="row-fluid">
-      <div id="main-content" class="span12">
-        <h1 id="404-page-not-found" style="text-align: center">404</h1>
-        <p style="text-align: center"><strong>Page not found</strong></p>
-      </div>
-    </div>
+<p>可以单独继承mixin中的create，retrieve，destroy等类，如果写的是特别复杂的就不推荐使用这些了，推荐使用APIVIEW或者使用ModelViewSet，ModelViewSet比较APIVIEW有一个好处就是</p>
+<p>如果只想完成简单的CURD，就可以使用ModelViewSet，如果要完成复杂的逻辑，就直接用Generic或者直接使用APIView。</p>
+<pre><code>has_object_permission
+Gerneric_api_view .API_VIEW.get_object,check_object_perssion
+</code></pre>
 
-
+<h2 id="route">Route</h2>
+<h2 id="_1">渲染器</h2>
+<p>format=json/admin/form，主要就用json还有一个browser的。</p>
+<p>允许匿名用户两分钟访问10次，注册用户两分钟访问20次。CORS跨域</p></div>
         </div>
 
         <footer class="col-md-12">
@@ -122,11 +141,11 @@
             <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
         </footer>
         <script>
-            var base_url = "/",
+            var base_url = "../../..",
                 shortcuts = {"search": 83, "next": 78, "help": 191, "previous": 80};
         </script>
-        <script src="/js/base.js" defer></script>
-        <script src="/search/main.js" defer></script>
+        <script src="../../../js/base.js" defer></script>
+        <script src="../../../search/main.js" defer></script>
 
         <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
     <div class="modal-dialog">

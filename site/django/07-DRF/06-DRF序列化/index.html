@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../../../img/favicon.ico">
+        <title>DRF序列化 - 雨下不停的知识库</title>
+        <link href="../../../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+        <script src="../../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../../js/bootstrap-3.0.3.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+
+                <!-- Collapsed navigation -->
+                <div class="navbar-header">
+                    <!-- Expander button -->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="../../..">雨下不停的知识库</a>
+                </div>
+
+                <!-- Expanded navigation -->
+                <div class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li >
+                                <a href="../../..">Welcome to MkDocs</a>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Django <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+  <li class="dropdown-submenu">
+    <a href="#">07 DRF</a>
+    <ul class="dropdown-menu">
+            
+<li >
+    <a href="../01-Restful/">DRF</a>
+</li>
+            
+<li >
+    <a href="../02-DRF认证/">Django Rest FrameWork</a>
+</li>
+            
+<li >
+    <a href="../03-DRF权限/">DjangoRestFrameWork权限</a>
+</li>
+            
+<li >
+    <a href="../04-DRF访问限制/">DRF访问限制</a>
+</li>
+            
+<li >
+    <a href="../05-DRF解析器/">DRF版本&解析器</a>
+</li>
+            
+<li class="active">
+    <a href="./">DRF序列化</a>
+</li>
+            
+<li >
+    <a href="../07-DRF分页/">分页</a>
+</li>
+            
+<li >
+    <a href="../08-DRF视图/">08 DRF视图</a>
+</li>
+    </ul>
+  </li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li >
+                                <a rel="next" href="../05-DRF解析器/">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li >
+                                <a rel="prev" href="../07-DRF分页/">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="main active"><a href="#drf">DRF序列化</a></li>
+            <li><a href="#_1">简单使用</a></li>
+            <li><a href="#_3">源码流程</a></li>
+            <li><a href="#_4">请求数据校验</a></li>
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
+
+<h1 id="drf">DRF序列化</h1>
+<blockquote>
+<ul>
+<li>请求认证</li>
+<li>QuerySet进行序列化</li>
+</ul>
+</blockquote>
+<h2 id="_1">简单使用</h2>
+<h3 id="queryset">QuerySet序列化</h3>
+<pre><code class="python">class UserInfoSer(serializers.Serializer):
+    &quot;&quot;&quot;
+    以userinfo表为例子，如下是我想要显示的字段
+    1-username和password都是本表字段，直接展示就可以，调用对应类别为CharField
+    2-user_type为用户类型，这在我们的models定义中是一个choice字段，如果直接取IntegerField的话
+    那么返回的将是一个id而已，而不是我们想要的typeid对应的中文名称，因此这一块要指定源source。
+    orm内部针对choice字段存在一个get_Foo_display的方法，会返回对应的choice对应的值，那么对应到这里就是
+    要显示user_type字段对应的choice的选项值。
+    3-外键字段，这里还可以填写对应的外键字段，比如group，对应的就是group对象，.title，就是调用group对象
+    的title字段的值，同样也要指定source。
+    4-而针对多对多字典在这里指定方法的话其实就不是那么方便了，因此采用一个新的类SerializerMethodField
+    ，这个类可以允许我们自定义方法来指定显示内容，假如字段名叫rls，那么就可以命名一个get_rls的方法，内部
+    操作也很简单，就是拿到所有的role对象以后然后把对象的id和title取出来添加到ret里，返回的ret即是rls的值
+    &quot;&quot;&quot;
+    username = serializers.CharField()
+    password = serializers.CharField()
+    # choices字段
+    ut = serializers.CharField(source='get_user_type_display')
+    # 外键字段内部是根据.做split，取值，因此可以一直.下去。
+    gp = serializers.CharField(source='group.title')
+    # 多对多关系，用SerializerMethod进行自定义方法显示，上线的choice，gp都可以用这种方法的形式
+    rls = serializers.SerializerMethodField()
+
+    def get_rls(self, row):
+
+        role_obj_list = row.roles.all()
+        ret = []
+        for item in role_obj_list:
+            ret.append({'id': item.id, 'title': item.title})
+        return ret
+
+ # 对应的CBV
+class UserInfo(APIView):
+
+    authentication_classes = []
+    permission_classes = []
+    throttle_classes = []
+
+    def get(self, request, *args, **kwargs):
+
+        users = models.UserInfo.objects.all()
+        ser = UserInfoSer(instance=users, many=True)
+        # ser.data返回的是一个OrderedDIct是一个有序字典，实质上还是一个字典
+        ret = json.dumps(ser.data, ensure_ascii=False)
+        return HttpResponse(ret)
+</code></pre>
+
+<p>访问对应的路由得到的结果如下：</p>
+<pre><code class="python">[{&quot;username&quot;: &quot;lamber&quot;, &quot;password&quot;: &quot;123&quot;, &quot;ut&quot;: &quot;普通用户&quot;, &quot;gp&quot;: &quot;A组&quot;, &quot;rls&quot;: [{&quot;id&quot;: 1, &quot;title&quot;: &quot;医生&quot;}, {&quot;id&quot;: 2, &quot;title&quot;: &quot;学生&quot;}]}, {&quot;username&quot;: &quot;maxiaoyu&quot;, &quot;password&quot;: &quot;123&quot;, &quot;ut&quot;: &quot;VIP&quot;, &quot;gp&quot;: &quot;b组&quot;, &quot;rls&quot;: [{&quot;id&quot;: 2, &quot;title&quot;: &quot;学生&quot;}, {&quot;id&quot;: 3, &quot;title&quot;: &quot;老师&quot;}]}, {&quot;username&quot;: &quot;qimaosen&quot;, &quot;password&quot;: &quot;123&quot;, &quot;ut&quot;: &quot;SVIP&quot;, &quot;gp&quot;: &quot;A组&quot;, &quot;rls&quot;: [{&quot;id&quot;: 3, &quot;title&quot;: &quot;老师&quot;}]}]
+</code></pre>
+
+<p>其实我们只做了两个事情：</p>
+<ol>
+<li>定义一个序列化的类，写上对应的字段</li>
+<li>在CBV中实例化序列类，生成序列化后的数据，返回给前端。</li>
+</ol>
+<p>在序列化类中我们单独指定了每一个字段的显示，其实这个还可以更简单的的去操作，只要继承内置的ModelSerializer类即可，因此上面的内容就可以改成如下的形式：</p>
+<pre><code class="python">class UserInfoSer(serializers.ModelSerializer):
+
+    class Meta:
+        model = models.UserInfo
+        fields = &quot;__all__&quot;
+</code></pre>
+
+<p>当fields设置为<code>__all__</code>的时候，会自动帮你显示所有的字段，这样就不需要自己一个一个手写了，不过也有一个问题就是这里的处理都是最简单化的处理，即对应的group也只是给你显示组id，choices也是显示choice的id而不是显示choice的名称，因此部分字段还是需要我们自己来进行处理，来进行一下改进如下：</p>
+<pre><code class="python">class UserInfoSer(serializers.ModelSerializer):
+
+    ut = serializers.CharField(source='get_user_type_display')
+    gp = serializers.CharField(source='group.title')
+    rls = serializers.SerializerMethodField()
+
+    class Meta:
+        model = models.UserInfo
+        fields = ['id', 'username', 'ut', 'rls', 'gp']
+
+    def get_rls(self, row):
+
+        role_obj_list = row.roles.all()
+        ret = []
+        for item in role_obj_list:
+            ret.append({'id': item.id, 'title': item.title})
+        return ret
+</code></pre>
+
+<p>不过还有一种更为简单的写法，指定一个depth，depth表示深度，我们在外键进行联表查询的时候可以通过“.”一直多级去获取，即一直“.”下去，这里depth就是指定要深入走多少层，：</p>
+<pre><code class="python">class UserInfoSer(serializers.ModelSerializer):
+
+    class Meta:
+        model = models.UserInfo
+        fields = &quot;__all__&quot;
+        # 默认ModelSerializer使用主键作为关联字段，但是我们可以使用depth来简单的生成嵌套表示，
+        # depth应该是整数，表明嵌套的层级数量，建议3~4层就差不多了，再多就会慢了。
+        depth = 1
+</code></pre>
+
+<p>除此之外，我们还可以自定义字段显示，定义一个自定制的Field的类，在内部重写to_representtation方法，方法返回什么就显示什么。</p>
+<pre><code class="python">class MyField(serializers.CharField):
+
+    def to_representation(self, value):
+        &quot;&quot;&quot;
+        可以自定义这个方法，这个方法返回什么，那么返回的页面数据就是什么，value是从数据库取到的值，
+        这个方法一般是用不上，因为我们自定义方法一般就能解决这个问题了。
+        &quot;&quot;&quot;
+        return time.time()
+
+class UserInfoSer(serializers.ModelSerializer):
+
+    ut = serializers.CharField(source='get_user_type_display')
+    gp = serializers.CharField(source='group.title')
+    x1 = MyField(source='username')
+
+    class Meta:
+        model = models.UserInfo
+        fields = ['id', 'username', 'ut', 'gp', 'x1']
+</code></pre>
+
+<p>对应的结果如下：</p>
+<pre><code class="python">[{&quot;id&quot;: 1, &quot;username&quot;: &quot;lamber&quot;, &quot;ut&quot;: &quot;普通用户&quot;, &quot;gp&quot;: &quot;A组&quot;, &quot;x1&quot;: 1550142281.049991}, {&quot;id&quot;: 2, &quot;username&quot;: &quot;maxiaoyu&quot;, &quot;ut&quot;: &quot;VIP&quot;, &quot;gp&quot;: &quot;b组&quot;, &quot;x1&quot;: 1550142281.052642}, {&quot;id&quot;: 3, &quot;username&quot;: &quot;qimaosen&quot;, &quot;ut&quot;: &quot;SVIP&quot;, &quot;gp&quot;: &quot;A组&quot;, &quot;x1&quot;: 1550142281.054938}]
+</code></pre>
+
+<h3 id="hypermedia-api">Hypermedia API</h3>
+<p>Hypermedia API，RESTful API最好做到Hypermedia，即返回结果中提供链接，连向其他API方法，使得用户不查文档，也知道下一步应该做什么。以用户组为例：</p>
+<pre><code class="python">class UserInfoSer(serializers.ModelSerializer):
+
+    &quot;&quot;&quot;
+    这里的lookup_url_kwarg是指的我去反向生成url的时候，参数写的值是什么，
+    如果是pk那就是pk，如果是xxx那匹配到的就是xxx，这个是针对URL上有参数的情况
+    lookup_field用于执行各个模型实例的对象查找的模型字段。默认为 'pk'。
+    请注意，使用 hyperlinked API 时，如果需要使用自定义值，
+    则需要确保 API 视图和序列化类设置了 lookup field，不设置默认按照pk来，数据可能是不对的。
+    生成反向URL地址，帮助接口人调用的时候可以了解到连接的内容。
+    &quot;&quot;&quot;
+    group = serializers.HyperlinkedIdentityField(view_name='gp', lookup_url_kwarg='pk', lookup_field='group_id')
+
+    class Meta:
+        model = models.UserInfo
+        fields = ['id', 'username', 'group']
+
+
+class UserInfo(APIView):
+
+    authentication_classes = []
+    permission_classes = []
+    throttle_classes = []
+
+    def get(self, request, *args, **kwargs):
+
+        users = models.UserInfo.objects.all()
+        ser = UserInfoSer(instance=users, many=True)
+        # 返回的ser.data是一个OrderedDIct是一个有序字典，实质上还是一个字典
+        ret = json.dumps(ser.data, ensure_ascii=False)
+        return HttpResponse(ret)
+
+class GroupSer(serializers.ModelSerializer):
+
+    group = serializers.HyperlinkedIdentityField(view_name='gp', lookup_url_kwarg='pk', lookup_field='id')
+
+    class Meta:
+        model = models.UserGroup
+        fields = &quot;__all__&quot;
+
+
+class Group(APIView):
+
+    authentication_classes = []
+    permission_classes = []
+    throttle_classes = []
+
+    def get(self, request, *args, **kwargs):
+
+        pk = kwargs.get('pk')
+        obj = models.UserGroup.objects.filter(id=pk).first()
+        # 但凡你要是使用HyperlinkedIdentityField了，你就要加上context这个参数，这样就能获得反向的url
+        # 否则会报如下异常：
+        # `HyperlinkedIdentityField` requires the request in the serializer context. Add `context={'request': request}` when instantiating the serializer.
+        ser = GroupSer(instance=obj, many=False, context={'request': request})
+        ret = json.dumps(ser.data)
+        return HttpResponse(ret)
+</code></pre>
+
+<p>返回的结果内容如下：</p>
+<pre><code class="python">[
+    {
+        &quot;id&quot;: 1,
+        &quot;username&quot;: &quot;lamber&quot;,
+        &quot;group&quot;: &quot;http://127.0.0.1:8000/group/1&quot;
+    },
+    {
+        &quot;id&quot;: 2,
+        &quot;username&quot;: &quot;maxiaoyu&quot;,
+        &quot;group&quot;: &quot;http://127.0.0.1:8000/group/2&quot;
+    },
+    {
+        &quot;id&quot;: 3,
+        &quot;username&quot;: &quot;qimaosen&quot;,
+        &quot;group&quot;: &quot;http://127.0.0.1:8000/group/1&quot;
+    }
+]
+</code></pre>
+
+<h3 id="_2">请求认证</h3>
+<p>在请求认证这里其实很类似于Form组件的请求认证，比如我要针对username做一个请求认证</p>
+<pre><code class="python">class xxValidator(object):
+
+    def __init__(self, base):
+        self.base = base
+
+    def __call__(self, value, *args, **kwargs):
+        if not value.startswith(self.base):
+            message = '标题必须以%s开头' % self.base
+            raise serializers.ValidationError(message)
+
+class UserInfoSer(serializers.ModelSerializer):
+
+    username = serializers.CharField(
+        # 这里面包含了很多原生的验证规则，比如required，不能为空
+        error_messages={
+            'required': '不能为空'
+        },
+        # 但是我们还可以自己去定义验证规则，方法就是定一个类就可以了，比如上面的xxValidator类
+        # 如果满足的话不作操作，如果不满足raise一个ValidationError
+        # 这里调用了__call__方法，因此类可以直接加括号调用，默认就是调用的__call__方法。
+        validators=[xxValidator('呵呵哒'), ],
+    )
+
+    group = serializers.HyperlinkedIdentityField(view_name='gp', lookup_url_kwarg='pk', lookup_field='group_id')
+
+    class Meta:
+        model = models.UserInfo
+        fields = ['id', 'username', 'group']
+
+ class UserInfo(APIView):
+
+    authentication_classes = []
+    permission_classes = []
+    throttle_classes = []
+
+    def post(self, request, *args, **kwargs):
+        ser = UserInfoSer(data=request.data)
+        if ser.is_valid():
+            print(ser.validated_data)
+        else:
+            print(ser.errors)
+
+        return HttpResponse('测试的post请求')
+</code></pre>
+
+<p>如果post请求过来的内容不是以“呵呵哒”开头的话，ser.errors就会打印出对应的报错</p>
+<pre><code class="python">{'username': [ErrorDetail(string='标题必须以呵呵哒开头', code='invalid')]}
+</code></pre>
+
+<p>当然一般情况下我们不会去这么做，Form组件中有钩子，这里同样也有。</p>
+<pre><code class="python">def is_valid(self, raise_exception=False):
+
+    &quot;&quot;&quot;省略一部分代码&quot;&quot;&quot;
+    # 如果没有_validated_data属性的话，那么就会去调用run_validation方法。
+    if not hasattr(self, '_validated_data'):
+        try:
+            self._validated_data = self.run_validation(self.initial_data)
+        except ValidationError as exc:
+            self._validated_data = {}
+            self._errors = exc.detail
+        else:
+            self._errors = {}
+
+    if self._errors and raise_exception:
+        raise ValidationError(self.errors)
+
+    return not bool(self._errors)
+
+def run_validation(self, data=empty):
+    &quot;&quot;&quot;
+    Validate a simple representation and return the internal value.
+
+    The provided data may be `empty` if no representation was included
+    in the input.
+
+    May raise `SkipField` if the field should not be included in the
+    validated data.
+    &quot;&quot;&quot;
+    (is_empty_value, data) = self.validate_empty_values(data)
+    if is_empty_value:
+        return data
+    value = self.to_internal_value(data)
+    self.run_validators(value)
+    return value
+
+def validate_empty_values(self, data):
+    &quot;&quot;&quot;
+    Validate empty values, and either:
+
+    * Raise `ValidationError`, 指出无效的数据
+    * Raise `SkipField`, 指出这个字段应该被忽略
+    * Return (True, data), indicating an empty value that should be
+      returned without any further validation being applied.
+    * Return (False, data), indicating a non-empty value, that should
+      have validation applied as normal.
+    &quot;&quot;&quot;
+    if self.read_only:
+        return (True, self.get_default())
+
+    if data is empty:
+        if getattr(self.root, 'partial', False):
+            raise SkipField()
+        if self.required:
+            self.fail('required')
+        return (True, self.get_default())
+
+    if data is None:
+        if not self.allow_null:
+            self.fail('null')
+        return (True, None)
+
+    return (False, data)
+</code></pre>
+
+<h2 id="_3">源码流程</h2>
+<p>我们写一个要做序列化的时候，假如说继承了serializers.Serializer类，我们在CBV中要进行调用：</p>
+<pre><code class="python"># 也就是实例化，那么整个代码流程就从实例化开始看
+ser = UserInfoSer(instance=users, many=True)
+</code></pre>
+
+<p>实例化的时候会优先指定的两个方法一个是<code>__new__</code>另外一个就是构造方法<code>__init__</code>。但是我们在Serializer中并没有发现，所以到它集成的父类BaseSerializer中去找。</p>
+<pre><code class="python">def __init__(self, instance=None, data=empty, **kwargs):
+    # 这个就是我们传递的instance，可能是一个，也可能是多个。
+    self.instance = instance
+    if data is not empty:
+        self.initial_data = data
+    self.partial = kwargs.pop('partial', False)
+    self._context = kwargs.pop('context', {})
+    kwargs.pop('many', None)
+    super(BaseSerializer, self).__init__(**kwargs)
+
+def __new__(cls, *args, **kwargs):
+    # 重写这个类来自动构建ListSerializer类代替，当设置了many=True时候
+    # 我们会去把many这个选项pop出来，如果没有那就是False，不走这里的条件
+    # 直接去调用父类的__new__方法.
+    if kwargs.pop('many', False):
+        # 如果说有many，那么调用类方法many_init
+        return cls.many_init(*args, **kwargs)
+    return super(BaseSerializer, cls).__new__(cls, *args, **kwargs)
+</code></pre>
+
+<p>在Serializer，如果没有给meta设置list_serializer_class属性，那么list_serializer_class属性就是ListSerializer，最后返回的也就是ListSerializer的对象，接下来执行ListSerializer对象的构造方法，否则执行BaseSerializer里面的构造方法（如果我们重写了这个就会调用我们自己的构造方法）。</p>
+<pre><code class="python">@classmethod
+def many_init(cls, *args, **kwargs):
+    &quot;&quot;&quot;
+    This method implements the creation of a `ListSerializer` parent
+    class when `many=True` is used. You can customize it if you need to
+    control which keyword arguments are passed to the parent, and
+    which are passed to the child.
+
+    Note that we're over-cautious in passing most arguments to both parent
+    and child classes in order to try to cover the general case. If you're
+    overriding this method you'll probably want something much simpler, eg:
+
+    @classmethod
+    def many_init(cls, *args, **kwargs):
+        kwargs['child'] = cls()
+        return CustomListSerializer(*args, **kwargs)
+    &quot;&quot;&quot;
+    allow_empty = kwargs.pop('allow_empty', None)
+    child_serializer = cls(*args, **kwargs)
+    list_kwargs = {
+        'child': child_serializer,
+    }
+    if allow_empty is not None:
+        list_kwargs['allow_empty'] = allow_empty
+    list_kwargs.update({
+        key: value for key, value in kwargs.items()
+        if key in LIST_SERIALIZER_KWARGS
+    })
+    meta = getattr(cls, 'Meta', None)
+    list_serializer_class = getattr(meta, 'list_serializer_class', ListSerializer)
+    return list_serializer_class(*args, **list_kwargs)
+</code></pre>
+
+<p>然后我们调用了这个这个对象的data属性：</p>
+<pre><code class="python">ret = json.dumps(ser.data, ensure_ascii=False)
+</code></pre>
+
+<p>来看一下这个data方法的实现</p>
+<pre><code class="python">@property
+def data(self):
+    ret = super(Serializer, self).data
+    return ReturnDict(ret, serializer=self)
+
+@property
+def data(self):
+    if hasattr(self, 'initial_data') and not hasattr(self, '_validated_data'):
+        msg = (
+            'When a serializer is passed a `data` keyword argument you '
+            'must call `.is_valid()` before attempting to access the '
+            'serialized `.data` representation.\n'
+            'You should either call `.is_valid()` first, '
+            'or access `.initial_data` instead.'
+        )
+        raise AssertionError(msg)
+
+    if not hasattr(self, '_data'):
+        if self.instance is not None and not getattr(self, '_errors', None):
+            self._data = self.to_representation(self.instance)
+        elif hasattr(self, '_validated_data') and not getattr(self, '_errors', None):
+            self._data = self.to_representation(self.validated_data)
+        else:
+            self._data = self.get_initial()
+    return self._data
+
+def to_representation(self, instance):
+    raise NotImplementedError('`to_representation()` must be implemented.')
+
+
+# Serializer类的类方法    
+def to_representation(self, instance):
+    &quot;&quot;&quot;
+    Object instance -&gt; Dict of primitive datatypes.
+    &quot;&quot;&quot;
+    ret = OrderedDict()
+    fields = self._readable_fields
+
+    # fields其实就是咱们定义的这些字段
+    for field in fields:
+        try:
+            # 调用字段的get_attribute方法，并把instance作为参数传递进去。
+            attribute = field.get_attribute(instance)
+        except SkipField:
+            continue
+
+        # We skip `to_representation` for `None` values so that fields do
+        # not have to explicitly deal with that case.
+        #
+        # For related fields with `use_pk_only_optimization` we need to
+        # resolve the pk value.
+        check_for_none = attribute.pk if isinstance(attribute, PKOnlyObject) else attribute
+        if check_for_none is None:
+            ret[field.field_name] = None
+        else:
+            ret[field.field_name] = field.to_representation(attribute)
+
+    return ret
+</code></pre>
+
+<p>找一个Charfield看看</p>
+<pre><code class="python"># from rest_framework.serializers import CharField，发现CharField中并没有get_attribute这个方法，所以继续找，它的父类Field发现了这个方法
+def get_attribute(self, instance):
+    &quot;&quot;&quot;
+    Given the *outgoing* object instance, return the primitive value
+    that should be used for this field.
+    &quot;&quot;&quot;
+    try:
+        return get_attribute(instance, self.source_attrs)
+    except (KeyError, AttributeError) as exc:
+        if self.default is not empty:
+            return self.get_default()
+        if self.allow_null:
+            return None
+        if not self.required:
+            raise SkipField()
+        msg = (
+            'Got {exc_type} when attempting to get a value for field '
+            '`{field}` on serializer `{serializer}`.\nThe serializer '
+            'field might be named incorrectly and not match '
+            'any attribute or key on the `{instance}` instance.\n'
+            'Original exception text was: {exc}.'.format(
+                exc_type=type(exc).__name__,
+                field=self.field_name,
+                serializer=self.parent.__class__.__name__,
+                instance=instance.__class__.__name__,
+                exc=exc
+            )
+        )
+        raise type(exc)(msg)
+
+# source       
+if self.source == '*':
+    self.source_attrs = []
+else:
+    # 比如group.title，分隔后就是group，title
+    self.source_attrs = self.source.split('.')
+
+def get_attribute(instance, attrs):
+    &quot;&quot;&quot;
+    Similar to Python's built in `getattr(instance, attr)`,
+    but takes a list of nested attributes, instead of a single attribute.
+
+    Also accepts either attribute lookup on objects or dictionary lookups.
+    &quot;&quot;&quot;
+    for attr in attrs:
+        try:
+            if isinstance(instance, collections.Mapping):
+                instance = instance[attr]
+            else:
+                instance = getattr(instance, attr)
+        except ObjectDoesNotExist:
+            return None
+        if is_simple_callable(instance):
+            try:
+                instance = instance()
+            except (AttributeError, KeyError) as exc:
+                # If we raised an Attribute or KeyError here it'd get treated
+                # as an omitted field in `Field.get_attribute()`. Instead we
+                # raise a ValueError to ensure the exception is not masked.
+                raise ValueError('Exception raised in callable attribute &quot;{0}&quot;; original exception was: {1}'.format(attr, exc))
+
+    return instance
+
+
+def is_simple_callable(obj):
+    &quot;&quot;&quot;
+    True if the object is a callable that takes no arguments.
+    &quot;&quot;&quot;
+    if not (inspect.isfunction(obj) or inspect.ismethod(obj) or isinstance(obj, functools.partial)):
+        return False
+
+    sig = inspect.signature(obj)
+    params = sig.parameters.values()
+    return all(
+        param.kind == param.VAR_POSITIONAL or
+        param.kind == param.VAR_KEYWORD or
+        param.default != param.empty
+        for param in params
+    )
+
+def isfunction(object):
+    &quot;&quot;&quot;Return true if the object is a user-defined function.
+
+    Function objects provide these attributes:
+        __doc__         documentation string
+        __name__        name with which this function was defined
+        __code__        code object containing compiled function bytecode
+        __defaults__    tuple of any default values for arguments
+        __globals__     global namespace in which this function was defined
+        __annotations__ dict of parameter annotations
+        __kwdefaults__  dict of keyword only parameters with defaults&quot;&quot;&quot;
+    # 和callable是等价的
+    return isinstance(object, types.FunctionType)
+
+def ismethod(object):
+    &quot;&quot;&quot;Return true if the object is an instance method.
+
+    Instance method objects provide these attributes:
+        __doc__         documentation string
+        __name__        name with which this method was defined
+        __func__        function object containing implementation of method
+        __self__        instance to which this method is bound&quot;&quot;&quot;
+    return isinstance(object, types.MethodType)
+</code></pre>
+
+<h2 id="_4">请求数据校验</h2></div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "../../..",
+                shortcuts = {"search": 83, "next": 78, "help": 191, "previous": 80};
+        </script>
+        <script src="../../../js/base.js" defer></script>
+        <script src="../../../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form role="form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="Keyboard Shortcuts Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Keyboard Shortcuts</h4>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

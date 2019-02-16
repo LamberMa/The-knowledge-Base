@@ -8,3 +8,32 @@ INFO    -  Cleaning site directory
 INFO    -  Building documentation... 
 [I 190216 16:32:00 handlers:92] Reload 1 waiters: /Users/lamber/mkdocs/mywiki/mkdocs.yml
 [I 190216 16:32:01 handlers:132] Browser Connected: http://library.wiki.local:2333/
+[I 190216 16:46:07 watcher:92] Running task: <function builder at 0x102348050> (delay: None)
+INFO    -  Building documentation... 
+WARNING -  Config value: 'site_authod'. Warning: Unrecognised configuration name: site_authod 
+[I 190216 16:46:07 handlers:92] Reload 1 waiters: /Users/lamber/mkdocs/mywiki/mkdocs.yml
+[I 190216 16:46:08 handlers:132] Browser Connected: http://library.wiki.local:2333/
+[I 190216 16:46:08 watcher:92] Running task: <function builder at 0x102348050> (delay: None)
+INFO    -  Building documentation... 
+WARNING -  Config value: 'site_authod'. Warning: Unrecognised configuration name: site_authod 
+[I 190216 16:46:08 handlers:79] Ignore: /Users/lamber/mkdocs/mywiki/mkdocs.yml
+[I 190216 16:47:04 watcher:92] Running task: <function builder at 0x102348050> (delay: None)
+INFO    -  Building documentation... 
+WARNING -  Config value: 'site_authod'. Warning: Unrecognised configuration name: site_authod 
+[I 190216 16:47:05 handlers:92] Reload 1 waiters: /Users/lamber/mkdocs/mywiki/docs/django/13-DRF/08-DRF视图.md
+[I 190216 16:47:06 handlers:132] Browser Connected: http://library.wiki.local:2333/
+[W 190216 16:47:34 web:2162] 404 GET /Users/lamber/Library/Application%20Support/typora-user-images/image-20190212141746913.png (127.0.0.1) 7.56ms
+[I 190216 16:47:35 handlers:132] Browser Connected: http://library.wiki.local:2333/django/13-DRF/02-DRF%E8%AE%A4%E8%AF%81/
+[I 190216 16:59:34 handlers:132] Browser Connected: http://library.wiki.local:2333/django/13-DRF/01-Restful/
+[W 190216 16:59:38 web:2162] 404 GET /Users/lamber/Library/Application%20Support/typora-user-images/image-20190212141746913.png (127.0.0.1) 13.51ms
+[I 190216 16:59:39 handlers:132] Browser Connected: http://library.wiki.local:2333/django/13-DRF/02-DRF%E8%AE%A4%E8%AF%81/
+[I 190216 17:00:20 watcher:92] Running task: <function builder at 0x102348050> (delay: None)
+INFO    -  Building documentation... 
+WARNING -  Config value: 'site_authod'. Warning: Unrecognised configuration name: site_authod 
+[I 190216 17:00:20 handlers:92] Reload 1 waiters: /Users/lamber/mkdocs/mywiki/docs/django/07-DRF/08-DRF视图.md
+[W 190216 17:00:21 web:2162] 404 GET /django/13-DRF/02-DRF%E8%AE%A4%E8%AF%81/ (127.0.0.1) 8.84ms
+[I 190216 17:00:21 handlers:132] Browser Connected: http://library.wiki.local:2333/django/13-DRF/02-DRF%E8%AE%A4%E8%AF%81/
+[W 190216 17:00:32 web:2162] 404 GET /django/07-DRF/ (127.0.0.1) 4.96ms
+[I 190216 17:00:33 handlers:132] Browser Connected: http://library.wiki.local:2333/django/07-DRF/
+[I 190216 17:00:38 handlers:132] Browser Connected: http://library.wiki.local:2333/django/07-DRF/01-Restful/
+[I 190216 17:00:39 handlers:132] Browser Connected: http://library.wiki.local:2333/
