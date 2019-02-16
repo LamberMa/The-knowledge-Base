@@ -942,3 +942,31 @@ INFO    -  Building documentation...
 [I 190216 18:14:58 handlers:132] Browser Connected: http://127.0.0.1:2333/#Django/07-DRF/02-DRF%E8%AE%A4%E8%AF%81/
 [W 190216 18:14:59 web:2162] 404 GET /favicon.ico (127.0.0.1) 4.35ms
 [I 190216 18:15:08 handlers:132] Browser Connected: http://127.0.0.1:2333/Django/07-DRF/05-DRF%E8%A7%A3%E6%9E%90%E5%99%A8/
+[I 190216 18:23:34 watcher:92] Running task: <function builder at 0x10f12f050> (delay: None)
+INFO    -  Building documentation... 
+ERROR   -  Config value: 'theme'. Error: No theme name set. 
+[E 190216 18:23:34 ioloop:801] Exception in callback <bound method type.poll_tasks of <class 'livereload.handlers.LiveReloadHandler'>>
+    Traceback (most recent call last):
+      File "/usr/local/lib/python2.7/site-packages/tornado/ioloop.py", line 1229, in _run
+        return self.callback()
+      File "/usr/local/lib/python2.7/site-packages/livereload/handlers.py", line 66, in poll_tasks
+        filepath, delay = cls.watcher.examine()
+      File "/usr/local/lib/python2.7/site-packages/livereload/watcher.py", line 93, in examine
+        func()
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/commands/serve.py", line 107, in builder
+        site_dir=site_dir
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/config/base.py", line 210, in load_config
+        "Aborted with {0} Configuration Errors!".format(len(errors))
+    ConfigurationError: Aborted with 1 Configuration Errors!
+[I 190216 18:23:37 watcher:92] Running task: <function builder at 0x10f12f050> (delay: None)
+INFO    -  Building documentation... 
+[I 190216 18:23:39 handlers:92] Reload 1 waiters: /Users/lamber/mkdocs/mywiki/mkdocs.yml
+[I 190216 18:23:40 handlers:132] Browser Connected: http://127.0.0.1:2333/Django/07-DRF/05-DRF%E8%A7%A3%E6%9E%90%E5%99%A8/
+[I 190216 18:24:29 watcher:92] Running task: <function builder at 0x10f12f050> (delay: None)
+INFO    -  Building documentation... 
+[I 190216 18:24:31 handlers:92] Reload 1 waiters: /Users/lamber/mkdocs/mywiki/mkdocs.yml
+[I 190216 18:24:32 handlers:132] Browser Connected: http://127.0.0.1:2333/Django/07-DRF/05-DRF%E8%A7%A3%E6%9E%90%E5%99%A8/
+[I 190216 18:24:58 watcher:92] Running task: <function builder at 0x10f12f050> (delay: None)
+INFO    -  Building documentation... 
+[I 190216 18:24:59 handlers:92] Reload 1 waiters: /Users/lamber/mkdocs/mywiki/mkdocs.yml
+[I 190216 18:25:00 handlers:132] Browser Connected: http://127.0.0.1:2333/Django/07-DRF/05-DRF%E8%A7%A3%E6%9E%90%E5%99%A8/

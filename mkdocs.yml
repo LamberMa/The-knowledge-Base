@@ -3,11 +3,10 @@ site_url: 'http://library.dcgamer.top'
 site_author: lamber
 
 # 设置Git相关信息
-repo_name: 'Github'
+repo_name: 'lamber'
 repo_url: 'https://github.com/LamberMa/The-knowledge-Base.git'
 theme:
-  # name: material
-  name: cinder
+  name: material
   highlightjs: true
   hljs_style: 'Xt 256'
   hljs_languages:
@@ -25,8 +24,8 @@ theme:
         previous: 80 # p
         search: 83   # s
 
-extra_css: 
-  - css/vue.css
+# extra_css: 
+#   - css/vue.css
 
 extra:
   social:
