@@ -1,12 +1,5 @@
 # Django Rest FrameWork
 
-## DRF安装
-
-```python
-# 安装过程极其简单
-pip3 install djangorestframework
-```
-
 ## DRF的认证
 
 ### 简单环境准备
@@ -35,66 +28,9 @@ class UserToken(models.Model):
 
 ### 认证源码解析
 
-> 使用drf的时候我们的视图逻辑使用的是CBV而不是FBV，这里CBV有一个要点是继承的不是默认的django的View而是要继承DRF的APIView，因此，需要导入对应的drf的APIVIEW。
+> 仍然以dispatch作为切入口，查看request封装过程的时候有对认证部分的封装
 
-解析认证流程从一个请求进来开始讲，比如下面的AuthView，用来实现认证的一个CBV视图逻辑。
-
-```python
-from rest_framework.views import APIView
-
-class AuthView(APIView):
-    pass
-```
-
-其实这个APIView也继承自Django的View，因此DRF相当于在Django的View上又给封装了一层，CBV中找到对应request.method视图方法的关键是利用反射来完成的，那么首先走的应该就是dispatch方法。默认的Django的View就是做了一层的反射：
-
-```python
-# Django自身View的dispath方法
-def dispatch(self, request, *args, **kwargs):
-    # Try to dispatch to the right method; if a method doesn't exist,
-    # defer to the error handler. Also defer to the error handler if the
-    # request method isn't on the approved list.
-    if request.method.lower() in self.http_method_names:
-        handler = getattr(self, request.method.lower(), self.http_method_not_allowed)
-    else:
-        handler = self.http_method_not_allowed
-    return handler(request, *args, **kwargs)
-```
-
-不过我们知道，我们可以在自己的CBV中重写这个dispatch，先调用一下父类（View）的dispatch方法，然后在调用之前和调用之后就可以做一些我们自己的操作了，其实DRF也是这么干的。
-
-```python
-# DRF的dispatch，drf的dispatch和django的dispatch几乎是一致的，只不过在原来的基础上加了一些钩子，也就是我们所说的在调用父类的操作之前，执行一些其他的方法。这些钩子分别存在于开始，结束以及异常的时候。
-def dispatch(self, request, *args, **kwargs):
-
-    self.args = args
-    self.kwargs = kwargs
-    # 1、首先从这里开始，DRF对django的request做了封装。
-    # 这个request已经发生变化了，是经过drf加工过后的request了。
-    request = self.initialize_request(request, *args, **kwargs)
-    self.request = request
-    self.headers = self.default_response_headers  # deprecate?
-
-    try:
-        self.initial(request, *args, **kwargs)
-
-        # Get the appropriate handler method
-        if request.method.lower() in self.http_method_names:
-            handler = getattr(self, request.method.lower(),
-                              self.http_method_not_allowed)
-        else:
-            handler = self.http_method_not_allowed
-
-        response = handler(request, *args, **kwargs)
-
-    except Exception as exc:
-        response = self.handle_exception(exc)
-
-    self.response = self.finalize_response(request, response, *args, **kwargs)
-    return self.response
-```
-
-DRF是如何封装request的？这里只着重认证部分，其他的部分会回过头来重新说明的。
+这里只着重认证部分，其他的部分会回过头来重新说明的。
 
 ```python
 # initialize_request
@@ -105,11 +41,10 @@ def initialize_request(self, request, *args, **kwargs):
     """
     parser_context = self.get_parser_context(request)
     
-    # _request：原生的request，authenticators获取认证类的对象。
     return Request(
-        request, # 这里返回的Request的实例对象，将原生的Django的request封装进去了。
+        request,
         parsers=self.get_parsers(),
-        # 2、self.authentication_classes中列出的类的对象
+        # self.authentication_classes中列出的类的对象
         authenticators=self.get_authenticators(),
         negotiator=self.get_content_negotiator(),
         parser_context=parser_context
@@ -133,6 +68,7 @@ def get_authenticators(self):
 
 ```python
 class OrderView(APIView):
+    
     # 表示在你写的这个类中应用drf的认证规则
     authentication_classes = [Authtication, ]
     
@@ -157,10 +93,9 @@ def dispatch(self, request, *args, **kwargs):
     self.headers = self.default_response_headers  # deprecate?
 
     try:
-        # 3、调用initial方法
+        # 调用initial方法
         self.initial(request, *args, **kwargs)
 
-        # Get the appropriate handler method
         if request.method.lower() in self.http_method_names:
             handler = getattr(self, request.method.lower(),
                               self.http_method_not_allowed)
@@ -289,22 +224,21 @@ def _not_authenticated(self):
         self.auth = None
 ```
 
-其实为默认的用户做一个设置，给通过认证却没有返回具体认证信息的人一个身份（匿名用户）。到此为止，认证是ok了。不过刚才走的authenticate_classes是我们自己定义的，难道我们每写一个类都要自己这样定义一下么？其实不是的，针对这个认证规则是有一个全局设置的。
+其实就是为默认的用户做一个设置，给通过认证却没有返回具体认证信息的人一个身份（匿名用户）。到此为止，认证是ok了。不过刚才走的authenticate_classes是我们自己定义的，难道我们每写一个类都要自己这样定义一下么？其实不是的，针对这个认证规则是有一个全局设置的。
 
 之前的authenticate_classes是默认优先找自己定义的cbv中的这个属性，假如说没有的话那么就应该去父类去找了，那么父类中是如何定义的？最后我们发现这个内置的authentication_classess，它是一个api_settings的一个配置项：
 
 ```python
 class APIView(View):
 
-    # The following policies may be set at either globally, or per-view.
+    # 下面的这些策略可以设置成全局的，也可以为每一个单独的CBV去设置。
     renderer_classes = api_settings.DEFAULT_RENDERER_CLASSES
     parser_classes = api_settings.DEFAULT_PARSER_CLASSES
     authentication_classes = api_settings.DEFAULT_AUTHENTICATION_CLASSES
     ………………………………
     
-    
+# 这个配置是从配置文件中获取的。
 api_settings = APISettings(None, DEFAULTS, IMPORT_STRINGS)
-
 
 def reload_api_settings(*args, **kwargs):
     setting = kwargs['setting']
@@ -328,7 +262,7 @@ REST_FRAMEWORK = {
 
 认证类不要和view写到一起，这样视图函数就只有视图相关的逻辑，而认证相关的被剥离到auth.py中了。因此在api项目下新建一个utils的目录，新建一个auth.py将我们的认证逻辑都扔到auth.py里面去，这里的值我们知道对应的是一个列表，里面写的都是类的全路径（类似middleware那种写法）。
 
-这样我们实际的每一个业务类就不用写这些内容了，相当于全局添加了认证，但是也有例外的页面，比如认证页面，认证页面是不需要添加认证机制的，你得先通过了认证页面拿到了token访问别的需要认证的页面的时候才需要认证，你现在都没登录，我认证页面还不让你访问那就没办法访问了。因此针对一些业务类需要放开这个权限，放开的方法也很简单，定义一个空列表就行了。因为在类的内部定义了，因此会优先走类内部的，实现了单独的类的特殊放开。
+这样我们实际的每一个业务类就不用写这些内容了，相当于全局添加了认证，但是也有例外的页面，比如认证页面，认证页面是不需要添加认证机制的，你得先通过了认证页面拿到了token访问别的需要认证的页面的时候才需要认证，你现在都没登录，我认证页面还加了认证，那就没办法访问了。因此针对一些业务类需要放开这个权限，放开的方法也很简单，定义一个空列表就行了。因为在类的内部定义了，因此会优先走类内部的，实现了单独的类的特殊放开。
 
 ```python
 class AuthView(APIView):
@@ -353,7 +287,7 @@ from rest_framework.authentication import BaseAuthentication
 
 其他的内置认证类型还包括Session的，Token的，RemoteUser的，不过这些认证都是基于Django的，以Session为例，它会去获取request.user这个选项，但是如果我们自己去写session的时候是没有这个内容的。request.user是基于Django的。再比如RemoteUser是基于Django的auth去进行认证的。因此内置的这几种方法其实都是有一定局限性的，因此认证类，一般是我们自己去写，不会去用到DRF原生的。
 
-说一下**BasicAuthentication**，这个是基于浏览器的账号密码认证，在访问页面的时候会以浏览器的形式弹出来一个账号密码的认证输入框，浏览器会把输入的账号密码进行加密扔到请求头，加密的形式如下：
+说一下BasicAuthentication，这个是基于浏览器的账号密码认证，在访问页面的时候会以浏览器的形式弹出来一个账号密码的认证输入框，浏览器会把输入的账号密码进行加密扔到请求头，加密的形式如下：
 
 ```python
 HTTP_AUTHORIZATION: "basic (用户名+密码)base64转码"
@@ -434,16 +368,3 @@ class BasicAuthentication(BaseAuthentication):
       'UNAUTHENTICATED_TOKEN': None,
   }
   ```
-
-
-
-
-Django的生命周期：
-
-wsgi 中间件 dispath(drf的dispatch)
-
-
-
-
-
-![image-20190212141746913](/Users/lamber/Library/Application Support/typora-user-images/image-20190212141746913.png)

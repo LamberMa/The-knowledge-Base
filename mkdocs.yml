@@ -70,6 +70,10 @@ markdown_extensions:
   - pymdownx.tasklist
   - pymdownx.tilde
 
-# nav:
-#   - 首页: index.md
-#   - 其他: django
+nav:
+  - Django学习笔记:
+    - 'Django DRF':
+      - '01-Restful介绍': django/DRF/01-Restful.md
+      - '02-Request封装': django/DRF/02-Request的封装.md
+      - '03-DRF的认证': django/DRF/03-DRF的认证.md
+      - '04-DRF的权限': django/DRF/04-DRF权限.md 
