@@ -1,0 +1,10 @@
+INFO    -  Building documentation... 
+INFO    -  Cleaning site directory 
+[I 190216 16:31:27 server:298] Serving on http://127.0.0.1:2333
+[I 190216 16:31:27 handlers:59] Start watching changes
+[I 190216 16:31:27 handlers:61] Start detecting changes
+[I 190216 16:31:30 handlers:132] Browser Connected: http://library.wiki.local:2333/
+[I 190216 16:32:00 watcher:92] Running task: <function builder at 0x102348050> (delay: None)
+INFO    -  Building documentation... 
+[I 190216 16:32:00 handlers:92] Reload 1 waiters: /Users/lamber/mkdocs/mywiki/mkdocs.yml
+[I 190216 16:32:01 handlers:132] Browser Connected: http://library.wiki.local:2333/
