@@ -2229,3 +2229,1140 @@ INFO    -  The following pages exist in the docs directory, but are not included
 WARNING -  Documentation file 'django/DRF/01-Restful.md' contains a link to 'django/DRF/www.cnblogs.com/wupeiqi/articles/7805382.html' which is not found in the documentation files. 
 [I 190216 19:33:33 handlers:92] Reload 1 waiters: /Users/lamber/mkdocs/mywiki/docs/django/DRF/04-DRF权限.md
 [I 190216 19:33:34 handlers:132] Browser Connected: http://127.0.0.1:2333/django/DRF/04-DRF%E6%9D%83%E9%99%90/
+[I 190216 19:37:58 watcher:92] Running task: <function builder at 0x10ea43050> (delay: None)
+INFO    -  Building documentation... 
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - django/DRF/04-DRF访问限制.md
+  - django/DRF/05-DRF解析器.md
+  - django/DRF/06-DRF序列化.md
+  - django/DRF/07-DRF分页.md
+  - django/DRF/08-DRF视图.md 
+WARNING -  Documentation file 'django/DRF/01-Restful.md' contains a link to 'django/DRF/www.cnblogs.com/wupeiqi/articles/7805382.html' which is not found in the documentation files. 
+[I 190216 19:37:59 handlers:92] Reload 1 waiters: /Users/lamber/mkdocs/mywiki/docs/django/DRF/04-DRF权限.md
+[I 190216 19:38:00 handlers:132] Browser Connected: http://127.0.0.1:2333/django/DRF/04-DRF%E6%9D%83%E9%99%90/
+[I 190216 19:39:01 watcher:92] Running task: <function builder at 0x10ea43050> (delay: None)
+INFO    -  Building documentation... 
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - django/DRF/04-DRF访问限制.md
+  - django/DRF/05-DRF解析器.md
+  - django/DRF/06-DRF序列化.md
+  - django/DRF/07-DRF分页.md
+  - django/DRF/08-DRF视图.md 
+WARNING -  Documentation file 'django/DRF/01-Restful.md' contains a link to 'django/DRF/www.cnblogs.com/wupeiqi/articles/7805382.html' which is not found in the documentation files. 
+[I 190216 19:39:02 handlers:92] Reload 1 waiters: /Users/lamber/mkdocs/mywiki/docs/django/DRF/04-DRF权限.md
+[I 190216 19:39:03 handlers:132] Browser Connected: http://127.0.0.1:2333/django/DRF/04-DRF%E6%9D%83%E9%99%90/
+[I 190216 19:39:31 watcher:92] Running task: <function builder at 0x10ea43050> (delay: None)
+INFO    -  Building documentation... 
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - django/DRF/04-DRF访问限制.md
+  - django/DRF/05-DRF解析器.md
+  - django/DRF/06-DRF序列化.md
+  - django/DRF/07-DRF分页.md
+  - django/DRF/08-DRF视图.md 
+WARNING -  Documentation file 'django/DRF/01-Restful.md' contains a link to 'django/DRF/www.cnblogs.com/wupeiqi/articles/7805382.html' which is not found in the documentation files. 
+[I 190216 19:39:32 handlers:92] Reload 1 waiters: /Users/lamber/mkdocs/mywiki/docs/.DS_Store
+[I 190216 19:39:33 handlers:132] Browser Connected: http://127.0.0.1:2333/django/DRF/04-DRF%E6%9D%83%E9%99%90/
+[I 190216 19:39:55 watcher:92] Running task: <function builder at 0x10ea43050> (delay: None)
+INFO    -  Building documentation... 
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - django/DRF/04-DRF访问限制.md
+  - django/DRF/05-DRF解析器.md
+  - django/DRF/06-DRF序列化.md
+  - django/DRF/07-DRF分页.md
+  - django/DRF/08-DRF视图.md 
+WARNING -  Documentation file 'django/DRF/01-Restful.md' contains a link to 'django/DRF/www.cnblogs.com/wupeiqi/articles/7805382.html' which is not found in the documentation files. 
+[I 190216 19:39:56 handlers:92] Reload 1 waiters: /Users/lamber/mkdocs/mywiki/docs/.DS_Store
+[I 190216 19:39:57 handlers:132] Browser Connected: http://127.0.0.1:2333/django/DRF/04-DRF%E6%9D%83%E9%99%90/
+[I 190216 19:40:37 handlers:92] Reload 1 waiters: /Users/lamber/mkdocs/mywiki/docs/docker/01-Docker基础使用/01-Docker介绍.md
+[I 190216 19:40:38 handlers:132] Browser Connected: http://127.0.0.1:2333/django/DRF/04-DRF%E6%9D%83%E9%99%90/
+[I 190216 19:40:41 watcher:92] Running task: <function builder at 0x10ea43050> (delay: None)
+INFO    -  Building documentation... 
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - django/DRF/04-DRF访问限制.md
+  - django/DRF/05-DRF解析器.md
+  - django/DRF/06-DRF序列化.md
+  - django/DRF/07-DRF分页.md
+  - django/DRF/08-DRF视图.md
+  - docker/01-Docker基础使用/01-Docker介绍.md
+  - docker/01-Docker基础使用/02-Docker数据存储和网络访问.md
+  - docker/01-Docker基础使用/03-手动构建镜像.md
+  - docker/01-Docker基础使用/04-DockerFile.md
+  - docker/02-Docker进阶/01-Docker镜像生产实战.md
+  - docker/02-Docker进阶/02-Docker-registetry.md 
+WARNING -  Documentation file 'django/DRF/01-Restful.md' contains a link to 'django/DRF/www.cnblogs.com/wupeiqi/articles/7805382.html' which is not found in the documentation files. 
+[I 190216 19:40:42 handlers:92] Reload 1 waiters: /Users/lamber/mkdocs/mywiki/docs/docker/.DS_Store
+[I 190216 19:40:42 handlers:79] Ignore: /Users/lamber/mkdocs/mywiki/docs/docker/02-Docker进阶/01-Docker镜像生产实战.md
+[I 190216 19:40:43 handlers:132] Browser Connected: http://127.0.0.1:2333/django/DRF/04-DRF%E6%9D%83%E9%99%90/
+[I 190216 19:40:45 watcher:92] Running task: <function builder at 0x10ea43050> (delay: None)
+INFO    -  Building documentation... 
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - django/DRF/04-DRF访问限制.md
+  - django/DRF/05-DRF解析器.md
+  - django/DRF/06-DRF序列化.md
+  - django/DRF/07-DRF分页.md
+  - django/DRF/08-DRF视图.md
+  - docker/01-Docker基础使用/01-Docker介绍.md
+  - docker/01-Docker基础使用/02-Docker数据存储和网络访问.md
+  - docker/01-Docker基础使用/03-手动构建镜像.md
+  - docker/01-Docker基础使用/04-DockerFile.md
+  - docker/02-Docker进阶/01-Docker镜像生产实战.md
+  - docker/02-Docker进阶/02-Docker-registetry.md 
+WARNING -  Documentation file 'django/DRF/01-Restful.md' contains a link to 'django/DRF/www.cnblogs.com/wupeiqi/articles/7805382.html' which is not found in the documentation files. 
+[I 190216 19:40:47 handlers:92] Reload 1 waiters: /Users/lamber/mkdocs/mywiki/docs/docker/.DS_Store
+[I 190216 19:40:47 handlers:132] Browser Connected: http://127.0.0.1:2333/django/DRF/04-DRF%E6%9D%83%E9%99%90/
+[I 190216 19:41:19 watcher:92] Running task: <function builder at 0x10ea43050> (delay: None)
+INFO    -  Building documentation... 
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - django/DRF/04-DRF访问限制.md
+  - django/DRF/05-DRF解析器.md
+  - django/DRF/06-DRF序列化.md
+  - django/DRF/07-DRF分页.md
+  - django/DRF/08-DRF视图.md
+  - docker/01-Docker基础使用/01-Docker介绍.md
+  - docker/01-Docker基础使用/02-Docker数据存储和网络访问.md
+  - docker/01-Docker基础使用/03-手动构建镜像.md
+  - docker/01-Docker基础使用/04-DockerFile.md
+  - docker/02-Docker进阶/01-Docker镜像生产实战.md
+  - docker/02-Docker进阶/02-Docker-registetry.md 
+WARNING -  Documentation file 'django/DRF/01-Restful.md' contains a link to 'django/DRF/www.cnblogs.com/wupeiqi/articles/7805382.html' which is not found in the documentation files. 
+[I 190216 19:41:21 handlers:92] Reload 1 waiters: /Users/lamber/mkdocs/mywiki/mkdocs.yml
+[I 190216 19:41:22 handlers:132] Browser Connected: http://127.0.0.1:2333/django/DRF/04-DRF%E6%9D%83%E9%99%90/
+[I 190216 19:41:22 watcher:92] Running task: <function builder at 0x10ea43050> (delay: None)
+INFO    -  Building documentation... 
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - django/DRF/04-DRF访问限制.md
+  - django/DRF/05-DRF解析器.md
+  - django/DRF/06-DRF序列化.md
+  - django/DRF/07-DRF分页.md
+  - django/DRF/08-DRF视图.md
+  - docker/01-Docker基础使用/01-Docker介绍.md
+  - docker/01-Docker基础使用/02-Docker数据存储和网络访问.md
+  - docker/01-Docker基础使用/03-手动构建镜像.md
+  - docker/01-Docker基础使用/04-DockerFile.md
+  - docker/02-Docker进阶/01-Docker镜像生产实战.md
+  - docker/02-Docker进阶/02-Docker-registetry.md 
+WARNING -  A relative path to '容器云' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  Documentation file 'django/DRF/01-Restful.md' contains a link to 'django/DRF/www.cnblogs.com/wupeiqi/articles/7805382.html' which is not found in the documentation files. 
+[I 190216 19:41:24 handlers:79] Ignore: /Users/lamber/mkdocs/mywiki/mkdocs.yml
+[I 190216 19:41:32 watcher:92] Running task: <function builder at 0x10ea43050> (delay: None)
+INFO    -  Building documentation... 
+[E 190216 19:41:32 ioloop:801] Exception in callback <bound method type.poll_tasks of <class 'livereload.handlers.LiveReloadHandler'>>
+    Traceback (most recent call last):
+      File "/usr/local/lib/python2.7/site-packages/tornado/ioloop.py", line 1229, in _run
+        return self.callback()
+      File "/usr/local/lib/python2.7/site-packages/livereload/handlers.py", line 66, in poll_tasks
+        filepath, delay = cls.watcher.examine()
+      File "/usr/local/lib/python2.7/site-packages/livereload/watcher.py", line 93, in examine
+        func()
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/commands/serve.py", line 114, in builder
+        build(config, live_server=live_server, dirty=dirty)
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/commands/build.py", line 267, in build
+        nav = get_navigation(files, config)
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 104, in get_navigation
+        items = _data_to_navigation(nav_config, files, config)
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 162, in _data_to_navigation
+        for item in data
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 155, in _data_to_navigation
+        for key, value in data.items()
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 162, in _data_to_navigation
+        for item in data
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 155, in _data_to_navigation
+        for key, value in data.items()
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 162, in _data_to_navigation
+        for item in data
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 165, in _data_to_navigation
+        file = files.get_file_from_path(path)
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/files.py", line 33, in get_file_from_path
+        return self.src_paths.get(os.path.normpath(path))
+      File "/usr/local/Cellar/python@2/2.7.15_1/Frameworks/Python.framework/Versions/2.7/lib/python2.7/posixpath.py", line 335, in normpath
+        initial_slashes = path.startswith('/')
+    AttributeError: 'NoneType' object has no attribute 'startswith'
+[I 190216 19:41:48 watcher:92] Running task: <function builder at 0x10ea43050> (delay: None)
+INFO    -  Building documentation... 
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - django/DRF/04-DRF访问限制.md
+  - django/DRF/05-DRF解析器.md
+  - django/DRF/06-DRF序列化.md
+  - django/DRF/07-DRF分页.md
+  - django/DRF/08-DRF视图.md
+  - docker/01-Docker基础使用/01-Docker介绍.md
+  - docker/01-Docker基础使用/02-Docker数据存储和网络访问.md
+  - docker/01-Docker基础使用/03-手动构建镜像.md
+  - docker/01-Docker基础使用/04-DockerFile.md
+  - docker/02-Docker进阶/01-Docker镜像生产实战.md
+  - docker/02-Docker进阶/02-Docker-registetry.md 
+WARNING -  A relative path to '' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  Documentation file 'django/DRF/01-Restful.md' contains a link to 'django/DRF/www.cnblogs.com/wupeiqi/articles/7805382.html' which is not found in the documentation files. 
+[I 190216 19:41:50 handlers:92] Reload 1 waiters: /Users/lamber/mkdocs/mywiki/mkdocs.yml
+[I 190216 19:41:51 handlers:132] Browser Connected: http://127.0.0.1:2333/django/DRF/04-DRF%E6%9D%83%E9%99%90/
+[I 190216 19:41:54 watcher:92] Running task: <function builder at 0x10ea43050> (delay: None)
+INFO    -  Building documentation... 
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - django/DRF/04-DRF访问限制.md
+  - django/DRF/05-DRF解析器.md
+  - django/DRF/06-DRF序列化.md
+  - django/DRF/07-DRF分页.md
+  - django/DRF/08-DRF视图.md
+  - docker/01-Docker基础使用/01-Docker介绍.md
+  - docker/01-Docker基础使用/02-Docker数据存储和网络访问.md
+  - docker/01-Docker基础使用/03-手动构建镜像.md
+  - docker/01-Docker基础使用/04-DockerFile.md
+  - docker/02-Docker进阶/01-Docker镜像生产实战.md
+  - docker/02-Docker进阶/02-Docker-registetry.md 
+WARNING -  A relative path to 'docker/' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  Documentation file 'django/DRF/01-Restful.md' contains a link to 'django/DRF/www.cnblogs.com/wupeiqi/articles/7805382.html' which is not found in the documentation files. 
+[I 190216 19:41:56 handlers:92] Reload 1 waiters: /Users/lamber/mkdocs/mywiki/mkdocs.yml
+[I 190216 19:41:57 handlers:132] Browser Connected: http://127.0.0.1:2333/django/DRF/04-DRF%E6%9D%83%E9%99%90/
+[I 190216 19:42:05 watcher:92] Running task: <function builder at 0x10ea43050> (delay: None)
+INFO    -  Building documentation... 
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - django/DRF/04-DRF访问限制.md
+  - django/DRF/05-DRF解析器.md
+  - django/DRF/06-DRF序列化.md
+  - django/DRF/07-DRF分页.md
+  - django/DRF/08-DRF视图.md
+  - docker/01-Docker基础使用/01-Docker介绍.md
+  - docker/01-Docker基础使用/02-Docker数据存储和网络访问.md
+  - docker/01-Docker基础使用/03-手动构建镜像.md
+  - docker/01-Docker基础使用/04-DockerFile.md
+  - docker/02-Docker进阶/01-Docker镜像生产实战.md
+  - docker/02-Docker进阶/02-Docker-registetry.md 
+WARNING -  A relative path to 'docker/01-Docker基础使用' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  Documentation file 'django/DRF/01-Restful.md' contains a link to 'django/DRF/www.cnblogs.com/wupeiqi/articles/7805382.html' which is not found in the documentation files. 
+[I 190216 19:42:06 handlers:92] Reload 1 waiters: /Users/lamber/mkdocs/mywiki/mkdocs.yml
+[I 190216 19:42:07 handlers:132] Browser Connected: http://127.0.0.1:2333/django/DRF/04-DRF%E6%9D%83%E9%99%90/
+[I 190216 19:42:17 watcher:92] Running task: <function builder at 0x10ea43050> (delay: None)
+INFO    -  Building documentation... 
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - django/DRF/04-DRF访问限制.md
+  - django/DRF/05-DRF解析器.md
+  - django/DRF/06-DRF序列化.md
+  - django/DRF/07-DRF分页.md
+  - django/DRF/08-DRF视图.md
+  - docker/01-Docker基础使用/01-Docker介绍.md
+  - docker/01-Docker基础使用/02-Docker数据存储和网络访问.md
+  - docker/01-Docker基础使用/03-手动构建镜像.md
+  - docker/01-Docker基础使用/04-DockerFile.md
+  - docker/02-Docker进阶/01-Docker镜像生产实战.md
+  - docker/02-Docker进阶/02-Docker-registetry.md 
+WARNING -  A relative path to 'docker/01-Docker基础使用/01-Docker介绍' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  Documentation file 'django/DRF/01-Restful.md' contains a link to 'django/DRF/www.cnblogs.com/wupeiqi/articles/7805382.html' which is not found in the documentation files. 
+[I 190216 19:42:19 handlers:92] Reload 1 waiters: /Users/lamber/mkdocs/mywiki/mkdocs.yml
+[I 190216 19:42:19 watcher:92] Running task: <function builder at 0x10ea43050> (delay: None)
+INFO    -  Building documentation... 
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - django/DRF/04-DRF访问限制.md
+  - django/DRF/05-DRF解析器.md
+  - django/DRF/06-DRF序列化.md
+  - django/DRF/07-DRF分页.md
+  - django/DRF/08-DRF视图.md
+  - docker/01-Docker基础使用/01-Docker介绍.md
+  - docker/01-Docker基础使用/02-Docker数据存储和网络访问.md
+  - docker/01-Docker基础使用/03-手动构建镜像.md
+  - docker/01-Docker基础使用/04-DockerFile.md
+  - docker/02-Docker进阶/01-Docker镜像生产实战.md
+  - docker/02-Docker进阶/02-Docker-registetry.md 
+WARNING -  A relative path to 'docker/01-Docker基础使用/01-Docker介绍。md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  Documentation file 'django/DRF/01-Restful.md' contains a link to 'django/DRF/www.cnblogs.com/wupeiqi/articles/7805382.html' which is not found in the documentation files. 
+[I 190216 19:42:22 watcher:92] Running task: <function builder at 0x10ea43050> (delay: None)
+INFO    -  Building documentation... 
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - django/DRF/04-DRF访问限制.md
+  - django/DRF/05-DRF解析器.md
+  - django/DRF/06-DRF序列化.md
+  - django/DRF/07-DRF分页.md
+  - django/DRF/08-DRF视图.md
+  - docker/01-Docker基础使用/02-Docker数据存储和网络访问.md
+  - docker/01-Docker基础使用/03-手动构建镜像.md
+  - docker/01-Docker基础使用/04-DockerFile.md
+  - docker/02-Docker进阶/01-Docker镜像生产实战.md
+  - docker/02-Docker进阶/02-Docker-registetry.md 
+WARNING -  Documentation file 'django/DRF/01-Restful.md' contains a link to 'django/DRF/www.cnblogs.com/wupeiqi/articles/7805382.html' which is not found in the documentation files. 
+[I 190216 19:42:25 handlers:132] Browser Connected: http://127.0.0.1:2333/django/DRF/04-DRF%E6%9D%83%E9%99%90/
+[I 190216 19:42:26 handlers:132] Browser Connected: http://127.0.0.1:2333/docker/01-Docker%E5%9F%BA%E7%A1%80%E4%BD%BF%E7%94%A8/01-Docker%E4%BB%8B%E7%BB%8D/
+[I 190216 19:42:37 watcher:92] Running task: <function builder at 0x10ea43050> (delay: None)
+INFO    -  Building documentation... 
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - django/DRF/04-DRF访问限制.md
+  - django/DRF/05-DRF解析器.md
+  - django/DRF/06-DRF序列化.md
+  - django/DRF/07-DRF分页.md
+  - django/DRF/08-DRF视图.md
+  - docker/01-Docker基础使用/02-Docker数据存储和网络访问.md
+  - docker/01-Docker基础使用/03-手动构建镜像.md
+  - docker/01-Docker基础使用/04-DockerFile.md
+  - docker/02-Docker进阶/01-Docker镜像生产实战.md
+  - docker/02-Docker进阶/02-Docker-registetry.md 
+WARNING -  Documentation file 'django/DRF/01-Restful.md' contains a link to 'django/DRF/www.cnblogs.com/wupeiqi/articles/7805382.html' which is not found in the documentation files. 
+[I 190216 19:42:39 handlers:92] Reload 1 waiters: /Users/lamber/mkdocs/mywiki/mkdocs.yml
+[I 190216 19:42:40 handlers:132] Browser Connected: http://127.0.0.1:2333/docker/01-Docker%E5%9F%BA%E7%A1%80%E4%BD%BF%E7%94%A8/01-Docker%E4%BB%8B%E7%BB%8D/
+[I 190216 19:43:39 watcher:92] Running task: <function builder at 0x10ea43050> (delay: None)
+INFO    -  Building documentation... 
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - django/DRF/04-DRF访问限制.md
+  - django/DRF/05-DRF解析器.md
+  - django/DRF/06-DRF序列化.md
+  - django/DRF/07-DRF分页.md
+  - django/DRF/08-DRF视图.md
+  - docker/01-Docker基础使用/02-Docker数据存储和网络访问.md
+  - docker/01-Docker基础使用/03-手动构建镜像.md
+  - docker/01-Docker基础使用/04-DockerFile.md
+  - docker/02-Docker进阶/01-Docker镜像生产实战.md
+  - docker/02-Docker进阶/02-Docker-registetry.md 
+WARNING -  Documentation file 'django/DRF/01-Restful.md' contains a link to 'django/DRF/www.cnblogs.com/wupeiqi/articles/7805382.html' which is not found in the documentation files. 
+[I 190216 19:43:41 handlers:92] Reload 1 waiters: /Users/lamber/mkdocs/mywiki/docs/docker/01-Docker基础使用/01-Docker介绍.md
+[I 190216 19:43:42 handlers:132] Browser Connected: http://127.0.0.1:2333/docker/01-Docker%E5%9F%BA%E7%A1%80%E4%BD%BF%E7%94%A8/01-Docker%E4%BB%8B%E7%BB%8D/
+[I 190216 19:44:05 watcher:92] Running task: <function builder at 0x10ea43050> (delay: None)
+INFO    -  Building documentation... 
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - django/DRF/04-DRF访问限制.md
+  - django/DRF/05-DRF解析器.md
+  - django/DRF/06-DRF序列化.md
+  - django/DRF/07-DRF分页.md
+  - django/DRF/08-DRF视图.md
+  - docker/01-Docker基础使用/02-Docker数据存储和网络访问.md
+  - docker/01-Docker基础使用/03-手动构建镜像.md
+  - docker/01-Docker基础使用/04-DockerFile.md
+  - docker/02-Docker进阶/01-Docker镜像生产实战.md
+  - docker/02-Docker进阶/02-Docker-registetry.md 
+WARNING -  Documentation file 'django/DRF/01-Restful.md' contains a link to 'django/DRF/www.cnblogs.com/wupeiqi/articles/7805382.html' which is not found in the documentation files. 
+[I 190216 19:44:07 handlers:92] Reload 1 waiters: /Users/lamber/mkdocs/mywiki/mkdocs.yml
+[I 190216 19:44:08 handlers:132] Browser Connected: http://127.0.0.1:2333/docker/01-Docker%E5%9F%BA%E7%A1%80%E4%BD%BF%E7%94%A8/01-Docker%E4%BB%8B%E7%BB%8D/
+[I 190216 19:44:09 watcher:92] Running task: <function builder at 0x10ea43050> (delay: None)
+INFO    -  Building documentation... 
+[E 190216 19:44:09 ioloop:801] Exception in callback <bound method type.poll_tasks of <class 'livereload.handlers.LiveReloadHandler'>>
+    Traceback (most recent call last):
+      File "/usr/local/lib/python2.7/site-packages/tornado/ioloop.py", line 1229, in _run
+        return self.callback()
+      File "/usr/local/lib/python2.7/site-packages/livereload/handlers.py", line 66, in poll_tasks
+        filepath, delay = cls.watcher.examine()
+      File "/usr/local/lib/python2.7/site-packages/livereload/watcher.py", line 93, in examine
+        func()
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/commands/serve.py", line 114, in builder
+        build(config, live_server=live_server, dirty=dirty)
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/commands/build.py", line 267, in build
+        nav = get_navigation(files, config)
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 104, in get_navigation
+        items = _data_to_navigation(nav_config, files, config)
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 162, in _data_to_navigation
+        for item in data
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 155, in _data_to_navigation
+        for key, value in data.items()
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 162, in _data_to_navigation
+        for item in data
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 155, in _data_to_navigation
+        for key, value in data.items()
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 162, in _data_to_navigation
+        for item in data
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 155, in _data_to_navigation
+        for key, value in data.items()
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 162, in _data_to_navigation
+        for item in data
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 165, in _data_to_navigation
+        file = files.get_file_from_path(path)
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/files.py", line 33, in get_file_from_path
+        return self.src_paths.get(os.path.normpath(path))
+      File "/usr/local/Cellar/python@2/2.7.15_1/Frameworks/Python.framework/Versions/2.7/lib/python2.7/posixpath.py", line 335, in normpath
+        initial_slashes = path.startswith('/')
+    AttributeError: 'NoneType' object has no attribute 'startswith'
+[I 190216 19:44:10 watcher:92] Running task: <function builder at 0x10ea43050> (delay: None)
+INFO    -  Building documentation... 
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - django/DRF/04-DRF访问限制.md
+  - django/DRF/05-DRF解析器.md
+  - django/DRF/06-DRF序列化.md
+  - django/DRF/07-DRF分页.md
+  - django/DRF/08-DRF视图.md
+  - docker/01-Docker基础使用/02-Docker数据存储和网络访问.md
+  - docker/01-Docker基础使用/03-手动构建镜像.md
+  - docker/01-Docker基础使用/04-DockerFile.md
+  - docker/02-Docker进阶/01-Docker镜像生产实战.md
+  - docker/02-Docker进阶/02-Docker-registetry.md 
+WARNING -  Documentation file 'django/DRF/01-Restful.md' contains a link to 'django/DRF/www.cnblogs.com/wupeiqi/articles/7805382.html' which is not found in the documentation files. 
+[I 190216 19:44:12 handlers:92] Reload 1 waiters: /Users/lamber/mkdocs/mywiki/mkdocs.yml
+[I 190216 19:44:12 handlers:132] Browser Connected: http://127.0.0.1:2333/docker/01-Docker%E5%9F%BA%E7%A1%80%E4%BD%BF%E7%94%A8/01-Docker%E4%BB%8B%E7%BB%8D/
+[I 190216 19:44:18 watcher:92] Running task: <function builder at 0x10ea43050> (delay: None)
+INFO    -  Building documentation... 
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - django/DRF/04-DRF访问限制.md
+  - django/DRF/05-DRF解析器.md
+  - django/DRF/06-DRF序列化.md
+  - django/DRF/07-DRF分页.md
+  - django/DRF/08-DRF视图.md
+  - docker/01-Docker基础使用/01-Docker介绍.md
+  - docker/01-Docker基础使用/02-Docker数据存储和网络访问.md
+  - docker/01-Docker基础使用/03-手动构建镜像.md
+  - docker/01-Docker基础使用/04-DockerFile.md
+  - docker/02-Docker进阶/01-Docker镜像生产实战.md
+  - docker/02-Docker进阶/02-Docker-registetry.md 
+WARNING -  A relative path to ''docker/01-Docker基础使用/01-Docker介绍.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  Documentation file 'django/DRF/01-Restful.md' contains a link to 'django/DRF/www.cnblogs.com/wupeiqi/articles/7805382.html' which is not found in the documentation files. 
+[I 190216 19:44:20 handlers:92] Reload 1 waiters: /Users/lamber/mkdocs/mywiki/mkdocs.yml
+[I 190216 19:44:20 handlers:132] Browser Connected: http://127.0.0.1:2333/docker/01-Docker%E5%9F%BA%E7%A1%80%E4%BD%BF%E7%94%A8/01-Docker%E4%BB%8B%E7%BB%8D/
+[I 190216 19:44:21 watcher:92] Running task: <function builder at 0x10ea43050> (delay: None)
+INFO    -  Building documentation... 
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - django/DRF/04-DRF访问限制.md
+  - django/DRF/05-DRF解析器.md
+  - django/DRF/06-DRF序列化.md
+  - django/DRF/07-DRF分页.md
+  - django/DRF/08-DRF视图.md
+  - docker/01-Docker基础使用/01-Docker介绍.md
+  - docker/01-Docker基础使用/02-Docker数据存储和网络访问.md
+  - docker/01-Docker基础使用/03-手动构建镜像.md
+  - docker/01-Docker基础使用/04-DockerFile.md
+  - docker/02-Docker进阶/01-Docker镜像生产实战.md
+  - docker/02-Docker进阶/02-Docker-registetry.md 
+WARNING -  A relative path to '01'docker/01-Docker基础使用/01-Docker介绍.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  Documentation file 'django/DRF/01-Restful.md' contains a link to 'django/DRF/www.cnblogs.com/wupeiqi/articles/7805382.html' which is not found in the documentation files. 
+[I 190216 19:44:22 handlers:79] Ignore: /Users/lamber/mkdocs/mywiki/mkdocs.yml
+[I 190216 19:44:24 watcher:92] Running task: <function builder at 0x10ea43050> (delay: None)
+INFO    -  Building documentation... 
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - django/DRF/04-DRF访问限制.md
+  - django/DRF/05-DRF解析器.md
+  - django/DRF/06-DRF序列化.md
+  - django/DRF/07-DRF分页.md
+  - django/DRF/08-DRF视图.md
+  - docker/01-Docker基础使用/01-Docker介绍.md
+  - docker/01-Docker基础使用/02-Docker数据存储和网络访问.md
+  - docker/01-Docker基础使用/03-手动构建镜像.md
+  - docker/01-Docker基础使用/04-DockerFile.md
+  - docker/02-Docker进阶/01-Docker镜像生产实战.md
+  - docker/02-Docker进阶/02-Docker-registetry.md 
+WARNING -  A relative path to '01-'docker/01-Docker基础使用/01-Docker介绍.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  Documentation file 'django/DRF/01-Restful.md' contains a link to 'django/DRF/www.cnblogs.com/wupeiqi/articles/7805382.html' which is not found in the documentation files. 
+[I 190216 19:44:25 handlers:92] Reload 1 waiters: /Users/lamber/mkdocs/mywiki/mkdocs.yml
+[I 190216 19:44:26 handlers:132] Browser Connected: http://127.0.0.1:2333/docker/01-Docker%E5%9F%BA%E7%A1%80%E4%BD%BF%E7%94%A8/01-Docker%E4%BB%8B%E7%BB%8D/
+[I 190216 19:44:29 watcher:92] Running task: <function builder at 0x10ea43050> (delay: None)
+INFO    -  Building documentation... 
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - django/DRF/04-DRF访问限制.md
+  - django/DRF/05-DRF解析器.md
+  - django/DRF/06-DRF序列化.md
+  - django/DRF/07-DRF分页.md
+  - django/DRF/08-DRF视图.md
+  - docker/01-Docker基础使用/02-Docker数据存储和网络访问.md
+  - docker/01-Docker基础使用/03-手动构建镜像.md
+  - docker/01-Docker基础使用/04-DockerFile.md
+  - docker/02-Docker进阶/01-Docker镜像生产实战.md
+  - docker/02-Docker进阶/02-Docker-registetry.md 
+WARNING -  Documentation file 'django/DRF/01-Restful.md' contains a link to 'django/DRF/www.cnblogs.com/wupeiqi/articles/7805382.html' which is not found in the documentation files. 
+[I 190216 19:44:30 handlers:92] Reload 1 waiters: /Users/lamber/mkdocs/mywiki/mkdocs.yml
+[I 190216 19:44:31 handlers:132] Browser Connected: http://127.0.0.1:2333/docker/01-Docker%E5%9F%BA%E7%A1%80%E4%BD%BF%E7%94%A8/01-Docker%E4%BB%8B%E7%BB%8D/
+[I 190216 19:44:35 watcher:92] Running task: <function builder at 0x10ea43050> (delay: None)
+INFO    -  Building documentation... 
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - django/DRF/04-DRF访问限制.md
+  - django/DRF/05-DRF解析器.md
+  - django/DRF/06-DRF序列化.md
+  - django/DRF/07-DRF分页.md
+  - django/DRF/08-DRF视图.md
+  - docker/01-Docker基础使用/02-Docker数据存储和网络访问.md
+  - docker/01-Docker基础使用/03-手动构建镜像.md
+  - docker/01-Docker基础使用/04-DockerFile.md
+  - docker/02-Docker进阶/01-Docker镜像生产实战.md
+  - docker/02-Docker进阶/02-Docker-registetry.md 
+WARNING -  A relative path to '02-' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  Documentation file 'django/DRF/01-Restful.md' contains a link to 'django/DRF/www.cnblogs.com/wupeiqi/articles/7805382.html' which is not found in the documentation files. 
+[I 190216 19:44:37 handlers:92] Reload 1 waiters: /Users/lamber/mkdocs/mywiki/mkdocs.yml
+[I 190216 19:44:38 handlers:132] Browser Connected: http://127.0.0.1:2333/docker/01-Docker%E5%9F%BA%E7%A1%80%E4%BD%BF%E7%94%A8/01-Docker%E4%BB%8B%E7%BB%8D/
+[I 190216 19:44:45 watcher:92] Running task: <function builder at 0x10ea43050> (delay: None)
+INFO    -  Building documentation... 
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - django/DRF/04-DRF访问限制.md
+  - django/DRF/05-DRF解析器.md
+  - django/DRF/06-DRF序列化.md
+  - django/DRF/07-DRF分页.md
+  - django/DRF/08-DRF视图.md
+  - docker/01-Docker基础使用/02-Docker数据存储和网络访问.md
+  - docker/01-Docker基础使用/03-手动构建镜像.md
+  - docker/01-Docker基础使用/04-DockerFile.md
+  - docker/02-Docker进阶/01-Docker镜像生产实战.md
+  - docker/02-Docker进阶/02-Docker-registetry.md 
+WARNING -  A relative path to '02-Docker网络和存储' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  Documentation file 'django/DRF/01-Restful.md' contains a link to 'django/DRF/www.cnblogs.com/wupeiqi/articles/7805382.html' which is not found in the documentation files. 
+[I 190216 19:44:47 handlers:92] Reload 1 waiters: /Users/lamber/mkdocs/mywiki/mkdocs.yml
+[I 190216 19:44:48 handlers:132] Browser Connected: http://127.0.0.1:2333/docker/01-Docker%E5%9F%BA%E7%A1%80%E4%BD%BF%E7%94%A8/01-Docker%E4%BB%8B%E7%BB%8D/
+[I 190216 19:44:49 watcher:92] Running task: <function builder at 0x10ea43050> (delay: None)
+INFO    -  Building documentation... 
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - django/DRF/04-DRF访问限制.md
+  - django/DRF/05-DRF解析器.md
+  - django/DRF/06-DRF序列化.md
+  - django/DRF/07-DRF分页.md
+  - django/DRF/08-DRF视图.md
+  - docker/01-Docker基础使用/02-Docker数据存储和网络访问.md
+  - docker/01-Docker基础使用/03-手动构建镜像.md
+  - docker/01-Docker基础使用/04-DockerFile.md
+  - docker/02-Docker进阶/01-Docker镜像生产实战.md
+  - docker/02-Docker进阶/02-Docker-registetry.md 
+WARNING -  A relative path to '' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  Documentation file 'django/DRF/01-Restful.md' contains a link to 'django/DRF/www.cnblogs.com/wupeiqi/articles/7805382.html' which is not found in the documentation files. 
+[I 190216 19:44:50 handlers:92] Reload 1 waiters: /Users/lamber/mkdocs/mywiki/mkdocs.yml
+[I 190216 19:44:51 handlers:132] Browser Connected: http://127.0.0.1:2333/docker/01-Docker%E5%9F%BA%E7%A1%80%E4%BD%BF%E7%94%A8/01-Docker%E4%BB%8B%E7%BB%8D/
+[I 190216 19:44:57 watcher:92] Running task: <function builder at 0x10ea43050> (delay: None)
+INFO    -  Building documentation... 
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - django/DRF/04-DRF访问限制.md
+  - django/DRF/05-DRF解析器.md
+  - django/DRF/06-DRF序列化.md
+  - django/DRF/07-DRF分页.md
+  - django/DRF/08-DRF视图.md
+  - docker/01-Docker基础使用/02-Docker数据存储和网络访问.md
+  - docker/01-Docker基础使用/03-手动构建镜像.md
+  - docker/01-Docker基础使用/04-DockerFile.md
+  - docker/02-Docker进阶/01-Docker镜像生产实战.md
+  - docker/02-Docker进阶/02-Docker-registetry.md 
+WARNING -  A relative path to 'ocker/01-Docker基础使用/' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  Documentation file 'django/DRF/01-Restful.md' contains a link to 'django/DRF/www.cnblogs.com/wupeiqi/articles/7805382.html' which is not found in the documentation files. 
+[I 190216 19:44:59 handlers:92] Reload 1 waiters: /Users/lamber/mkdocs/mywiki/mkdocs.yml
+[I 190216 19:44:59 watcher:92] Running task: <function builder at 0x10ea43050> (delay: None)
+INFO    -  Building documentation... 
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - django/DRF/04-DRF访问限制.md
+  - django/DRF/05-DRF解析器.md
+  - django/DRF/06-DRF序列化.md
+  - django/DRF/07-DRF分页.md
+  - django/DRF/08-DRF视图.md
+  - docker/01-Docker基础使用/02-Docker数据存储和网络访问.md
+  - docker/01-Docker基础使用/03-手动构建镜像.md
+  - docker/01-Docker基础使用/04-DockerFile.md
+  - docker/02-Docker进阶/01-Docker镜像生产实战.md
+  - docker/02-Docker进阶/02-Docker-registetry.md 
+WARNING -  A relative path to 'docker/01-Docker基础使用/' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  Documentation file 'django/DRF/01-Restful.md' contains a link to 'django/DRF/www.cnblogs.com/wupeiqi/articles/7805382.html' which is not found in the documentation files. 
+[I 190216 19:45:01 handlers:79] Ignore: /Users/lamber/mkdocs/mywiki/mkdocs.yml
+[I 190216 19:45:02 handlers:132] Browser Connected: http://127.0.0.1:2333/docker/01-Docker%E5%9F%BA%E7%A1%80%E4%BD%BF%E7%94%A8/01-Docker%E4%BB%8B%E7%BB%8D/
+[I 190216 19:45:10 watcher:92] Running task: <function builder at 0x10ea43050> (delay: None)
+INFO    -  Building documentation... 
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - django/DRF/04-DRF访问限制.md
+  - django/DRF/05-DRF解析器.md
+  - django/DRF/06-DRF序列化.md
+  - django/DRF/07-DRF分页.md
+  - django/DRF/08-DRF视图.md
+  - docker/01-Docker基础使用/03-手动构建镜像.md
+  - docker/01-Docker基础使用/04-DockerFile.md
+  - docker/02-Docker进阶/01-Docker镜像生产实战.md
+  - docker/02-Docker进阶/02-Docker-registetry.md 
+WARNING -  Documentation file 'django/DRF/01-Restful.md' contains a link to 'django/DRF/www.cnblogs.com/wupeiqi/articles/7805382.html' which is not found in the documentation files. 
+[I 190216 19:45:12 handlers:92] Reload 1 waiters: /Users/lamber/mkdocs/mywiki/mkdocs.yml
+[I 190216 19:45:13 handlers:132] Browser Connected: http://127.0.0.1:2333/docker/01-Docker%E5%9F%BA%E7%A1%80%E4%BD%BF%E7%94%A8/01-Docker%E4%BB%8B%E7%BB%8D/
+[I 190216 19:45:14 watcher:92] Running task: <function builder at 0x10ea43050> (delay: None)
+INFO    -  Building documentation... 
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - django/DRF/04-DRF访问限制.md
+  - django/DRF/05-DRF解析器.md
+  - django/DRF/06-DRF序列化.md
+  - django/DRF/07-DRF分页.md
+  - django/DRF/08-DRF视图.md
+  - docker/01-Docker基础使用/03-手动构建镜像.md
+  - docker/01-Docker基础使用/04-DockerFile.md
+  - docker/02-Docker进阶/01-Docker镜像生产实战.md
+  - docker/02-Docker进阶/02-Docker-registetry.md 
+WARNING -  A relative path to '03-' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  Documentation file 'django/DRF/01-Restful.md' contains a link to 'django/DRF/www.cnblogs.com/wupeiqi/articles/7805382.html' which is not found in the documentation files. 
+[I 190216 19:45:16 handlers:92] Reload 1 waiters: /Users/lamber/mkdocs/mywiki/mkdocs.yml
+[I 190216 19:45:17 handlers:132] Browser Connected: http://127.0.0.1:2333/docker/01-Docker%E5%9F%BA%E7%A1%80%E4%BD%BF%E7%94%A8/01-Docker%E4%BB%8B%E7%BB%8D/
+[I 190216 19:45:39 watcher:92] Running task: <function builder at 0x10ea43050> (delay: None)
+INFO    -  Building documentation... 
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - django/DRF/04-DRF访问限制.md
+  - django/DRF/05-DRF解析器.md
+  - django/DRF/06-DRF序列化.md
+  - django/DRF/07-DRF分页.md
+  - django/DRF/08-DRF视图.md
+  - docker/01-Docker基础使用/04-DockerFile.md
+  - docker/02-Docker进阶/01-Docker镜像生产实战.md
+  - docker/02-Docker进阶/02-Docker-registetry.md 
+WARNING -  Documentation file 'django/DRF/01-Restful.md' contains a link to 'django/DRF/www.cnblogs.com/wupeiqi/articles/7805382.html' which is not found in the documentation files. 
+[I 190216 19:45:40 handlers:92] Reload 1 waiters: /Users/lamber/mkdocs/mywiki/mkdocs.yml
+[I 190216 19:45:41 handlers:132] Browser Connected: http://127.0.0.1:2333/docker/01-Docker%E5%9F%BA%E7%A1%80%E4%BD%BF%E7%94%A8/01-Docker%E4%BB%8B%E7%BB%8D/
+[I 190216 19:45:44 watcher:92] Running task: <function builder at 0x10ea43050> (delay: None)
+INFO    -  Building documentation... 
+[E 190216 19:45:44 ioloop:801] Exception in callback <bound method type.poll_tasks of <class 'livereload.handlers.LiveReloadHandler'>>
+    Traceback (most recent call last):
+      File "/usr/local/lib/python2.7/site-packages/tornado/ioloop.py", line 1229, in _run
+        return self.callback()
+      File "/usr/local/lib/python2.7/site-packages/livereload/handlers.py", line 66, in poll_tasks
+        filepath, delay = cls.watcher.examine()
+      File "/usr/local/lib/python2.7/site-packages/livereload/watcher.py", line 93, in examine
+        func()
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/commands/serve.py", line 114, in builder
+        build(config, live_server=live_server, dirty=dirty)
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/commands/build.py", line 267, in build
+        nav = get_navigation(files, config)
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 104, in get_navigation
+        items = _data_to_navigation(nav_config, files, config)
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 162, in _data_to_navigation
+        for item in data
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 155, in _data_to_navigation
+        for key, value in data.items()
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 162, in _data_to_navigation
+        for item in data
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 155, in _data_to_navigation
+        for key, value in data.items()
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 162, in _data_to_navigation
+        for item in data
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 155, in _data_to_navigation
+        for key, value in data.items()
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 162, in _data_to_navigation
+        for item in data
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 165, in _data_to_navigation
+        file = files.get_file_from_path(path)
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/files.py", line 33, in get_file_from_path
+        return self.src_paths.get(os.path.normpath(path))
+      File "/usr/local/Cellar/python@2/2.7.15_1/Frameworks/Python.framework/Versions/2.7/lib/python2.7/posixpath.py", line 335, in normpath
+        initial_slashes = path.startswith('/')
+    AttributeError: 'NoneType' object has no attribute 'startswith'
+[I 190216 19:45:45 watcher:92] Running task: <function builder at 0x10ea43050> (delay: None)
+INFO    -  Building documentation... 
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - django/DRF/04-DRF访问限制.md
+  - django/DRF/05-DRF解析器.md
+  - django/DRF/06-DRF序列化.md
+  - django/DRF/07-DRF分页.md
+  - django/DRF/08-DRF视图.md
+  - docker/01-Docker基础使用/04-DockerFile.md
+  - docker/02-Docker进阶/01-Docker镜像生产实战.md
+  - docker/02-Docker进阶/02-Docker-registetry.md 
+WARNING -  A relative path to '' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  Documentation file 'django/DRF/01-Restful.md' contains a link to 'django/DRF/www.cnblogs.com/wupeiqi/articles/7805382.html' which is not found in the documentation files. 
+[I 190216 19:45:46 handlers:92] Reload 1 waiters: /Users/lamber/mkdocs/mywiki/mkdocs.yml
+[I 190216 19:45:47 handlers:132] Browser Connected: http://127.0.0.1:2333/docker/01-Docker%E5%9F%BA%E7%A1%80%E4%BD%BF%E7%94%A8/01-Docker%E4%BB%8B%E7%BB%8D/
+[I 190216 19:45:48 watcher:92] Running task: <function builder at 0x10ea43050> (delay: None)
+INFO    -  Building documentation... 
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - django/DRF/04-DRF访问限制.md
+  - django/DRF/05-DRF解析器.md
+  - django/DRF/06-DRF序列化.md
+  - django/DRF/07-DRF分页.md
+  - django/DRF/08-DRF视图.md
+  - docker/01-Docker基础使用/04-DockerFile.md
+  - docker/02-Docker进阶/01-Docker镜像生产实战.md
+  - docker/02-Docker进阶/02-Docker-registetry.md 
+WARNING -  A relative path to '04-Dockerfle' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  Documentation file 'django/DRF/01-Restful.md' contains a link to 'django/DRF/www.cnblogs.com/wupeiqi/articles/7805382.html' which is not found in the documentation files. 
+[I 190216 19:45:49 handlers:92] Reload 1 waiters: /Users/lamber/mkdocs/mywiki/mkdocs.yml
+[I 190216 19:45:50 handlers:132] Browser Connected: http://127.0.0.1:2333/docker/01-Docker%E5%9F%BA%E7%A1%80%E4%BD%BF%E7%94%A8/01-Docker%E4%BB%8B%E7%BB%8D/
+[I 190216 19:45:55 watcher:92] Running task: <function builder at 0x10ea43050> (delay: None)
+INFO    -  Building documentation... 
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - django/DRF/04-DRF访问限制.md
+  - django/DRF/05-DRF解析器.md
+  - django/DRF/06-DRF序列化.md
+  - django/DRF/07-DRF分页.md
+  - django/DRF/08-DRF视图.md
+  - docker/01-Docker基础使用/04-DockerFile.md
+  - docker/02-Docker进阶/01-Docker镜像生产实战.md
+  - docker/02-Docker进阶/02-Docker-registetry.md 
+WARNING -  A relative path to 'docker/01-Docker基础使用/' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  Documentation file 'django/DRF/01-Restful.md' contains a link to 'django/DRF/www.cnblogs.com/wupeiqi/articles/7805382.html' which is not found in the documentation files. 
+[I 190216 19:45:57 handlers:92] Reload 1 waiters: /Users/lamber/mkdocs/mywiki/mkdocs.yml
+[I 190216 19:45:57 handlers:132] Browser Connected: http://127.0.0.1:2333/docker/01-Docker%E5%9F%BA%E7%A1%80%E4%BD%BF%E7%94%A8/01-Docker%E4%BB%8B%E7%BB%8D/
+[I 190216 19:46:05 watcher:92] Running task: <function builder at 0x10ea43050> (delay: None)
+INFO    -  Building documentation... 
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - django/DRF/04-DRF访问限制.md
+  - django/DRF/05-DRF解析器.md
+  - django/DRF/06-DRF序列化.md
+  - django/DRF/07-DRF分页.md
+  - django/DRF/08-DRF视图.md
+  - docker/02-Docker进阶/01-Docker镜像生产实战.md
+  - docker/02-Docker进阶/02-Docker-registetry.md 
+WARNING -  Documentation file 'django/DRF/01-Restful.md' contains a link to 'django/DRF/www.cnblogs.com/wupeiqi/articles/7805382.html' which is not found in the documentation files. 
+[I 190216 19:46:06 handlers:92] Reload 1 waiters: /Users/lamber/mkdocs/mywiki/mkdocs.yml
+[I 190216 19:46:07 handlers:132] Browser Connected: http://127.0.0.1:2333/docker/01-Docker%E5%9F%BA%E7%A1%80%E4%BD%BF%E7%94%A8/01-Docker%E4%BB%8B%E7%BB%8D/
+[I 190216 19:46:08 handlers:132] Browser Connected: http://127.0.0.1:2333/docker/01-Docker%E5%9F%BA%E7%A1%80%E4%BD%BF%E7%94%A8/02-Docker%E6%95%B0%E6%8D%AE%E5%AD%98%E5%82%A8%E5%92%8C%E7%BD%91%E7%BB%9C%E8%AE%BF%E9%97%AE/
+[I 190216 19:46:12 handlers:132] Browser Connected: http://127.0.0.1:2333/docker/01-Docker%E5%9F%BA%E7%A1%80%E4%BD%BF%E7%94%A8/03-%E6%89%8B%E5%8A%A8%E6%9E%84%E5%BB%BA%E9%95%9C%E5%83%8F/
+[I 190216 19:46:17 handlers:132] Browser Connected: http://127.0.0.1:2333/docker/01-Docker%E5%9F%BA%E7%A1%80%E4%BD%BF%E7%94%A8/04-DockerFile/
+[I 190216 19:46:38 watcher:92] Running task: <function builder at 0x10ea43050> (delay: None)
+INFO    -  Building documentation... 
+[E 190216 19:46:38 ioloop:801] Exception in callback <bound method type.poll_tasks of <class 'livereload.handlers.LiveReloadHandler'>>
+    Traceback (most recent call last):
+      File "/usr/local/lib/python2.7/site-packages/tornado/ioloop.py", line 1229, in _run
+        return self.callback()
+      File "/usr/local/lib/python2.7/site-packages/livereload/handlers.py", line 66, in poll_tasks
+        filepath, delay = cls.watcher.examine()
+      File "/usr/local/lib/python2.7/site-packages/livereload/watcher.py", line 93, in examine
+        func()
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/commands/serve.py", line 114, in builder
+        build(config, live_server=live_server, dirty=dirty)
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/commands/build.py", line 267, in build
+        nav = get_navigation(files, config)
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 104, in get_navigation
+        items = _data_to_navigation(nav_config, files, config)
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 162, in _data_to_navigation
+        for item in data
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 155, in _data_to_navigation
+        for key, value in data.items()
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 162, in _data_to_navigation
+        for item in data
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 165, in _data_to_navigation
+        file = files.get_file_from_path(path)
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/files.py", line 33, in get_file_from_path
+        return self.src_paths.get(os.path.normpath(path))
+      File "/usr/local/Cellar/python@2/2.7.15_1/Frameworks/Python.framework/Versions/2.7/lib/python2.7/posixpath.py", line 335, in normpath
+        initial_slashes = path.startswith('/')
+    AttributeError: 'NoneType' object has no attribute 'startswith'
+[I 190216 19:46:41 watcher:92] Running task: <function builder at 0x10ea43050> (delay: None)
+INFO    -  Building documentation... 
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - django/DRF/04-DRF访问限制.md
+  - django/DRF/05-DRF解析器.md
+  - django/DRF/06-DRF序列化.md
+  - django/DRF/07-DRF分页.md
+  - django/DRF/08-DRF视图.md
+  - docker/02-Docker进阶/01-Docker镜像生产实战.md
+  - docker/02-Docker进阶/02-Docker-registetry.md 
+WARNING -  A relative path to 'Kubernetes' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  Documentation file 'django/DRF/01-Restful.md' contains a link to 'django/DRF/www.cnblogs.com/wupeiqi/articles/7805382.html' which is not found in the documentation files. 
+[I 190216 19:46:42 handlers:92] Reload 1 waiters: /Users/lamber/mkdocs/mywiki/mkdocs.yml
+[I 190216 19:46:43 handlers:132] Browser Connected: http://127.0.0.1:2333/docker/01-Docker%E5%9F%BA%E7%A1%80%E4%BD%BF%E7%94%A8/04-DockerFile/
+[I 190216 19:46:49 watcher:92] Running task: <function builder at 0x10ea43050> (delay: None)
+INFO    -  Building documentation... 
+[E 190216 19:46:49 ioloop:801] Exception in callback <bound method type.poll_tasks of <class 'livereload.handlers.LiveReloadHandler'>>
+    Traceback (most recent call last):
+      File "/usr/local/lib/python2.7/site-packages/tornado/ioloop.py", line 1229, in _run
+        return self.callback()
+      File "/usr/local/lib/python2.7/site-packages/livereload/handlers.py", line 66, in poll_tasks
+        filepath, delay = cls.watcher.examine()
+      File "/usr/local/lib/python2.7/site-packages/livereload/watcher.py", line 93, in examine
+        func()
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/commands/serve.py", line 114, in builder
+        build(config, live_server=live_server, dirty=dirty)
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/commands/build.py", line 267, in build
+        nav = get_navigation(files, config)
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 104, in get_navigation
+        items = _data_to_navigation(nav_config, files, config)
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 162, in _data_to_navigation
+        for item in data
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 155, in _data_to_navigation
+        for key, value in data.items()
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 162, in _data_to_navigation
+        for item in data
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 155, in _data_to_navigation
+        for key, value in data.items()
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 162, in _data_to_navigation
+        for item in data
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 165, in _data_to_navigation
+        file = files.get_file_from_path(path)
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/files.py", line 33, in get_file_from_path
+        return self.src_paths.get(os.path.normpath(path))
+      File "/usr/local/Cellar/python@2/2.7.15_1/Frameworks/Python.framework/Versions/2.7/lib/python2.7/posixpath.py", line 335, in normpath
+        initial_slashes = path.startswith('/')
+    AttributeError: 'NoneType' object has no attribute 'startswith'
+[I 190216 19:52:34 watcher:92] Running task: <function builder at 0x10ea43050> (delay: None)
+INFO    -  Building documentation... 
+[E 190216 19:52:34 ioloop:801] Exception in callback <bound method type.poll_tasks of <class 'livereload.handlers.LiveReloadHandler'>>
+    Traceback (most recent call last):
+      File "/usr/local/lib/python2.7/site-packages/tornado/ioloop.py", line 1229, in _run
+        return self.callback()
+      File "/usr/local/lib/python2.7/site-packages/livereload/handlers.py", line 66, in poll_tasks
+        filepath, delay = cls.watcher.examine()
+      File "/usr/local/lib/python2.7/site-packages/livereload/watcher.py", line 93, in examine
+        func()
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/commands/serve.py", line 114, in builder
+        build(config, live_server=live_server, dirty=dirty)
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/commands/build.py", line 267, in build
+        nav = get_navigation(files, config)
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 104, in get_navigation
+        items = _data_to_navigation(nav_config, files, config)
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 162, in _data_to_navigation
+        for item in data
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 155, in _data_to_navigation
+        for key, value in data.items()
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 162, in _data_to_navigation
+        for item in data
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 155, in _data_to_navigation
+        for key, value in data.items()
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 162, in _data_to_navigation
+        for item in data
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 165, in _data_to_navigation
+        file = files.get_file_from_path(path)
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/files.py", line 33, in get_file_from_path
+        return self.src_paths.get(os.path.normpath(path))
+      File "/usr/local/Cellar/python@2/2.7.15_1/Frameworks/Python.framework/Versions/2.7/lib/python2.7/posixpath.py", line 335, in normpath
+        initial_slashes = path.startswith('/')
+    AttributeError: 'NoneType' object has no attribute 'startswith'
+[I 190216 19:55:13 watcher:92] Running task: <function builder at 0x10ea43050> (delay: None)
+INFO    -  Building documentation... 
+[E 190216 19:55:13 ioloop:801] Exception in callback <bound method type.poll_tasks of <class 'livereload.handlers.LiveReloadHandler'>>
+    Traceback (most recent call last):
+      File "/usr/local/lib/python2.7/site-packages/tornado/ioloop.py", line 1229, in _run
+        return self.callback()
+      File "/usr/local/lib/python2.7/site-packages/livereload/handlers.py", line 66, in poll_tasks
+        filepath, delay = cls.watcher.examine()
+      File "/usr/local/lib/python2.7/site-packages/livereload/watcher.py", line 93, in examine
+        func()
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/commands/serve.py", line 114, in builder
+        build(config, live_server=live_server, dirty=dirty)
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/commands/build.py", line 267, in build
+        nav = get_navigation(files, config)
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 104, in get_navigation
+        items = _data_to_navigation(nav_config, files, config)
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 162, in _data_to_navigation
+        for item in data
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 155, in _data_to_navigation
+        for key, value in data.items()
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 162, in _data_to_navigation
+        for item in data
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 155, in _data_to_navigation
+        for key, value in data.items()
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 162, in _data_to_navigation
+        for item in data
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 165, in _data_to_navigation
+        file = files.get_file_from_path(path)
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/files.py", line 33, in get_file_from_path
+        return self.src_paths.get(os.path.normpath(path))
+      File "/usr/local/Cellar/python@2/2.7.15_1/Frameworks/Python.framework/Versions/2.7/lib/python2.7/posixpath.py", line 335, in normpath
+        initial_slashes = path.startswith('/')
+    AttributeError: 'NoneType' object has no attribute 'startswith'
+[I 190216 19:55:28 watcher:92] Running task: <function builder at 0x10ea43050> (delay: None)
+INFO    -  Building documentation... 
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - django/DRF/04-DRF访问限制.md
+  - django/DRF/05-DRF解析器.md
+  - django/DRF/06-DRF序列化.md
+  - django/DRF/07-DRF分页.md
+  - django/DRF/08-DRF视图.md
+  - docker/02-Docker进阶/01-Docker镜像生产实战.md
+  - docker/02-Docker进阶/02-Docker-registetry.md
+  - kubernetes/01-k8s纯手工部署.md 
+WARNING -  A relative path to '' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  Documentation file 'django/DRF/01-Restful.md' contains a link to 'django/DRF/www.cnblogs.com/wupeiqi/articles/7805382.html' which is not found in the documentation files. 
+[I 190216 19:55:33 handlers:92] Reload 1 waiters: /Users/lamber/mkdocs/mywiki/mkdocs.yml
+[I 190216 19:55:35 handlers:132] Browser Connected: http://127.0.0.1:2333/docker/01-Docker%E5%9F%BA%E7%A1%80%E4%BD%BF%E7%94%A8/04-DockerFile/
+[I 190216 19:55:38 watcher:92] Running task: <function builder at 0x10ea43050> (delay: None)
+INFO    -  Building documentation... 
+[E 190216 19:55:38 ioloop:801] Exception in callback <bound method type.poll_tasks of <class 'livereload.handlers.LiveReloadHandler'>>
+    Traceback (most recent call last):
+      File "/usr/local/lib/python2.7/site-packages/tornado/ioloop.py", line 1229, in _run
+        return self.callback()
+      File "/usr/local/lib/python2.7/site-packages/livereload/handlers.py", line 66, in poll_tasks
+        filepath, delay = cls.watcher.examine()
+      File "/usr/local/lib/python2.7/site-packages/livereload/watcher.py", line 93, in examine
+        func()
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/commands/serve.py", line 114, in builder
+        build(config, live_server=live_server, dirty=dirty)
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/commands/build.py", line 267, in build
+        nav = get_navigation(files, config)
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 104, in get_navigation
+        items = _data_to_navigation(nav_config, files, config)
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 162, in _data_to_navigation
+        for item in data
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 155, in _data_to_navigation
+        for key, value in data.items()
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 162, in _data_to_navigation
+        for item in data
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 155, in _data_to_navigation
+        for key, value in data.items()
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 162, in _data_to_navigation
+        for item in data
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 155, in _data_to_navigation
+        for key, value in data.items()
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 165, in _data_to_navigation
+        file = files.get_file_from_path(path)
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/files.py", line 33, in get_file_from_path
+        return self.src_paths.get(os.path.normpath(path))
+      File "/usr/local/Cellar/python@2/2.7.15_1/Frameworks/Python.framework/Versions/2.7/lib/python2.7/posixpath.py", line 335, in normpath
+        initial_slashes = path.startswith('/')
+    AttributeError: 'NoneType' object has no attribute 'startswith'
+[I 190216 19:55:41 watcher:92] Running task: <function builder at 0x10ea43050> (delay: None)
+INFO    -  Building documentation... 
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - django/DRF/04-DRF访问限制.md
+  - django/DRF/05-DRF解析器.md
+  - django/DRF/06-DRF序列化.md
+  - django/DRF/07-DRF分页.md
+  - django/DRF/08-DRF视图.md
+  - docker/02-Docker进阶/01-Docker镜像生产实战.md
+  - docker/02-Docker进阶/02-Docker-registetry.md
+  - kubernetes/01-k8s纯手工部署.md 
+WARNING -  A relative path to 'kubernetes/' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  Documentation file 'django/DRF/01-Restful.md' contains a link to 'django/DRF/www.cnblogs.com/wupeiqi/articles/7805382.html' which is not found in the documentation files. 
+[I 190216 19:55:47 handlers:92] Reload 1 waiters: /Users/lamber/mkdocs/mywiki/mkdocs.yml
+[I 190216 19:55:48 handlers:132] Browser Connected: http://127.0.0.1:2333/docker/01-Docker%E5%9F%BA%E7%A1%80%E4%BD%BF%E7%94%A8/04-DockerFile/
+[I 190216 19:55:54 watcher:92] Running task: <function builder at 0x10ea43050> (delay: None)
+INFO    -  Building documentation... 
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - django/DRF/04-DRF访问限制.md
+  - django/DRF/05-DRF解析器.md
+  - django/DRF/06-DRF序列化.md
+  - django/DRF/07-DRF分页.md
+  - django/DRF/08-DRF视图.md
+  - docker/02-Docker进阶/01-Docker镜像生产实战.md
+  - docker/02-Docker进阶/02-Docker-registetry.md 
+WARNING -  Documentation file 'django/DRF/01-Restful.md' contains a link to 'django/DRF/www.cnblogs.com/wupeiqi/articles/7805382.html' which is not found in the documentation files. 
+[I 190216 19:55:59 handlers:92] Reload 1 waiters: /Users/lamber/mkdocs/mywiki/mkdocs.yml
+[I 190216 19:56:01 handlers:132] Browser Connected: http://127.0.0.1:2333/docker/01-Docker%E5%9F%BA%E7%A1%80%E4%BD%BF%E7%94%A8/04-DockerFile/
+[I 190216 19:56:09 handlers:132] Browser Connected: http://127.0.0.1:2333/kubernetes/01-k8s%E7%BA%AF%E6%89%8B%E5%B7%A5%E9%83%A8%E7%BD%B2/
+[I 190216 19:56:33 watcher:92] Running task: <function builder at 0x10ea43050> (delay: None)
+INFO    -  Building documentation... 
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - django/DRF/04-DRF访问限制.md
+  - django/DRF/05-DRF解析器.md
+  - django/DRF/06-DRF序列化.md
+  - django/DRF/07-DRF分页.md
+  - django/DRF/08-DRF视图.md
+  - docker/02-Docker进阶/01-Docker镜像生产实战.md
+  - docker/02-Docker进阶/02-Docker-registetry.md 
+WARNING -  Documentation file 'django/DRF/01-Restful.md' contains a link to 'django/DRF/www.cnblogs.com/wupeiqi/articles/7805382.html' which is not found in the documentation files. 
+[I 190216 19:56:39 handlers:92] Reload 1 waiters: /Users/lamber/mkdocs/mywiki/docs/kubernetes/01-k8s纯手工部署.md
+[I 190216 19:56:43 handlers:132] Browser Connected: http://127.0.0.1:2333/kubernetes/01-k8s%E7%BA%AF%E6%89%8B%E5%B7%A5%E9%83%A8%E7%BD%B2/
+[I 190216 19:57:10 watcher:92] Running task: <function builder at 0x10ea43050> (delay: None)
+INFO    -  Building documentation... 
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - django/DRF/04-DRF访问限制.md
+  - django/DRF/05-DRF解析器.md
+  - django/DRF/06-DRF序列化.md
+  - django/DRF/07-DRF分页.md
+  - django/DRF/08-DRF视图.md
+  - docker/02-Docker进阶/01-Docker镜像生产实战.md
+  - docker/02-Docker进阶/02-Docker-registetry.md 
+WARNING -  Documentation file 'django/DRF/01-Restful.md' contains a link to 'django/DRF/www.cnblogs.com/wupeiqi/articles/7805382.html' which is not found in the documentation files. 
+[I 190216 19:57:16 handlers:92] Reload 1 waiters: /Users/lamber/mkdocs/mywiki/docs/kubernetes/01-k8s纯手工部署.md
+[I 190216 19:57:17 watcher:92] Running task: <function builder at 0x10ea43050> (delay: None)
+INFO    -  Building documentation... 
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - django/DRF/04-DRF访问限制.md
+  - django/DRF/05-DRF解析器.md
+  - django/DRF/06-DRF序列化.md
+  - django/DRF/07-DRF分页.md
+  - django/DRF/08-DRF视图.md
+  - docker/02-Docker进阶/01-Docker镜像生产实战.md
+  - docker/02-Docker进阶/02-Docker-registetry.md 
+WARNING -  Documentation file 'django/DRF/01-Restful.md' contains a link to 'django/DRF/www.cnblogs.com/wupeiqi/articles/7805382.html' which is not found in the documentation files. 
+[I 190216 19:57:25 handlers:132] Browser Connected: http://127.0.0.1:2333/kubernetes/01-k8s%E7%BA%AF%E6%89%8B%E5%B7%A5%E9%83%A8%E7%BD%B2/
+[I 190216 19:57:29 handlers:132] Browser Connected: http://127.0.0.1:2333/kubernetes/01-k8s%E7%BA%AF%E6%89%8B%E5%B7%A5%E9%83%A8%E7%BD%B2/
+[I 190216 19:58:01 handlers:132] Browser Connected: http://127.0.0.1:2333/
+[I 190216 19:58:18 handlers:92] Reload 1 waiters: /Users/lamber/mkdocs/mywiki/docs/django/DRF/05-DRF访问限制.md
+[I 190216 19:58:19 handlers:132] Browser Connected: http://127.0.0.1:2333/
+[I 190216 19:58:28 handlers:92] Reload 1 waiters: /Users/lamber/mkdocs/mywiki/docs/django/DRF/06-DRF解析器.md
+[I 190216 19:58:29 handlers:132] Browser Connected: http://127.0.0.1:2333/
+[I 190216 19:58:43 handlers:92] Reload 1 waiters: /Users/lamber/mkdocs/mywiki/docs/django/DRF/07-DRF序列化.md
+[I 190216 19:58:44 handlers:132] Browser Connected: http://127.0.0.1:2333/
+[I 190216 19:58:50 handlers:92] Reload 1 waiters: /Users/lamber/mkdocs/mywiki/docs/django/DRF/08-DRF分页.md
+[I 190216 19:58:51 handlers:132] Browser Connected: http://127.0.0.1:2333/
+[I 190216 19:58:57 handlers:92] Reload 1 waiters: /Users/lamber/mkdocs/mywiki/docs/django/DRF/09-DRF视图.md
+[I 190216 19:58:57 handlers:132] Browser Connected: http://127.0.0.1:2333/
+[I 190216 19:59:14 watcher:92] Running task: <function builder at 0x10ea43050> (delay: None)
+INFO    -  Building documentation... 
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - django/DRF/05-DRF访问限制.md
+  - django/DRF/06-DRF解析器.md
+  - django/DRF/07-DRF序列化.md
+  - django/DRF/08-DRF分页.md
+  - django/DRF/09-DRF视图.md
+  - django/DRF/10-DRF渲染器.md
+  - docker/02-Docker进阶/01-Docker镜像生产实战.md
+  - docker/02-Docker进阶/02-Docker-registetry.md 
+WARNING -  Documentation file 'django/DRF/01-Restful.md' contains a link to 'django/DRF/www.cnblogs.com/wupeiqi/articles/7805382.html' which is not found in the documentation files. 
+[I 190216 19:59:16 handlers:92] Reload 1 waiters: /Users/lamber/mkdocs/mywiki/docs/django/DRF/10-DRF渲染器.md
+[I 190216 19:59:17 handlers:132] Browser Connected: http://127.0.0.1:2333/
+[I 190216 20:01:22 watcher:92] Running task: <function builder at 0x10ea43050> (delay: None)
+INFO    -  Building documentation... 
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - django/DRF/05-DRF访问限制.md
+  - django/DRF/06-DRF解析器.md
+  - django/DRF/07-DRF序列化.md
+  - django/DRF/08-DRF分页.md
+  - django/DRF/09-DRF视图.md
+  - django/DRF/10-DRF渲染器.md
+  - docker/02-Docker进阶/01-Docker镜像生产实战.md
+  - docker/02-Docker进阶/02-Docker-registetry.md 
+WARNING -  A relative path to ';;' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  Documentation file 'django/DRF/01-Restful.md' contains a link to 'django/DRF/www.cnblogs.com/wupeiqi/articles/7805382.html' which is not found in the documentation files. 
+[I 190216 20:01:24 handlers:92] Reload 1 waiters: /Users/lamber/mkdocs/mywiki/mkdocs.yml
+[I 190216 20:01:25 handlers:132] Browser Connected: http://127.0.0.1:2333/
+[I 190216 20:01:26 watcher:92] Running task: <function builder at 0x10ea43050> (delay: None)
+INFO    -  Building documentation... 
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - django/DRF/05-DRF访问限制.md
+  - django/DRF/06-DRF解析器.md
+  - django/DRF/07-DRF序列化.md
+  - django/DRF/08-DRF分页.md
+  - django/DRF/09-DRF视图.md
+  - django/DRF/10-DRF渲染器.md
+  - docker/02-Docker进阶/01-Docker镜像生产实战.md
+  - docker/02-Docker进阶/02-Docker-registetry.md 
+WARNING -  A relative path to '' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  Documentation file 'django/DRF/01-Restful.md' contains a link to 'django/DRF/www.cnblogs.com/wupeiqi/articles/7805382.html' which is not found in the documentation files. 
+[I 190216 20:01:28 handlers:92] Reload 1 waiters: /Users/lamber/mkdocs/mywiki/mkdocs.yml
+[I 190216 20:01:29 handlers:132] Browser Connected: http://127.0.0.1:2333/
+[I 190216 20:01:32 watcher:92] Running task: <function builder at 0x10ea43050> (delay: None)
+INFO    -  Building documentation... 
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - django/DRF/05-DRF访问限制.md
+  - django/DRF/06-DRF解析器.md
+  - django/DRF/07-DRF序列化.md
+  - django/DRF/08-DRF分页.md
+  - django/DRF/09-DRF视图.md
+  - django/DRF/10-DRF渲染器.md
+  - docker/02-Docker进阶/01-Docker镜像生产实战.md
+  - docker/02-Docker进阶/02-Docker-registetry.md 
+WARNING -  A relative path to '05-DRF访问限制' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  Documentation file 'django/DRF/01-Restful.md' contains a link to 'django/DRF/www.cnblogs.com/wupeiqi/articles/7805382.html' which is not found in the documentation files. 
+[I 190216 20:01:34 handlers:92] Reload 1 waiters: /Users/lamber/mkdocs/mywiki/mkdocs.yml
+[I 190216 20:01:35 handlers:132] Browser Connected: http://127.0.0.1:2333/
+[I 190216 20:01:41 watcher:92] Running task: <function builder at 0x10ea43050> (delay: None)
+INFO    -  Building documentation... 
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - django/DRF/05-DRF访问限制.md
+  - django/DRF/06-DRF解析器.md
+  - django/DRF/07-DRF序列化.md
+  - django/DRF/08-DRF分页.md
+  - django/DRF/09-DRF视图.md
+  - django/DRF/10-DRF渲染器.md
+  - docker/02-Docker进阶/01-Docker镜像生产实战.md
+  - docker/02-Docker进阶/02-Docker-registetry.md 
+WARNING -  A relative path to 'django/DRF/05-DRF' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  Documentation file 'django/DRF/01-Restful.md' contains a link to 'django/DRF/www.cnblogs.com/wupeiqi/articles/7805382.html' which is not found in the documentation files. 
+[I 190216 20:01:42 handlers:92] Reload 1 waiters: /Users/lamber/mkdocs/mywiki/mkdocs.yml
+[I 190216 20:01:43 watcher:92] Running task: <function builder at 0x10ea43050> (delay: None)
+INFO    -  Building documentation... 
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - django/DRF/05-DRF访问限制.md
+  - django/DRF/06-DRF解析器.md
+  - django/DRF/07-DRF序列化.md
+  - django/DRF/08-DRF分页.md
+  - django/DRF/09-DRF视图.md
+  - django/DRF/10-DRF渲染器.md
+  - docker/02-Docker进阶/01-Docker镜像生产实战.md
+  - docker/02-Docker进阶/02-Docker-registetry.md 
+WARNING -  A relative path to 'django/DRF/05-DRF' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  Documentation file 'django/DRF/01-Restful.md' contains a link to 'django/DRF/www.cnblogs.com/wupeiqi/articles/7805382.html' which is not found in the documentation files. 
+[I 190216 20:01:45 handlers:132] Browser Connected: http://127.0.0.1:2333/
+[I 190216 20:01:54 watcher:92] Running task: <function builder at 0x10ea43050> (delay: None)
+INFO    -  Building documentation... 
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - django/DRF/06-DRF解析器.md
+  - django/DRF/07-DRF序列化.md
+  - django/DRF/08-DRF分页.md
+  - django/DRF/09-DRF视图.md
+  - django/DRF/10-DRF渲染器.md
+  - docker/02-Docker进阶/01-Docker镜像生产实战.md
+  - docker/02-Docker进阶/02-Docker-registetry.md 
+WARNING -  Documentation file 'django/DRF/01-Restful.md' contains a link to 'django/DRF/www.cnblogs.com/wupeiqi/articles/7805382.html' which is not found in the documentation files. 
+[I 190216 20:01:56 handlers:92] Reload 1 waiters: /Users/lamber/mkdocs/mywiki/mkdocs.yml
+[I 190216 20:01:57 handlers:132] Browser Connected: http://127.0.0.1:2333/
+[I 190216 20:02:02 handlers:132] Browser Connected: http://127.0.0.1:2333/django/DRF/05-DRF%E8%AE%BF%E9%97%AE%E9%99%90%E5%88%B6/
+[I 190216 20:04:36 watcher:92] Running task: <function builder at 0x10ea43050> (delay: None)
+INFO    -  Building documentation... 
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - django/DRF/06-DRF解析器.md
+  - django/DRF/07-DRF序列化.md
+  - django/DRF/08-DRF分页.md
+  - django/DRF/09-DRF视图.md
+  - django/DRF/10-DRF渲染器.md
+  - docker/02-Docker进阶/01-Docker镜像生产实战.md
+  - docker/02-Docker进阶/02-Docker-registetry.md 
+WARNING -  Documentation file 'django/DRF/01-Restful.md' contains a link to 'django/DRF/www.cnblogs.com/wupeiqi/articles/7805382.html' which is not found in the documentation files. 
+[I 190216 20:04:38 handlers:92] Reload 1 waiters: /Users/lamber/mkdocs/mywiki/docs/django/DRF/05-DRF访问限制.md
+[I 190216 20:04:39 handlers:132] Browser Connected: http://127.0.0.1:2333/django/DRF/05-DRF%E8%AE%BF%E9%97%AE%E9%99%90%E5%88%B6/
+[I 190216 20:05:46 watcher:92] Running task: <function builder at 0x10ea43050> (delay: None)
+INFO    -  Building documentation... 
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - django/DRF/06-DRF解析器.md
+  - django/DRF/07-DRF序列化.md
+  - django/DRF/08-DRF分页.md
+  - django/DRF/09-DRF视图.md
+  - django/DRF/10-DRF渲染器.md
+  - docker/02-Docker进阶/01-Docker镜像生产实战.md
+  - docker/02-Docker进阶/02-Docker-registetry.md 
+WARNING -  Documentation file 'django/DRF/01-Restful.md' contains a link to 'django/DRF/www.cnblogs.com/wupeiqi/articles/7805382.html' which is not found in the documentation files. 
+[I 190216 20:05:48 handlers:92] Reload 1 waiters: /Users/lamber/mkdocs/mywiki/docs/django/DRF/05-DRF访问限制.md
+[I 190216 20:05:50 handlers:132] Browser Connected: http://127.0.0.1:2333/django/DRF/05-DRF%E8%AE%BF%E9%97%AE%E9%99%90%E5%88%B6/
+[I 190216 20:06:55 watcher:92] Running task: <function builder at 0x10ea43050> (delay: None)
+INFO    -  Building documentation... 
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - django/DRF/06-DRF解析器.md
+  - django/DRF/07-DRF序列化.md
+  - django/DRF/08-DRF分页.md
+  - django/DRF/09-DRF视图.md
+  - django/DRF/10-DRF渲染器.md
+  - docker/02-Docker进阶/01-Docker镜像生产实战.md
+  - docker/02-Docker进阶/02-Docker-registetry.md 
+WARNING -  Documentation file 'django/DRF/01-Restful.md' contains a link to 'django/DRF/www.cnblogs.com/wupeiqi/articles/7805382.html' which is not found in the documentation files. 
+[I 190216 20:06:57 handlers:92] Reload 1 waiters: /Users/lamber/mkdocs/mywiki/docs/django/DRF/05-DRF访问限制.md
+[I 190216 20:06:58 handlers:132] Browser Connected: http://127.0.0.1:2333/django/DRF/05-DRF%E8%AE%BF%E9%97%AE%E9%99%90%E5%88%B6/
+[I 190216 20:08:59 watcher:92] Running task: <function builder at 0x10ea43050> (delay: None)
+INFO    -  Building documentation... 
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - django/DRF/06-DRF解析器.md
+  - django/DRF/07-DRF序列化.md
+  - django/DRF/08-DRF分页.md
+  - django/DRF/09-DRF视图.md
+  - django/DRF/10-DRF渲染器.md
+  - docker/02-Docker进阶/01-Docker镜像生产实战.md
+  - docker/02-Docker进阶/02-Docker-registetry.md 
+WARNING -  Documentation file 'django/DRF/01-Restful.md' contains a link to 'django/DRF/www.cnblogs.com/wupeiqi/articles/7805382.html' which is not found in the documentation files. 
+[I 190216 20:09:01 handlers:92] Reload 1 waiters: /Users/lamber/mkdocs/mywiki/docs/django/DRF/05-DRF访问限制.md
+[I 190216 20:09:01 handlers:132] Browser Connected: http://127.0.0.1:2333/django/DRF/05-DRF%E8%AE%BF%E9%97%AE%E9%99%90%E5%88%B6/
+[I 190216 20:09:53 watcher:92] Running task: <function builder at 0x10ea43050> (delay: None)
+INFO    -  Building documentation... 
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - django/DRF/06-DRF解析器.md
+  - django/DRF/07-DRF序列化.md
+  - django/DRF/08-DRF分页.md
+  - django/DRF/09-DRF视图.md
+  - django/DRF/10-DRF渲染器.md
+  - docker/02-Docker进阶/01-Docker镜像生产实战.md
+  - docker/02-Docker进阶/02-Docker-registetry.md 
+WARNING -  Documentation file 'django/DRF/01-Restful.md' contains a link to 'django/DRF/www.cnblogs.com/wupeiqi/articles/7805382.html' which is not found in the documentation files. 
+[I 190216 20:09:54 handlers:92] Reload 1 waiters: /Users/lamber/mkdocs/mywiki/docs/django/DRF/05-DRF访问限制.md
+[I 190216 20:09:55 handlers:132] Browser Connected: http://127.0.0.1:2333/django/DRF/05-DRF%E8%AE%BF%E9%97%AE%E9%99%90%E5%88%B6/

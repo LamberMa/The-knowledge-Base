@@ -71,9 +71,19 @@ markdown_extensions:
   - pymdownx.tilde
 
 nav:
+  - 容器云技术:
+    - Docker:
+      - Docker基础: 
+        - '01-Docker介绍': 'docker/01-Docker基础使用/01-Docker介绍.md'
+        - '02-Docker网络和存储': 'docker/01-Docker基础使用/02-Docker数据存储和网络访问.md'
+        - '03-镜像的构建': 'docker/01-Docker基础使用/03-手动构建镜像.md'
+        - '04-Dockerfle': 'docker/01-Docker基础使用/04-DockerFile.md'
+    - Kubernetes编排:
+      - '01-k8s纯手工部署': 'kubernetes/01-k8s纯手工部署.md'
   - Django学习笔记:
     - 'Django DRF':
       - '01-Restful介绍': django/DRF/01-Restful.md
       - '02-Request封装': django/DRF/02-Request的封装.md
       - '03-DRF的认证': django/DRF/03-DRF的认证.md
       - '04-DRF的权限': django/DRF/04-DRF权限.md 
+      - '05-DRF访问限制': django/DRF/05-DRF访问限制.md

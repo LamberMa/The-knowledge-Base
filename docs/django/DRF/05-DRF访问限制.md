@@ -16,13 +16,13 @@
 
 - 捕获到的IP作为key，而value为一个列表去存储用户的访问记录
 
+  ```python
   - 访问记录的实体为一个时间戳，用户每访问一次向value列表中的首部添加一个
   - 当用户来访问的时候首先来看这个全局字典中有没有对应的IP的key，如果没有的话那么就添加，并向列表中追加当前的时间戳。
   - 如果有当前的key证明这个ip的匿名用户之前有访问过，那么就从后往前逐个对比时间差值是否超过设置的时间间隔，如果有超过的就POP掉，这就是为啥记录时间戳的时候要记录在前面，因为在清理过期访问记录的时候可以使用pop方便的去删除记录。
-  - 去除掉过期记录以后去排查当前列表的长度，比如一分钟内只让访问10次，那么假如当前的列表长度只有小于10的时候才允许你进行下一次访问
-
-  那么具体的代码实现逻辑可以看下面的简单代码。
-
+  - 去除掉过期记录以后去排查当前列表的长度，比如一分钟内只让访问10次，那么假如当前的列表长度只有小于10的时候才允许你进行下一次访问。
+  ```
+那么具体的代码实现逻辑可以看下面的简单代码
 ```python
 """所有导入的包都省略了"""
 
@@ -53,8 +53,8 @@ class VisitThrottle(BaseThrottle):
         :return:
         """
         # 1、获取用户IP，我们知道说这里的request是已经被封装过的
-        # 但是有一个特性是当找一个属性的时候如果这个封装过的request存在的话
-        # 那么就在这里去寻找，如果没有的话，那么会从原来的request找
+        # 之前看封装的request的时候，里面有一个getattr方法，当我们调用META的时候，封装的
+        # request中并不存在这个属性，因此会去原生的request去找，因此仍然可以直接调用。
         # 因此这里可以省略_request，直接调用META
         remote_addr = request.META.get('REMOTE_ADDR')
         current_time = time.time()
@@ -63,6 +63,7 @@ class VisitThrottle(BaseThrottle):
         if remote_addr not in VISIT_RECORD:
             VISIT_RECORD[remote_addr] = [current_time, ]
             return True
+        
         # 如果说有访问记录，那么就把访问记录的列表赋值给self.history
         self.history = VISIT_RECORD.get(remote_addr)
         
@@ -82,9 +83,6 @@ class VisitThrottle(BaseThrottle):
     def wait(self):
         """提示你距离访问还需要多久"""
         return time.time() - self.history[-1]
-
-
-
 
 class AuthView(APIView):
 

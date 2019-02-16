@@ -1,10 +1,10 @@
 # DRF权限
 
-> DRF的权限
+> DRF的权限是在认证的基础上做进一步的认证，比如用户根据不同的用户类型，他们可能会有不同的权限，比如普通用户，管理员，超级管理员等等。
 
 ## 权限的基本使用
 
-注意全局的是在settings配置文件配置即可，如果是局部的是单独在自己定义的类中加。全局的就是所有人用，如果是有特殊的那就单独给某一个特殊的加一个perimission_class的列表就可以了。
+DRF的权限的设置流程其实和认证是大同小异的，需要注意的就是权限的使用范围，配置在settings配置文件的就是全局性质的，局部视图的直接在对应的视图类设置`permission_classes`属性。
 
 ## 源码流程
 
@@ -82,8 +82,6 @@ for permission in self.get_permissions():
 ```
 
 ## 内置权限
-
-
 
 ```python
 @six.add_metaclass(BasePermissionMetaclass)
@@ -232,6 +230,7 @@ class DjangoModelPermissionsOrAnonReadOnly(DjangoModelPermissions):
     authenticated_users_only = False
 
 
+# 针对对象的认证
 class DjangoObjectPermissions(DjangoModelPermissions):
     """
     The request is authenticated using Django's object-level permissions.
