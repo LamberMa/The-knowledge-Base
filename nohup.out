@@ -90,3 +90,9 @@ WARNING -  Config value: 'site_authod'. Warning: Unrecognised configuration name
 [W 190216 17:11:52 web:2162] 404 GET /search/main.js (127.0.0.1) 6.22ms
 [W 190216 17:11:52 web:2162] 404 GET /search/main.js (127.0.0.1) 3.26ms
 [I 190216 17:11:52 handlers:132] Browser Connected: http://library.wiki.local:2333/django/07-DRF/02-DRF%E8%AE%A4%E8%AF%81/
+[I 190216 17:13:16 watcher:92] Running task: <function builder at 0x102348050> (delay: None)
+INFO    -  Building documentation... 
+[I 190216 17:13:17 handlers:92] Reload 1 waiters: /Users/lamber/mkdocs/mywiki/mkdocs.yml
+[W 190216 17:13:17 web:2162] 404 GET /Users/lamber/Library/Application%20Support/typora-user-images/image-20190212141746913.png (127.0.0.1) 12.77ms
+[W 190216 17:13:17 web:2162] 404 GET /search/main.js (127.0.0.1) 4.32ms
+[I 190216 17:13:18 handlers:132] Browser Connected: http://library.wiki.local:2333/django/07-DRF/02-DRF%E8%AE%A4%E8%AF%81/
