@@ -1,0 +1,22 @@
+#!/bin/sh
+
+MKDOCS_PID=$(ps -ef | grep library.wiki.local | grep -v grep | awk '{print $2}')
+
+case $1 in 
+  start)
+    if [ -n "$MKDOCS_PID" ];then
+       echo "Program is running,don't need to start again"
+    else
+       nohup /usr/local/bin/mkdocs serve -a library.wiki.local:2333 &
+    fi
+    ;;
+  stop)
+    if [ -n "$MKDOCS_PID" ];then
+       echo "Program Process id $MKDOCS_PID is going to be killed"
+       sudo kill -9 $MKDOCS_PID
+    else
+       echo "Program is not running"
+    fi
+    ;;
+esac
+

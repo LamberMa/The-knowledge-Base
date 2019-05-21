@@ -121,4 +121,7 @@ restful有些适用项目，有些也不适用，不一定要完全符合这个�
 ```shell
 # 安装过程极其简单
 pip3 install djangorestframework
+
+# 调用过程
+from rest_framework import xxx
 ```
