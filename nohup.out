@@ -5757,3 +5757,1388 @@ WARNING -  Documentation file 'django/DRF/01-Restful.md' contains a link to 'dja
 [I 190521 18:25:47 server:298] Serving on http://library.wiki.local:2333
 [I 190521 18:25:52 handlers:59] Start watching changes
 [I 190521 18:25:52 handlers:61] Start detecting changes
+[I 190521 18:28:47 watcher:92] Running task: <function builder at 0x101773140> (delay: None)
+INFO    -  Building documentation... 
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - 3-Django框架/DRF/00-介绍.md
+  - 3-Django框架/DRF/01-Restful.md
+  - 3-Django框架/DRF/02-Request的封装.md
+  - 3-Django框架/DRF/03-DRF的认证.md
+  - 3-Django框架/DRF/04-DRF权限.md
+  - 3-Django框架/DRF/05-DRF访问限制.md
+  - 3-Django框架/DRF/06-DRF版本&解析器.md
+  - 3-Django框架/DRF/07-DRF序列化.md
+  - 3-Django框架/DRF/08-DRF分页.md
+  - 3-Django框架/DRF/09-DRF视图.md
+  - 3-Django框架/DRF/10-DRF渲染器.md
+  - 3-Django框架/DRF/15-Restful幂等.md
+  - docker/02-Docker进阶/01-Docker镜像生产实战.md
+  - docker/02-Docker进阶/02-Docker-registetry.md 
+WARNING -  A relative path to '3-Django/DRF/01-Restful.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'django/DRF/00-Restful幂等.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'django/DRF/02-Request的封装.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'django/DRF/03-DRF的认证.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'django/DRF/04-DRF权限.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'django/DRF/05-DRF访问限制.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'django/DRF/06-DRF版本&解析器.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'django/DRF/07-DRF序列化.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'api/ali/CommonInterface.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  Documentation file '3-Django框架/DRF/01-Restful.md' contains a link to '3-Django框架/DRF/www.cnblogs.com/wupeiqi/articles/7805382.html' which is not found in the documentation files. 
+[I 190521 18:28:51 watcher:92] Running task: <function builder at 0x101773140> (delay: None)
+INFO    -  Building documentation... 
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - 3-Django框架/DRF/00-介绍.md
+  - 3-Django框架/DRF/02-Request的封装.md
+  - 3-Django框架/DRF/03-DRF的认证.md
+  - 3-Django框架/DRF/04-DRF权限.md
+  - 3-Django框架/DRF/05-DRF访问限制.md
+  - 3-Django框架/DRF/06-DRF版本&解析器.md
+  - 3-Django框架/DRF/07-DRF序列化.md
+  - 3-Django框架/DRF/08-DRF分页.md
+  - 3-Django框架/DRF/09-DRF视图.md
+  - 3-Django框架/DRF/10-DRF渲染器.md
+  - 3-Django框架/DRF/15-Restful幂等.md
+  - docker/02-Docker进阶/01-Docker镜像生产实战.md
+  - docker/02-Docker进阶/02-Docker-registetry.md 
+WARNING -  A relative path to 'django/DRF/00-Restful幂等.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'django/DRF/02-Request的封装.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'django/DRF/03-DRF的认证.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'django/DRF/04-DRF权限.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'django/DRF/05-DRF访问限制.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'django/DRF/06-DRF版本&解析器.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'django/DRF/07-DRF序列化.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'api/ali/CommonInterface.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  Documentation file '3-Django框架/DRF/01-Restful.md' contains a link to '3-Django框架/DRF/www.cnblogs.com/wupeiqi/articles/7805382.html' which is not found in the documentation files. 
+[I 190521 18:28:56 watcher:92] Running task: <function builder at 0x101773140> (delay: None)
+INFO    -  Building documentation... 
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - 3-Django框架/DRF/00-介绍.md
+  - 3-Django框架/DRF/02-Request的封装.md
+  - 3-Django框架/DRF/03-DRF的认证.md
+  - 3-Django框架/DRF/04-DRF权限.md
+  - 3-Django框架/DRF/05-DRF访问限制.md
+  - 3-Django框架/DRF/06-DRF版本&解析器.md
+  - 3-Django框架/DRF/07-DRF序列化.md
+  - 3-Django框架/DRF/08-DRF分页.md
+  - 3-Django框架/DRF/09-DRF视图.md
+  - 3-Django框架/DRF/10-DRF渲染器.md
+  - 3-Django框架/DRF/15-Restful幂等.md
+  - docker/02-Docker进阶/01-Docker镜像生产实战.md
+  - docker/02-Docker进阶/02-Docker-registetry.md 
+WARNING -  A relative path to '3-Django框架/DRF/00-Restful幂等.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'django/DRF/02-Request的封装.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'django/DRF/03-DRF的认证.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'django/DRF/04-DRF权限.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'django/DRF/05-DRF访问限制.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'django/DRF/06-DRF版本&解析器.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'django/DRF/07-DRF序列化.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'api/ali/CommonInterface.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  Documentation file '3-Django框架/DRF/01-Restful.md' contains a link to '3-Django框架/DRF/www.cnblogs.com/wupeiqi/articles/7805382.html' which is not found in the documentation files. 
+[I 190521 18:28:59 watcher:92] Running task: <function builder at 0x101773140> (delay: None)
+INFO    -  Building documentation... 
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - 3-Django框架/DRF/00-介绍.md
+  - 3-Django框架/DRF/03-DRF的认证.md
+  - 3-Django框架/DRF/04-DRF权限.md
+  - 3-Django框架/DRF/05-DRF访问限制.md
+  - 3-Django框架/DRF/06-DRF版本&解析器.md
+  - 3-Django框架/DRF/07-DRF序列化.md
+  - 3-Django框架/DRF/08-DRF分页.md
+  - 3-Django框架/DRF/09-DRF视图.md
+  - 3-Django框架/DRF/10-DRF渲染器.md
+  - 3-Django框架/DRF/15-Restful幂等.md
+  - docker/02-Docker进阶/01-Docker镜像生产实战.md
+  - docker/02-Docker进阶/02-Docker-registetry.md 
+WARNING -  A relative path to '3-Django框架/DRF/00-Restful幂等.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'django/DRF/03-DRF的认证.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'django/DRF/04-DRF权限.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'django/DRF/05-DRF访问限制.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'django/DRF/06-DRF版本&解析器.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'django/DRF/07-DRF序列化.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'api/ali/CommonInterface.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  Documentation file '3-Django框架/DRF/01-Restful.md' contains a link to '3-Django框架/DRF/www.cnblogs.com/wupeiqi/articles/7805382.html' which is not found in the documentation files. 
+[I 190521 18:29:01 watcher:92] Running task: <function builder at 0x101773140> (delay: None)
+INFO    -  Building documentation... 
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - 3-Django框架/DRF/00-介绍.md
+  - 3-Django框架/DRF/04-DRF权限.md
+  - 3-Django框架/DRF/05-DRF访问限制.md
+  - 3-Django框架/DRF/06-DRF版本&解析器.md
+  - 3-Django框架/DRF/07-DRF序列化.md
+  - 3-Django框架/DRF/08-DRF分页.md
+  - 3-Django框架/DRF/09-DRF视图.md
+  - 3-Django框架/DRF/10-DRF渲染器.md
+  - 3-Django框架/DRF/15-Restful幂等.md
+  - docker/02-Docker进阶/01-Docker镜像生产实战.md
+  - docker/02-Docker进阶/02-Docker-registetry.md 
+WARNING -  A relative path to '3-Django框架/DRF/00-Restful幂等.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'django/DRF/04-DRF权限.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'django/DRF/05-DRF访问限制.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'django/DRF/06-DRF版本&解析器.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'django/DRF/07-DRF序列化.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'api/ali/CommonInterface.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  Documentation file '3-Django框架/DRF/01-Restful.md' contains a link to '3-Django框架/DRF/www.cnblogs.com/wupeiqi/articles/7805382.html' which is not found in the documentation files. 
+[I 190521 18:29:03 watcher:92] Running task: <function builder at 0x101773140> (delay: None)
+INFO    -  Building documentation... 
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - 3-Django框架/DRF/00-介绍.md
+  - 3-Django框架/DRF/05-DRF访问限制.md
+  - 3-Django框架/DRF/06-DRF版本&解析器.md
+  - 3-Django框架/DRF/07-DRF序列化.md
+  - 3-Django框架/DRF/08-DRF分页.md
+  - 3-Django框架/DRF/09-DRF视图.md
+  - 3-Django框架/DRF/10-DRF渲染器.md
+  - 3-Django框架/DRF/15-Restful幂等.md
+  - docker/02-Docker进阶/01-Docker镜像生产实战.md
+  - docker/02-Docker进阶/02-Docker-registetry.md 
+WARNING -  A relative path to '3-Django框架/DRF/00-Restful幂等.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'django/DRF/05-DRF访问限制.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'django/DRF/06-DRF版本&解析器.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'django/DRF/07-DRF序列化.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'api/ali/CommonInterface.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  Documentation file '3-Django框架/DRF/01-Restful.md' contains a link to '3-Django框架/DRF/www.cnblogs.com/wupeiqi/articles/7805382.html' which is not found in the documentation files. 
+[I 190521 18:29:06 watcher:92] Running task: <function builder at 0x101773140> (delay: None)
+INFO    -  Building documentation... 
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - 3-Django框架/DRF/00-介绍.md
+  - 3-Django框架/DRF/06-DRF版本&解析器.md
+  - 3-Django框架/DRF/07-DRF序列化.md
+  - 3-Django框架/DRF/08-DRF分页.md
+  - 3-Django框架/DRF/09-DRF视图.md
+  - 3-Django框架/DRF/10-DRF渲染器.md
+  - 3-Django框架/DRF/15-Restful幂等.md
+  - docker/02-Docker进阶/01-Docker镜像生产实战.md
+  - docker/02-Docker进阶/02-Docker-registetry.md 
+WARNING -  A relative path to '3-Django框架/DRF/00-Restful幂等.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'django/DRF/06-DRF版本&解析器.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'django/DRF/07-DRF序列化.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'api/ali/CommonInterface.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  Documentation file '3-Django框架/DRF/01-Restful.md' contains a link to '3-Django框架/DRF/www.cnblogs.com/wupeiqi/articles/7805382.html' which is not found in the documentation files. 
+[I 190521 18:29:09 watcher:92] Running task: <function builder at 0x101773140> (delay: None)
+INFO    -  Building documentation... 
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - 3-Django框架/DRF/00-介绍.md
+  - 3-Django框架/DRF/07-DRF序列化.md
+  - 3-Django框架/DRF/08-DRF分页.md
+  - 3-Django框架/DRF/09-DRF视图.md
+  - 3-Django框架/DRF/10-DRF渲染器.md
+  - 3-Django框架/DRF/15-Restful幂等.md
+  - docker/02-Docker进阶/01-Docker镜像生产实战.md
+  - docker/02-Docker进阶/02-Docker-registetry.md 
+WARNING -  A relative path to '3-Django框架/DRF/00-Restful幂等.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'django/DRF/07-DRF序列化.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'api/ali/CommonInterface.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  Documentation file '3-Django框架/DRF/01-Restful.md' contains a link to '3-Django框架/DRF/www.cnblogs.com/wupeiqi/articles/7805382.html' which is not found in the documentation files. 
+[I 190521 18:29:11 watcher:92] Running task: <function builder at 0x101773140> (delay: None)
+INFO    -  Building documentation... 
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - 3-Django框架/DRF/00-介绍.md
+  - 3-Django框架/DRF/08-DRF分页.md
+  - 3-Django框架/DRF/09-DRF视图.md
+  - 3-Django框架/DRF/10-DRF渲染器.md
+  - 3-Django框架/DRF/15-Restful幂等.md
+  - docker/02-Docker进阶/01-Docker镜像生产实战.md
+  - docker/02-Docker进阶/02-Docker-registetry.md 
+WARNING -  A relative path to '3-Django框架/DRF/00-Restful幂等.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'api/ali/CommonInterface.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  Documentation file '3-Django框架/DRF/01-Restful.md' contains a link to '3-Django框架/DRF/www.cnblogs.com/wupeiqi/articles/7805382.html' which is not found in the documentation files. 
+[I 190521 18:30:07 handlers:132] Browser Connected: http://library.wiki.local:2333/
+[I 190521 18:30:13 handlers:132] Browser Connected: http://library.wiki.local:2333/3-Django%E6%A1%86%E6%9E%B6/DRF/01-Restful/
+[I 190521 18:30:27 watcher:92] Running task: <function builder at 0x101773140> (delay: None)
+INFO    -  Building documentation... 
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - 3-Django框架/DRF/00-介绍.md
+  - 3-Django框架/DRF/08-DRF分页.md
+  - 3-Django框架/DRF/09-DRF视图.md
+  - 3-Django框架/DRF/10-DRF渲染器.md
+  - 3-Django框架/DRF/15-Restful幂等.md
+  - docker/02-Docker进阶/01-Docker镜像生产实战.md
+  - docker/02-Docker进阶/02-Docker-registetry.md 
+WARNING -  A relative path to 'Python' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to '3-Django框架/DRF/00-Restful幂等.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'api/ali/CommonInterface.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  Documentation file '3-Django框架/DRF/01-Restful.md' contains a link to '3-Django框架/DRF/www.cnblogs.com/wupeiqi/articles/7805382.html' which is not found in the documentation files. 
+[I 190521 18:30:29 handlers:92] Reload 1 waiters: /Users/lamber/mkdocs/mywiki/mkdocs.yml
+[I 190521 18:30:29 handlers:132] Browser Connected: http://library.wiki.local:2333/3-Django%E6%A1%86%E6%9E%B6/DRF/01-Restful/
+[I 190521 18:30:31 watcher:92] Running task: <function builder at 0x101773140> (delay: None)
+INFO    -  Building documentation... 
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - 3-Django框架/DRF/00-介绍.md
+  - 3-Django框架/DRF/08-DRF分页.md
+  - 3-Django框架/DRF/09-DRF视图.md
+  - 3-Django框架/DRF/10-DRF渲染器.md
+  - 3-Django框架/DRF/15-Restful幂等.md
+  - docker/02-Docker进阶/01-Docker镜像生产实战.md
+  - docker/02-Docker进阶/02-Docker-registetry.md 
+WARNING -  A relative path to 'Python' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to '3-Django框架/DRF/00-Restful幂等.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'api/ali/CommonInterface.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  Documentation file '3-Django框架/DRF/01-Restful.md' contains a link to '3-Django框架/DRF/www.cnblogs.com/wupeiqi/articles/7805382.html' which is not found in the documentation files. 
+[I 190521 18:30:33 handlers:92] Reload 1 waiters: /Users/lamber/mkdocs/mywiki/mkdocs.yml
+[I 190521 18:30:34 handlers:132] Browser Connected: http://library.wiki.local:2333/3-Django%E6%A1%86%E6%9E%B6/DRF/01-Restful/
+[I 190521 18:30:39 watcher:92] Running task: <function builder at 0x101773140> (delay: None)
+INFO    -  Building documentation... 
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - 3-Django框架/DRF/00-介绍.md
+  - 3-Django框架/DRF/08-DRF分页.md
+  - 3-Django框架/DRF/09-DRF视图.md
+  - 3-Django框架/DRF/10-DRF渲染器.md
+  - 3-Django框架/DRF/15-Restful幂等.md
+  - docker/02-Docker进阶/01-Docker镜像生产实战.md
+  - docker/02-Docker进阶/02-Docker-registetry.md 
+WARNING -  A relative path to 'Python模块' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to '3-Django框架/DRF/00-Restful幂等.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'api/ali/CommonInterface.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  Documentation file '3-Django框架/DRF/01-Restful.md' contains a link to '3-Django框架/DRF/www.cnblogs.com/wupeiqi/articles/7805382.html' which is not found in the documentation files. 
+[I 190521 18:30:41 handlers:92] Reload 1 waiters: /Users/lamber/mkdocs/mywiki/mkdocs.yml
+[I 190521 18:30:42 watcher:92] Running task: <function builder at 0x101773140> (delay: None)
+INFO    -  Building documentation... 
+[E 190521 18:30:42 ioloop:801] Exception in callback <bound method type.poll_tasks of <class 'livereload.handlers.LiveReloadHandler'>>
+    Traceback (most recent call last):
+      File "/usr/local/lib/python2.7/site-packages/tornado/ioloop.py", line 1229, in _run
+        return self.callback()
+      File "/usr/local/lib/python2.7/site-packages/livereload/handlers.py", line 66, in poll_tasks
+        filepath, delay = cls.watcher.examine()
+      File "/usr/local/lib/python2.7/site-packages/livereload/watcher.py", line 93, in examine
+        func()
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/commands/serve.py", line 114, in builder
+        build(config, live_server=live_server, dirty=dirty)
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/commands/build.py", line 267, in build
+        nav = get_navigation(files, config)
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 104, in get_navigation
+        items = _data_to_navigation(nav_config, files, config)
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 162, in _data_to_navigation
+        for item in data
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 155, in _data_to_navigation
+        for key, value in data.items()
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 162, in _data_to_navigation
+        for item in data
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 155, in _data_to_navigation
+        for key, value in data.items()
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 165, in _data_to_navigation
+        file = files.get_file_from_path(path)
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/files.py", line 33, in get_file_from_path
+        return self.src_paths.get(os.path.normpath(path))
+      File "/usr/local/Cellar/python@2/2.7.16/Frameworks/Python.framework/Versions/2.7/lib/python2.7/posixpath.py", line 342, in normpath
+        initial_slashes = path.startswith('/')
+    AttributeError: 'NoneType' object has no attribute 'startswith'
+[W 190521 18:30:42 web:2162] 404 GET /assets/fonts/specimen/FontAwesome.woff2 (127.0.0.1) 4.11ms
+[W 190521 18:30:42 web:2162] 404 GET /assets/fonts/specimen/MaterialIcons-Regular.woff2 (127.0.0.1) 1.49ms
+[I 190521 18:30:42 handlers:132] Browser Connected: http://library.wiki.local:2333/3-Django%E6%A1%86%E6%9E%B6/DRF/01-Restful/
+[I 190521 18:30:43 watcher:92] Running task: <function builder at 0x101773140> (delay: None)
+INFO    -  Building documentation... 
+[E 190521 18:30:43 ioloop:801] Exception in callback <bound method type.poll_tasks of <class 'livereload.handlers.LiveReloadHandler'>>
+    Traceback (most recent call last):
+      File "/usr/local/lib/python2.7/site-packages/tornado/ioloop.py", line 1229, in _run
+        return self.callback()
+      File "/usr/local/lib/python2.7/site-packages/livereload/handlers.py", line 66, in poll_tasks
+        filepath, delay = cls.watcher.examine()
+      File "/usr/local/lib/python2.7/site-packages/livereload/watcher.py", line 93, in examine
+        func()
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/commands/serve.py", line 114, in builder
+        build(config, live_server=live_server, dirty=dirty)
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/commands/build.py", line 267, in build
+        nav = get_navigation(files, config)
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 104, in get_navigation
+        items = _data_to_navigation(nav_config, files, config)
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 162, in _data_to_navigation
+        for item in data
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 155, in _data_to_navigation
+        for key, value in data.items()
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 162, in _data_to_navigation
+        for item in data
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 155, in _data_to_navigation
+        for key, value in data.items()
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 165, in _data_to_navigation
+        file = files.get_file_from_path(path)
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/files.py", line 33, in get_file_from_path
+        return self.src_paths.get(os.path.normpath(path))
+      File "/usr/local/Cellar/python@2/2.7.16/Frameworks/Python.framework/Versions/2.7/lib/python2.7/posixpath.py", line 342, in normpath
+        initial_slashes = path.startswith('/')
+    AttributeError: 'NoneType' object has no attribute 'startswith'
+[I 190521 18:30:52 watcher:92] Running task: <function builder at 0x101773140> (delay: None)
+INFO    -  Building documentation... 
+[E 190521 18:30:52 ioloop:801] Exception in callback <bound method type.poll_tasks of <class 'livereload.handlers.LiveReloadHandler'>>
+    Traceback (most recent call last):
+      File "/usr/local/lib/python2.7/site-packages/tornado/ioloop.py", line 1229, in _run
+        return self.callback()
+      File "/usr/local/lib/python2.7/site-packages/livereload/handlers.py", line 66, in poll_tasks
+        filepath, delay = cls.watcher.examine()
+      File "/usr/local/lib/python2.7/site-packages/livereload/watcher.py", line 93, in examine
+        func()
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/commands/serve.py", line 114, in builder
+        build(config, live_server=live_server, dirty=dirty)
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/commands/build.py", line 267, in build
+        nav = get_navigation(files, config)
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 104, in get_navigation
+        items = _data_to_navigation(nav_config, files, config)
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 162, in _data_to_navigation
+        for item in data
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 155, in _data_to_navigation
+        for key, value in data.items()
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 162, in _data_to_navigation
+        for item in data
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 155, in _data_to_navigation
+        for key, value in data.items()
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 165, in _data_to_navigation
+        file = files.get_file_from_path(path)
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/files.py", line 33, in get_file_from_path
+        return self.src_paths.get(os.path.normpath(path))
+      File "/usr/local/Cellar/python@2/2.7.16/Frameworks/Python.framework/Versions/2.7/lib/python2.7/posixpath.py", line 342, in normpath
+        initial_slashes = path.startswith('/')
+    AttributeError: 'NoneType' object has no attribute 'startswith'
+[I 190521 18:30:55 watcher:92] Running task: <function builder at 0x101773140> (delay: None)
+INFO    -  Building documentation... 
+[E 190521 18:30:55 ioloop:801] Exception in callback <bound method type.poll_tasks of <class 'livereload.handlers.LiveReloadHandler'>>
+    Traceback (most recent call last):
+      File "/usr/local/lib/python2.7/site-packages/tornado/ioloop.py", line 1229, in _run
+        return self.callback()
+      File "/usr/local/lib/python2.7/site-packages/livereload/handlers.py", line 66, in poll_tasks
+        filepath, delay = cls.watcher.examine()
+      File "/usr/local/lib/python2.7/site-packages/livereload/watcher.py", line 93, in examine
+        func()
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/commands/serve.py", line 114, in builder
+        build(config, live_server=live_server, dirty=dirty)
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/commands/build.py", line 267, in build
+        nav = get_navigation(files, config)
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 104, in get_navigation
+        items = _data_to_navigation(nav_config, files, config)
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 162, in _data_to_navigation
+        for item in data
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 155, in _data_to_navigation
+        for key, value in data.items()
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 162, in _data_to_navigation
+        for item in data
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 155, in _data_to_navigation
+        for key, value in data.items()
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 165, in _data_to_navigation
+        file = files.get_file_from_path(path)
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/files.py", line 33, in get_file_from_path
+        return self.src_paths.get(os.path.normpath(path))
+      File "/usr/local/Cellar/python@2/2.7.16/Frameworks/Python.framework/Versions/2.7/lib/python2.7/posixpath.py", line 342, in normpath
+        initial_slashes = path.startswith('/')
+    AttributeError: 'NoneType' object has no attribute 'startswith'
+[I 190521 18:30:59 watcher:92] Running task: <function builder at 0x101773140> (delay: None)
+INFO    -  Building documentation... 
+[E 190521 18:30:59 ioloop:801] Exception in callback <bound method type.poll_tasks of <class 'livereload.handlers.LiveReloadHandler'>>
+    Traceback (most recent call last):
+      File "/usr/local/lib/python2.7/site-packages/tornado/ioloop.py", line 1229, in _run
+        return self.callback()
+      File "/usr/local/lib/python2.7/site-packages/livereload/handlers.py", line 66, in poll_tasks
+        filepath, delay = cls.watcher.examine()
+      File "/usr/local/lib/python2.7/site-packages/livereload/watcher.py", line 93, in examine
+        func()
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/commands/serve.py", line 114, in builder
+        build(config, live_server=live_server, dirty=dirty)
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/commands/build.py", line 267, in build
+        nav = get_navigation(files, config)
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 104, in get_navigation
+        items = _data_to_navigation(nav_config, files, config)
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 162, in _data_to_navigation
+        for item in data
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 155, in _data_to_navigation
+        for key, value in data.items()
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 162, in _data_to_navigation
+        for item in data
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 155, in _data_to_navigation
+        for key, value in data.items()
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 162, in _data_to_navigation
+        for item in data
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 155, in _data_to_navigation
+        for key, value in data.items()
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 165, in _data_to_navigation
+        file = files.get_file_from_path(path)
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/files.py", line 33, in get_file_from_path
+        return self.src_paths.get(os.path.normpath(path))
+      File "/usr/local/Cellar/python@2/2.7.16/Frameworks/Python.framework/Versions/2.7/lib/python2.7/posixpath.py", line 342, in normpath
+        initial_slashes = path.startswith('/')
+    AttributeError: 'NoneType' object has no attribute 'startswith'
+[I 190521 18:31:02 watcher:92] Running task: <function builder at 0x101773140> (delay: None)
+INFO    -  Building documentation... 
+[E 190521 18:31:02 ioloop:801] Exception in callback <bound method type.poll_tasks of <class 'livereload.handlers.LiveReloadHandler'>>
+    Traceback (most recent call last):
+      File "/usr/local/lib/python2.7/site-packages/tornado/ioloop.py", line 1229, in _run
+        return self.callback()
+      File "/usr/local/lib/python2.7/site-packages/livereload/handlers.py", line 66, in poll_tasks
+        filepath, delay = cls.watcher.examine()
+      File "/usr/local/lib/python2.7/site-packages/livereload/watcher.py", line 93, in examine
+        func()
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/commands/serve.py", line 114, in builder
+        build(config, live_server=live_server, dirty=dirty)
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/commands/build.py", line 267, in build
+        nav = get_navigation(files, config)
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 104, in get_navigation
+        items = _data_to_navigation(nav_config, files, config)
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 162, in _data_to_navigation
+        for item in data
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 155, in _data_to_navigation
+        for key, value in data.items()
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 162, in _data_to_navigation
+        for item in data
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 155, in _data_to_navigation
+        for key, value in data.items()
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 162, in _data_to_navigation
+        for item in data
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 155, in _data_to_navigation
+        for key, value in data.items()
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 165, in _data_to_navigation
+        file = files.get_file_from_path(path)
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/files.py", line 33, in get_file_from_path
+        return self.src_paths.get(os.path.normpath(path))
+      File "/usr/local/Cellar/python@2/2.7.16/Frameworks/Python.framework/Versions/2.7/lib/python2.7/posixpath.py", line 342, in normpath
+        initial_slashes = path.startswith('/')
+    AttributeError: 'NoneType' object has no attribute 'startswith'
+[I 190521 18:31:07 watcher:92] Running task: <function builder at 0x101773140> (delay: None)
+INFO    -  Building documentation... 
+[E 190521 18:31:07 ioloop:801] Exception in callback <bound method type.poll_tasks of <class 'livereload.handlers.LiveReloadHandler'>>
+    Traceback (most recent call last):
+      File "/usr/local/lib/python2.7/site-packages/tornado/ioloop.py", line 1229, in _run
+        return self.callback()
+      File "/usr/local/lib/python2.7/site-packages/livereload/handlers.py", line 66, in poll_tasks
+        filepath, delay = cls.watcher.examine()
+      File "/usr/local/lib/python2.7/site-packages/livereload/watcher.py", line 93, in examine
+        func()
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/commands/serve.py", line 114, in builder
+        build(config, live_server=live_server, dirty=dirty)
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/commands/build.py", line 267, in build
+        nav = get_navigation(files, config)
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 104, in get_navigation
+        items = _data_to_navigation(nav_config, files, config)
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 162, in _data_to_navigation
+        for item in data
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 155, in _data_to_navigation
+        for key, value in data.items()
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 162, in _data_to_navigation
+        for item in data
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 155, in _data_to_navigation
+        for key, value in data.items()
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 162, in _data_to_navigation
+        for item in data
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 155, in _data_to_navigation
+        for key, value in data.items()
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 165, in _data_to_navigation
+        file = files.get_file_from_path(path)
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/files.py", line 33, in get_file_from_path
+        return self.src_paths.get(os.path.normpath(path))
+      File "/usr/local/Cellar/python@2/2.7.16/Frameworks/Python.framework/Versions/2.7/lib/python2.7/posixpath.py", line 342, in normpath
+        initial_slashes = path.startswith('/')
+    AttributeError: 'NoneType' object has no attribute 'startswith'
+[I 190521 18:31:14 watcher:92] Running task: <function builder at 0x101773140> (delay: None)
+INFO    -  Building documentation... 
+[E 190521 18:31:14 ioloop:801] Exception in callback <bound method type.poll_tasks of <class 'livereload.handlers.LiveReloadHandler'>>
+    Traceback (most recent call last):
+      File "/usr/local/lib/python2.7/site-packages/tornado/ioloop.py", line 1229, in _run
+        return self.callback()
+      File "/usr/local/lib/python2.7/site-packages/livereload/handlers.py", line 66, in poll_tasks
+        filepath, delay = cls.watcher.examine()
+      File "/usr/local/lib/python2.7/site-packages/livereload/watcher.py", line 93, in examine
+        func()
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/commands/serve.py", line 114, in builder
+        build(config, live_server=live_server, dirty=dirty)
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/commands/build.py", line 267, in build
+        nav = get_navigation(files, config)
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 104, in get_navigation
+        items = _data_to_navigation(nav_config, files, config)
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 162, in _data_to_navigation
+        for item in data
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 155, in _data_to_navigation
+        for key, value in data.items()
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 162, in _data_to_navigation
+        for item in data
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 155, in _data_to_navigation
+        for key, value in data.items()
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 162, in _data_to_navigation
+        for item in data
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 155, in _data_to_navigation
+        for key, value in data.items()
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 165, in _data_to_navigation
+        file = files.get_file_from_path(path)
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/files.py", line 33, in get_file_from_path
+        return self.src_paths.get(os.path.normpath(path))
+      File "/usr/local/Cellar/python@2/2.7.16/Frameworks/Python.framework/Versions/2.7/lib/python2.7/posixpath.py", line 342, in normpath
+        initial_slashes = path.startswith('/')
+    AttributeError: 'NoneType' object has no attribute 'startswith'
+[W 190521 18:31:16 web:2162] 404 GET /3-Django%E6%A1%86%E6%9E%B6/DRF/01-Restful/ (127.0.0.1) 1.01ms
+[W 190521 18:31:17 web:2162] 404 GET /favicon.ico (127.0.0.1) 2.57ms
+[W 190521 18:31:21 web:2162] 404 GET / (127.0.0.1) 1.94ms
+[I 190521 18:31:28 watcher:92] Running task: <function builder at 0x101773140> (delay: None)
+INFO    -  Building documentation... 
+[E 190521 18:31:28 ioloop:801] Exception in callback <bound method type.poll_tasks of <class 'livereload.handlers.LiveReloadHandler'>>
+    Traceback (most recent call last):
+      File "/usr/local/lib/python2.7/site-packages/tornado/ioloop.py", line 1229, in _run
+        return self.callback()
+      File "/usr/local/lib/python2.7/site-packages/livereload/handlers.py", line 66, in poll_tasks
+        filepath, delay = cls.watcher.examine()
+      File "/usr/local/lib/python2.7/site-packages/livereload/watcher.py", line 93, in examine
+        func()
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/commands/serve.py", line 114, in builder
+        build(config, live_server=live_server, dirty=dirty)
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/commands/build.py", line 267, in build
+        nav = get_navigation(files, config)
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 104, in get_navigation
+        items = _data_to_navigation(nav_config, files, config)
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 162, in _data_to_navigation
+        for item in data
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 155, in _data_to_navigation
+        for key, value in data.items()
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 162, in _data_to_navigation
+        for item in data
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 155, in _data_to_navigation
+        for key, value in data.items()
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 162, in _data_to_navigation
+        for item in data
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 155, in _data_to_navigation
+        for key, value in data.items()
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 165, in _data_to_navigation
+        file = files.get_file_from_path(path)
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/files.py", line 33, in get_file_from_path
+        return self.src_paths.get(os.path.normpath(path))
+      File "/usr/local/Cellar/python@2/2.7.16/Frameworks/Python.framework/Versions/2.7/lib/python2.7/posixpath.py", line 342, in normpath
+        initial_slashes = path.startswith('/')
+    AttributeError: 'NoneType' object has no attribute 'startswith'
+[I 190521 18:31:31 watcher:92] Running task: <function builder at 0x101773140> (delay: None)
+INFO    -  Building documentation... 
+[E 190521 18:31:31 ioloop:801] Exception in callback <bound method type.poll_tasks of <class 'livereload.handlers.LiveReloadHandler'>>
+    Traceback (most recent call last):
+      File "/usr/local/lib/python2.7/site-packages/tornado/ioloop.py", line 1229, in _run
+        return self.callback()
+      File "/usr/local/lib/python2.7/site-packages/livereload/handlers.py", line 66, in poll_tasks
+        filepath, delay = cls.watcher.examine()
+      File "/usr/local/lib/python2.7/site-packages/livereload/watcher.py", line 93, in examine
+        func()
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/commands/serve.py", line 114, in builder
+        build(config, live_server=live_server, dirty=dirty)
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/commands/build.py", line 267, in build
+        nav = get_navigation(files, config)
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 104, in get_navigation
+        items = _data_to_navigation(nav_config, files, config)
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 162, in _data_to_navigation
+        for item in data
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 155, in _data_to_navigation
+        for key, value in data.items()
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 162, in _data_to_navigation
+        for item in data
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 155, in _data_to_navigation
+        for key, value in data.items()
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 162, in _data_to_navigation
+        for item in data
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 155, in _data_to_navigation
+        for key, value in data.items()
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 165, in _data_to_navigation
+        file = files.get_file_from_path(path)
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/files.py", line 33, in get_file_from_path
+        return self.src_paths.get(os.path.normpath(path))
+      File "/usr/local/Cellar/python@2/2.7.16/Frameworks/Python.framework/Versions/2.7/lib/python2.7/posixpath.py", line 342, in normpath
+        initial_slashes = path.startswith('/')
+    AttributeError: 'NoneType' object has no attribute 'startswith'
+[W 190521 18:31:33 web:2162] 404 GET / (127.0.0.1) 0.99ms
+[I 190521 18:32:18 watcher:92] Running task: <function builder at 0x101773140> (delay: None)
+INFO    -  Building documentation... 
+[E 190521 18:32:18 ioloop:801] Exception in callback <bound method type.poll_tasks of <class 'livereload.handlers.LiveReloadHandler'>>
+    Traceback (most recent call last):
+      File "/usr/local/lib/python2.7/site-packages/tornado/ioloop.py", line 1229, in _run
+        return self.callback()
+      File "/usr/local/lib/python2.7/site-packages/livereload/handlers.py", line 66, in poll_tasks
+        filepath, delay = cls.watcher.examine()
+      File "/usr/local/lib/python2.7/site-packages/livereload/watcher.py", line 93, in examine
+        func()
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/commands/serve.py", line 114, in builder
+        build(config, live_server=live_server, dirty=dirty)
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/commands/build.py", line 267, in build
+        nav = get_navigation(files, config)
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 104, in get_navigation
+        items = _data_to_navigation(nav_config, files, config)
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 162, in _data_to_navigation
+        for item in data
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 155, in _data_to_navigation
+        for key, value in data.items()
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 162, in _data_to_navigation
+        for item in data
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 155, in _data_to_navigation
+        for key, value in data.items()
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 162, in _data_to_navigation
+        for item in data
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 155, in _data_to_navigation
+        for key, value in data.items()
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 165, in _data_to_navigation
+        file = files.get_file_from_path(path)
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/files.py", line 33, in get_file_from_path
+        return self.src_paths.get(os.path.normpath(path))
+      File "/usr/local/Cellar/python@2/2.7.16/Frameworks/Python.framework/Versions/2.7/lib/python2.7/posixpath.py", line 342, in normpath
+        initial_slashes = path.startswith('/')
+    AttributeError: 'NoneType' object has no attribute 'startswith'
+[I 190521 18:32:26 watcher:92] Running task: <function builder at 0x101773140> (delay: None)
+INFO    -  Building documentation... 
+[E 190521 18:32:26 ioloop:801] Exception in callback <bound method type.poll_tasks of <class 'livereload.handlers.LiveReloadHandler'>>
+    Traceback (most recent call last):
+      File "/usr/local/lib/python2.7/site-packages/tornado/ioloop.py", line 1229, in _run
+        return self.callback()
+      File "/usr/local/lib/python2.7/site-packages/livereload/handlers.py", line 66, in poll_tasks
+        filepath, delay = cls.watcher.examine()
+      File "/usr/local/lib/python2.7/site-packages/livereload/watcher.py", line 93, in examine
+        func()
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/commands/serve.py", line 114, in builder
+        build(config, live_server=live_server, dirty=dirty)
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/commands/build.py", line 267, in build
+        nav = get_navigation(files, config)
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 104, in get_navigation
+        items = _data_to_navigation(nav_config, files, config)
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 162, in _data_to_navigation
+        for item in data
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 155, in _data_to_navigation
+        for key, value in data.items()
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 162, in _data_to_navigation
+        for item in data
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 155, in _data_to_navigation
+        for key, value in data.items()
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 162, in _data_to_navigation
+        for item in data
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 155, in _data_to_navigation
+        for key, value in data.items()
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 165, in _data_to_navigation
+        file = files.get_file_from_path(path)
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/files.py", line 33, in get_file_from_path
+        return self.src_paths.get(os.path.normpath(path))
+      File "/usr/local/Cellar/python@2/2.7.16/Frameworks/Python.framework/Versions/2.7/lib/python2.7/posixpath.py", line 342, in normpath
+        initial_slashes = path.startswith('/')
+    AttributeError: 'NoneType' object has no attribute 'startswith'
+[I 190521 18:32:29 watcher:92] Running task: <function builder at 0x101773140> (delay: None)
+INFO    -  Building documentation... 
+[E 190521 18:32:29 ioloop:801] Exception in callback <bound method type.poll_tasks of <class 'livereload.handlers.LiveReloadHandler'>>
+    Traceback (most recent call last):
+      File "/usr/local/lib/python2.7/site-packages/tornado/ioloop.py", line 1229, in _run
+        return self.callback()
+      File "/usr/local/lib/python2.7/site-packages/livereload/handlers.py", line 66, in poll_tasks
+        filepath, delay = cls.watcher.examine()
+      File "/usr/local/lib/python2.7/site-packages/livereload/watcher.py", line 93, in examine
+        func()
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/commands/serve.py", line 114, in builder
+        build(config, live_server=live_server, dirty=dirty)
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/commands/build.py", line 267, in build
+        nav = get_navigation(files, config)
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 104, in get_navigation
+        items = _data_to_navigation(nav_config, files, config)
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 162, in _data_to_navigation
+        for item in data
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 155, in _data_to_navigation
+        for key, value in data.items()
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 162, in _data_to_navigation
+        for item in data
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 155, in _data_to_navigation
+        for key, value in data.items()
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 162, in _data_to_navigation
+        for item in data
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 155, in _data_to_navigation
+        for key, value in data.items()
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 165, in _data_to_navigation
+        file = files.get_file_from_path(path)
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/files.py", line 33, in get_file_from_path
+        return self.src_paths.get(os.path.normpath(path))
+      File "/usr/local/Cellar/python@2/2.7.16/Frameworks/Python.framework/Versions/2.7/lib/python2.7/posixpath.py", line 342, in normpath
+        initial_slashes = path.startswith('/')
+    AttributeError: 'NoneType' object has no attribute 'startswith'
+[I 190521 18:32:31 watcher:92] Running task: <function builder at 0x101773140> (delay: None)
+INFO    -  Building documentation... 
+[E 190521 18:32:31 ioloop:801] Exception in callback <bound method type.poll_tasks of <class 'livereload.handlers.LiveReloadHandler'>>
+    Traceback (most recent call last):
+      File "/usr/local/lib/python2.7/site-packages/tornado/ioloop.py", line 1229, in _run
+        return self.callback()
+      File "/usr/local/lib/python2.7/site-packages/livereload/handlers.py", line 66, in poll_tasks
+        filepath, delay = cls.watcher.examine()
+      File "/usr/local/lib/python2.7/site-packages/livereload/watcher.py", line 93, in examine
+        func()
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/commands/serve.py", line 114, in builder
+        build(config, live_server=live_server, dirty=dirty)
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/commands/build.py", line 267, in build
+        nav = get_navigation(files, config)
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 104, in get_navigation
+        items = _data_to_navigation(nav_config, files, config)
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 162, in _data_to_navigation
+        for item in data
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 155, in _data_to_navigation
+        for key, value in data.items()
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 162, in _data_to_navigation
+        for item in data
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 155, in _data_to_navigation
+        for key, value in data.items()
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 162, in _data_to_navigation
+        for item in data
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 155, in _data_to_navigation
+        for key, value in data.items()
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 165, in _data_to_navigation
+        file = files.get_file_from_path(path)
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/files.py", line 33, in get_file_from_path
+        return self.src_paths.get(os.path.normpath(path))
+      File "/usr/local/Cellar/python@2/2.7.16/Frameworks/Python.framework/Versions/2.7/lib/python2.7/posixpath.py", line 342, in normpath
+        initial_slashes = path.startswith('/')
+    AttributeError: 'NoneType' object has no attribute 'startswith'
+[I 190521 18:32:39 watcher:92] Running task: <function builder at 0x101773140> (delay: None)
+INFO    -  Building documentation... 
+[E 190521 18:32:39 ioloop:801] Exception in callback <bound method type.poll_tasks of <class 'livereload.handlers.LiveReloadHandler'>>
+    Traceback (most recent call last):
+      File "/usr/local/lib/python2.7/site-packages/tornado/ioloop.py", line 1229, in _run
+        return self.callback()
+      File "/usr/local/lib/python2.7/site-packages/livereload/handlers.py", line 66, in poll_tasks
+        filepath, delay = cls.watcher.examine()
+      File "/usr/local/lib/python2.7/site-packages/livereload/watcher.py", line 93, in examine
+        func()
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/commands/serve.py", line 114, in builder
+        build(config, live_server=live_server, dirty=dirty)
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/commands/build.py", line 267, in build
+        nav = get_navigation(files, config)
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 104, in get_navigation
+        items = _data_to_navigation(nav_config, files, config)
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 162, in _data_to_navigation
+        for item in data
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 155, in _data_to_navigation
+        for key, value in data.items()
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 162, in _data_to_navigation
+        for item in data
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 155, in _data_to_navigation
+        for key, value in data.items()
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 162, in _data_to_navigation
+        for item in data
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 155, in _data_to_navigation
+        for key, value in data.items()
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 165, in _data_to_navigation
+        file = files.get_file_from_path(path)
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/files.py", line 33, in get_file_from_path
+        return self.src_paths.get(os.path.normpath(path))
+      File "/usr/local/Cellar/python@2/2.7.16/Frameworks/Python.framework/Versions/2.7/lib/python2.7/posixpath.py", line 342, in normpath
+        initial_slashes = path.startswith('/')
+    AttributeError: 'NoneType' object has no attribute 'startswith'
+[I 190521 18:32:44 watcher:92] Running task: <function builder at 0x101773140> (delay: None)
+INFO    -  Building documentation... 
+[E 190521 18:32:44 ioloop:801] Exception in callback <bound method type.poll_tasks of <class 'livereload.handlers.LiveReloadHandler'>>
+    Traceback (most recent call last):
+      File "/usr/local/lib/python2.7/site-packages/tornado/ioloop.py", line 1229, in _run
+        return self.callback()
+      File "/usr/local/lib/python2.7/site-packages/livereload/handlers.py", line 66, in poll_tasks
+        filepath, delay = cls.watcher.examine()
+      File "/usr/local/lib/python2.7/site-packages/livereload/watcher.py", line 93, in examine
+        func()
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/commands/serve.py", line 114, in builder
+        build(config, live_server=live_server, dirty=dirty)
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/commands/build.py", line 267, in build
+        nav = get_navigation(files, config)
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 104, in get_navigation
+        items = _data_to_navigation(nav_config, files, config)
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 162, in _data_to_navigation
+        for item in data
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 155, in _data_to_navigation
+        for key, value in data.items()
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 162, in _data_to_navigation
+        for item in data
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 155, in _data_to_navigation
+        for key, value in data.items()
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 162, in _data_to_navigation
+        for item in data
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 155, in _data_to_navigation
+        for key, value in data.items()
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 165, in _data_to_navigation
+        file = files.get_file_from_path(path)
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/files.py", line 33, in get_file_from_path
+        return self.src_paths.get(os.path.normpath(path))
+      File "/usr/local/Cellar/python@2/2.7.16/Frameworks/Python.framework/Versions/2.7/lib/python2.7/posixpath.py", line 342, in normpath
+        initial_slashes = path.startswith('/')
+    AttributeError: 'NoneType' object has no attribute 'startswith'
+[I 190521 18:32:59 watcher:92] Running task: <function builder at 0x101773140> (delay: None)
+INFO    -  Building documentation... 
+[E 190521 18:32:59 ioloop:801] Exception in callback <bound method type.poll_tasks of <class 'livereload.handlers.LiveReloadHandler'>>
+    Traceback (most recent call last):
+      File "/usr/local/lib/python2.7/site-packages/tornado/ioloop.py", line 1229, in _run
+        return self.callback()
+      File "/usr/local/lib/python2.7/site-packages/livereload/handlers.py", line 66, in poll_tasks
+        filepath, delay = cls.watcher.examine()
+      File "/usr/local/lib/python2.7/site-packages/livereload/watcher.py", line 93, in examine
+        func()
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/commands/serve.py", line 114, in builder
+        build(config, live_server=live_server, dirty=dirty)
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/commands/build.py", line 267, in build
+        nav = get_navigation(files, config)
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 104, in get_navigation
+        items = _data_to_navigation(nav_config, files, config)
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 162, in _data_to_navigation
+        for item in data
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 155, in _data_to_navigation
+        for key, value in data.items()
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 162, in _data_to_navigation
+        for item in data
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 155, in _data_to_navigation
+        for key, value in data.items()
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 162, in _data_to_navigation
+        for item in data
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 155, in _data_to_navigation
+        for key, value in data.items()
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 165, in _data_to_navigation
+        file = files.get_file_from_path(path)
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/files.py", line 33, in get_file_from_path
+        return self.src_paths.get(os.path.normpath(path))
+      File "/usr/local/Cellar/python@2/2.7.16/Frameworks/Python.framework/Versions/2.7/lib/python2.7/posixpath.py", line 342, in normpath
+        initial_slashes = path.startswith('/')
+    AttributeError: 'NoneType' object has no attribute 'startswith'
+[I 190521 18:33:08 watcher:92] Running task: <function builder at 0x101773140> (delay: None)
+INFO    -  Building documentation... 
+[E 190521 18:33:08 ioloop:801] Exception in callback <bound method type.poll_tasks of <class 'livereload.handlers.LiveReloadHandler'>>
+    Traceback (most recent call last):
+      File "/usr/local/lib/python2.7/site-packages/tornado/ioloop.py", line 1229, in _run
+        return self.callback()
+      File "/usr/local/lib/python2.7/site-packages/livereload/handlers.py", line 66, in poll_tasks
+        filepath, delay = cls.watcher.examine()
+      File "/usr/local/lib/python2.7/site-packages/livereload/watcher.py", line 93, in examine
+        func()
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/commands/serve.py", line 114, in builder
+        build(config, live_server=live_server, dirty=dirty)
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/commands/build.py", line 267, in build
+        nav = get_navigation(files, config)
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 104, in get_navigation
+        items = _data_to_navigation(nav_config, files, config)
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 162, in _data_to_navigation
+        for item in data
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 155, in _data_to_navigation
+        for key, value in data.items()
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 162, in _data_to_navigation
+        for item in data
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 155, in _data_to_navigation
+        for key, value in data.items()
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 162, in _data_to_navigation
+        for item in data
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 155, in _data_to_navigation
+        for key, value in data.items()
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 165, in _data_to_navigation
+        file = files.get_file_from_path(path)
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/files.py", line 33, in get_file_from_path
+        return self.src_paths.get(os.path.normpath(path))
+      File "/usr/local/Cellar/python@2/2.7.16/Frameworks/Python.framework/Versions/2.7/lib/python2.7/posixpath.py", line 342, in normpath
+        initial_slashes = path.startswith('/')
+    AttributeError: 'NoneType' object has no attribute 'startswith'
+[I 190521 18:33:18 watcher:92] Running task: <function builder at 0x101773140> (delay: None)
+INFO    -  Building documentation... 
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - 1-Python基础/1-模块/time.md
+  - 3-Django框架/DRF/00-介绍.md
+  - 3-Django框架/DRF/08-DRF分页.md
+  - 3-Django框架/DRF/09-DRF视图.md
+  - 3-Django框架/DRF/10-DRF渲染器.md
+  - 3-Django框架/DRF/15-Restful幂等.md
+  - docker/02-Docker进阶/01-Docker镜像生产实战.md
+  - docker/02-Docker进阶/02-Docker-registetry.md 
+WARNING -  A relative path to '01-' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to '3-Django框架/DRF/00-Restful幂等.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'api/ali/CommonInterface.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  Documentation file '3-Django框架/DRF/01-Restful.md' contains a link to '3-Django框架/DRF/www.cnblogs.com/wupeiqi/articles/7805382.html' which is not found in the documentation files. 
+[I 190521 18:33:22 watcher:92] Running task: <function builder at 0x101773140> (delay: None)
+INFO    -  Building documentation... 
+[E 190521 18:33:22 ioloop:801] Exception in callback <bound method type.poll_tasks of <class 'livereload.handlers.LiveReloadHandler'>>
+    Traceback (most recent call last):
+      File "/usr/local/lib/python2.7/site-packages/tornado/ioloop.py", line 1229, in _run
+        return self.callback()
+      File "/usr/local/lib/python2.7/site-packages/livereload/handlers.py", line 66, in poll_tasks
+        filepath, delay = cls.watcher.examine()
+      File "/usr/local/lib/python2.7/site-packages/livereload/watcher.py", line 93, in examine
+        func()
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/commands/serve.py", line 114, in builder
+        build(config, live_server=live_server, dirty=dirty)
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/commands/build.py", line 267, in build
+        nav = get_navigation(files, config)
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 104, in get_navigation
+        items = _data_to_navigation(nav_config, files, config)
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 162, in _data_to_navigation
+        for item in data
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 155, in _data_to_navigation
+        for key, value in data.items()
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 162, in _data_to_navigation
+        for item in data
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 155, in _data_to_navigation
+        for key, value in data.items()
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 162, in _data_to_navigation
+        for item in data
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 155, in _data_to_navigation
+        for key, value in data.items()
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 162, in _data_to_navigation
+        for item in data
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 155, in _data_to_navigation
+        for key, value in data.items()
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/nav.py", line 165, in _data_to_navigation
+        file = files.get_file_from_path(path)
+      File "/usr/local/lib/python2.7/site-packages/mkdocs/structure/files.py", line 33, in get_file_from_path
+        return self.src_paths.get(os.path.normpath(path))
+      File "/usr/local/Cellar/python@2/2.7.16/Frameworks/Python.framework/Versions/2.7/lib/python2.7/posixpath.py", line 342, in normpath
+        initial_slashes = path.startswith('/')
+    AttributeError: 'NoneType' object has no attribute 'startswith'
+[I 190521 18:33:27 watcher:92] Running task: <function builder at 0x101773140> (delay: None)
+INFO    -  Building documentation... 
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - 1-Python基础/1-模块/time.md
+  - 3-Django框架/DRF/00-介绍.md
+  - 3-Django框架/DRF/08-DRF分页.md
+  - 3-Django框架/DRF/09-DRF视图.md
+  - 3-Django框架/DRF/10-DRF渲染器.md
+  - 3-Django框架/DRF/15-Restful幂等.md
+  - docker/02-Docker进阶/01-Docker镜像生产实战.md
+  - docker/02-Docker进阶/02-Docker-registetry.md 
+WARNING -  A relative path to '3-Django框架/DRF/00-Restful幂等.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'api/ali/CommonInterface.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  Documentation file '3-Django框架/DRF/01-Restful.md' contains a link to '3-Django框架/DRF/www.cnblogs.com/wupeiqi/articles/7805382.html' which is not found in the documentation files. 
+[I 190521 18:33:36 watcher:92] Running task: <function builder at 0x101773140> (delay: None)
+INFO    -  Building documentation... 
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - 1-Python基础/1-模块/time.md
+  - 3-Django框架/DRF/00-介绍.md
+  - 3-Django框架/DRF/08-DRF分页.md
+  - 3-Django框架/DRF/09-DRF视图.md
+  - 3-Django框架/DRF/10-DRF渲染器.md
+  - 3-Django框架/DRF/15-Restful幂等.md
+  - docker/02-Docker进阶/01-Docker镜像生产实战.md
+  - docker/02-Docker进阶/02-Docker-registetry.md 
+WARNING -  A relative path to '1-Python基础/1-模块/str.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to '3-Django框架/DRF/00-Restful幂等.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'api/ali/CommonInterface.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  Documentation file '3-Django框架/DRF/01-Restful.md' contains a link to '3-Django框架/DRF/www.cnblogs.com/wupeiqi/articles/7805382.html' which is not found in the documentation files. 
+[I 190521 18:33:39 watcher:92] Running task: <function builder at 0x101773140> (delay: None)
+INFO    -  Building documentation... 
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - 3-Django框架/DRF/00-介绍.md
+  - 3-Django框架/DRF/08-DRF分页.md
+  - 3-Django框架/DRF/09-DRF视图.md
+  - 3-Django框架/DRF/10-DRF渲染器.md
+  - 3-Django框架/DRF/15-Restful幂等.md
+  - docker/02-Docker进阶/01-Docker镜像生产实战.md
+  - docker/02-Docker进阶/02-Docker-registetry.md 
+WARNING -  A relative path to '3-Django框架/DRF/00-Restful幂等.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'api/ali/CommonInterface.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  Documentation file '3-Django框架/DRF/01-Restful.md' contains a link to '3-Django框架/DRF/www.cnblogs.com/wupeiqi/articles/7805382.html' which is not found in the documentation files. 
+[I 190521 18:33:45 handlers:132] Browser Connected: http://library.wiki.local:2333/
+[I 190521 18:33:50 handlers:132] Browser Connected: http://library.wiki.local:2333/1-Python%E5%9F%BA%E7%A1%80/1-%E6%A8%A1%E5%9D%97/time/
+[I 190521 18:33:52 handlers:132] Browser Connected: http://library.wiki.local:2333/1-Python%E5%9F%BA%E7%A1%80/2-%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/str/
+[I 190521 18:34:03 watcher:92] Running task: <function builder at 0x101773140> (delay: None)
+INFO    -  Building documentation... 
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - 3-Django框架/DRF/00-介绍.md
+  - 3-Django框架/DRF/08-DRF分页.md
+  - 3-Django框架/DRF/09-DRF视图.md
+  - 3-Django框架/DRF/10-DRF渲染器.md
+  - 3-Django框架/DRF/15-Restful幂等.md
+  - docker/02-Docker进阶/01-Docker镜像生产实战.md
+  - docker/02-Docker进阶/02-Docker-registetry.md 
+WARNING -  A relative path to '3-Django框架/DRF/00-Restful幂等.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'api/ali/CommonInterface.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  Documentation file '3-Django框架/DRF/01-Restful.md' contains a link to '3-Django框架/DRF/www.cnblogs.com/wupeiqi/articles/7805382.html' which is not found in the documentation files. 
+[I 190521 18:34:05 handlers:92] Reload 1 waiters: /Users/lamber/mkdocs/mywiki/mkdocs.yml
+[I 190521 18:34:05 handlers:132] Browser Connected: http://library.wiki.local:2333/1-Python%E5%9F%BA%E7%A1%80/2-%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/str/
+[I 190521 18:34:17 watcher:92] Running task: <function builder at 0x101773140> (delay: None)
+INFO    -  Building documentation... 
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - 3-Django框架/DRF/00-介绍.md
+  - 3-Django框架/DRF/08-DRF分页.md
+  - 3-Django框架/DRF/09-DRF视图.md
+  - 3-Django框架/DRF/10-DRF渲染器.md
+  - 3-Django框架/DRF/15-Restful幂等.md
+  - docker/02-Docker进阶/01-Docker镜像生产实战.md
+  - docker/02-Docker进阶/02-Docker-registetry.md 
+WARNING -  A relative path to '3-Django框架/DRF/00-Restful幂等.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'api/ali/CommonInterface.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  Documentation file '3-Django框架/DRF/01-Restful.md' contains a link to '3-Django框架/DRF/www.cnblogs.com/wupeiqi/articles/7805382.html' which is not found in the documentation files. 
+[I 190521 18:34:20 handlers:92] Reload 1 waiters: /Users/lamber/mkdocs/mywiki/mkdocs.yml
+[I 190521 18:34:21 handlers:132] Browser Connected: http://library.wiki.local:2333/1-Python%E5%9F%BA%E7%A1%80/2-%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/str/
+[I 190521 18:34:47 watcher:92] Running task: <function builder at 0x101773140> (delay: None)
+INFO    -  Building documentation... 
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - 3-Django框架/DRF/00-介绍.md
+  - 3-Django框架/DRF/08-DRF分页.md
+  - 3-Django框架/DRF/09-DRF视图.md
+  - 3-Django框架/DRF/10-DRF渲染器.md
+  - 3-Django框架/DRF/15-Restful幂等.md
+  - docker/02-Docker进阶/01-Docker镜像生产实战.md
+  - docker/02-Docker进阶/02-Docker-registetry.md 
+WARNING -  A relative path to '3-Django框架/DRF/00-Restful幂等.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'api/ali/CommonInterface.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  Documentation file '3-Django框架/DRF/01-Restful.md' contains a link to '3-Django框架/DRF/www.cnblogs.com/wupeiqi/articles/7805382.html' which is not found in the documentation files. 
+[I 190521 18:34:49 handlers:92] Reload 1 waiters: /Users/lamber/mkdocs/mywiki/docs/1-Python基础/2-数据类型/str.md
+[I 190521 18:34:49 handlers:132] Browser Connected: http://library.wiki.local:2333/1-Python%E5%9F%BA%E7%A1%80/2-%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/str/
+[I 190521 18:34:52 watcher:92] Running task: <function builder at 0x101773140> (delay: None)
+INFO    -  Building documentation... 
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - 3-Django框架/DRF/00-介绍.md
+  - 3-Django框架/DRF/08-DRF分页.md
+  - 3-Django框架/DRF/09-DRF视图.md
+  - 3-Django框架/DRF/10-DRF渲染器.md
+  - 3-Django框架/DRF/15-Restful幂等.md
+  - docker/02-Docker进阶/01-Docker镜像生产实战.md
+  - docker/02-Docker进阶/02-Docker-registetry.md 
+WARNING -  A relative path to '3-Django框架/DRF/00-Restful幂等.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'api/ali/CommonInterface.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  Documentation file '3-Django框架/DRF/01-Restful.md' contains a link to '3-Django框架/DRF/www.cnblogs.com/wupeiqi/articles/7805382.html' which is not found in the documentation files. 
+[I 190521 18:34:55 handlers:92] Reload 1 waiters: /Users/lamber/mkdocs/mywiki/docs/1-Python基础/2-数据类型/str.md
+[I 190521 18:34:55 handlers:132] Browser Connected: http://library.wiki.local:2333/1-Python%E5%9F%BA%E7%A1%80/2-%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/str/
+[I 190521 18:35:15 watcher:92] Running task: <function builder at 0x101773140> (delay: None)
+INFO    -  Building documentation... 
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - 3-Django框架/DRF/00-介绍.md
+  - 3-Django框架/DRF/08-DRF分页.md
+  - 3-Django框架/DRF/09-DRF视图.md
+  - 3-Django框架/DRF/10-DRF渲染器.md
+  - 3-Django框架/DRF/15-Restful幂等.md
+  - docker/02-Docker进阶/01-Docker镜像生产实战.md
+  - docker/02-Docker进阶/02-Docker-registetry.md 
+WARNING -  A relative path to '3-Django框架/DRF/00-Restful幂等.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'api/ali/CommonInterface.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  Documentation file '3-Django框架/DRF/01-Restful.md' contains a link to '3-Django框架/DRF/www.cnblogs.com/wupeiqi/articles/7805382.html' which is not found in the documentation files. 
+[I 190521 18:35:17 handlers:92] Reload 1 waiters: /Users/lamber/mkdocs/mywiki/docs/1-Python基础/2-数据类型/str.md
+[I 190521 18:35:17 handlers:132] Browser Connected: http://library.wiki.local:2333/1-Python%E5%9F%BA%E7%A1%80/2-%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/str/
+[I 190521 18:35:27 watcher:92] Running task: <function builder at 0x101773140> (delay: None)
+INFO    -  Building documentation... 
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - 3-Django框架/DRF/00-介绍.md
+  - 3-Django框架/DRF/08-DRF分页.md
+  - 3-Django框架/DRF/09-DRF视图.md
+  - 3-Django框架/DRF/10-DRF渲染器.md
+  - 3-Django框架/DRF/15-Restful幂等.md
+  - docker/02-Docker进阶/01-Docker镜像生产实战.md
+  - docker/02-Docker进阶/02-Docker-registetry.md 
+WARNING -  A relative path to '3-Django框架/DRF/00-Restful幂等.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'api/ali/CommonInterface.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  Documentation file '3-Django框架/DRF/01-Restful.md' contains a link to '3-Django框架/DRF/www.cnblogs.com/wupeiqi/articles/7805382.html' which is not found in the documentation files. 
+[I 190521 18:35:29 handlers:92] Reload 1 waiters: /Users/lamber/mkdocs/mywiki/docs/1-Python基础/2-数据类型/str.md
+[I 190521 18:35:29 handlers:132] Browser Connected: http://library.wiki.local:2333/1-Python%E5%9F%BA%E7%A1%80/2-%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/str/
+[I 190521 18:35:30 watcher:92] Running task: <function builder at 0x101773140> (delay: None)
+INFO    -  Building documentation... 
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - 3-Django框架/DRF/00-介绍.md
+  - 3-Django框架/DRF/08-DRF分页.md
+  - 3-Django框架/DRF/09-DRF视图.md
+  - 3-Django框架/DRF/10-DRF渲染器.md
+  - 3-Django框架/DRF/15-Restful幂等.md
+  - docker/02-Docker进阶/01-Docker镜像生产实战.md
+  - docker/02-Docker进阶/02-Docker-registetry.md 
+WARNING -  A relative path to '3-Django框架/DRF/00-Restful幂等.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'api/ali/CommonInterface.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  Documentation file '3-Django框架/DRF/01-Restful.md' contains a link to '3-Django框架/DRF/www.cnblogs.com/wupeiqi/articles/7805382.html' which is not found in the documentation files. 
+[I 190521 18:35:32 handlers:92] Reload 1 waiters: /Users/lamber/mkdocs/mywiki/docs/1-Python基础/2-数据类型/str.md
+[I 190521 18:35:33 handlers:132] Browser Connected: http://library.wiki.local:2333/1-Python%E5%9F%BA%E7%A1%80/2-%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/str/
+[I 190521 18:36:01 watcher:92] Running task: <function builder at 0x101773140> (delay: None)
+INFO    -  Building documentation... 
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - 3-Django框架/DRF/00-介绍.md
+  - 3-Django框架/DRF/08-DRF分页.md
+  - 3-Django框架/DRF/09-DRF视图.md
+  - 3-Django框架/DRF/10-DRF渲染器.md
+  - 3-Django框架/DRF/15-Restful幂等.md
+  - docker/02-Docker进阶/01-Docker镜像生产实战.md
+  - docker/02-Docker进阶/02-Docker-registetry.md 
+WARNING -  A relative path to '3-Django框架/DRF/00-Restful幂等.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'api/ali/CommonInterface.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  Documentation file '3-Django框架/DRF/01-Restful.md' contains a link to '3-Django框架/DRF/www.cnblogs.com/wupeiqi/articles/7805382.html' which is not found in the documentation files. 
+[I 190521 18:36:03 handlers:92] Reload 1 waiters: /Users/lamber/mkdocs/mywiki/docs/1-Python基础/2-数据类型/str.md
+[I 190521 18:36:04 handlers:132] Browser Connected: http://library.wiki.local:2333/1-Python%E5%9F%BA%E7%A1%80/2-%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/str/
+[I 190521 18:36:14 handlers:132] Browser Connected: http://library.wiki.local:2333/1-Python%E5%9F%BA%E7%A1%80/2-%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/str/
+[I 190521 18:36:25 watcher:92] Running task: <function builder at 0x101773140> (delay: None)
+INFO    -  Building documentation... 
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - 3-Django框架/DRF/00-介绍.md
+  - 3-Django框架/DRF/08-DRF分页.md
+  - 3-Django框架/DRF/09-DRF视图.md
+  - 3-Django框架/DRF/10-DRF渲染器.md
+  - 3-Django框架/DRF/15-Restful幂等.md
+  - docker/02-Docker进阶/01-Docker镜像生产实战.md
+  - docker/02-Docker进阶/02-Docker-registetry.md 
+WARNING -  A relative path to '3-Django框架/DRF/00-Restful幂等.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'api/ali/CommonInterface.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  Documentation file '3-Django框架/DRF/01-Restful.md' contains a link to '3-Django框架/DRF/www.cnblogs.com/wupeiqi/articles/7805382.html' which is not found in the documentation files. 
+[I 190521 18:36:28 handlers:92] Reload 1 waiters: /Users/lamber/mkdocs/mywiki/docs/1-Python基础/2-数据类型/str.md
+[I 190521 18:36:28 handlers:132] Browser Connected: http://library.wiki.local:2333/1-Python%E5%9F%BA%E7%A1%80/2-%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/str/
+[I 190521 18:36:49 watcher:92] Running task: <function builder at 0x101773140> (delay: None)
+INFO    -  Building documentation... 
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - 3-Django框架/DRF/00-介绍.md
+  - 3-Django框架/DRF/08-DRF分页.md
+  - 3-Django框架/DRF/09-DRF视图.md
+  - 3-Django框架/DRF/10-DRF渲染器.md
+  - 3-Django框架/DRF/15-Restful幂等.md
+  - docker/02-Docker进阶/01-Docker镜像生产实战.md
+  - docker/02-Docker进阶/02-Docker-registetry.md 
+WARNING -  A relative path to '3-Django框架/DRF/00-Restful幂等.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'api/ali/CommonInterface.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  Documentation file '3-Django框架/DRF/01-Restful.md' contains a link to '3-Django框架/DRF/www.cnblogs.com/wupeiqi/articles/7805382.html' which is not found in the documentation files. 
+[I 190521 18:36:51 handlers:92] Reload 1 waiters: /Users/lamber/mkdocs/mywiki/docs/1-Python基础/2-数据类型/str.md
+[I 190521 18:36:51 handlers:132] Browser Connected: http://library.wiki.local:2333/1-Python%E5%9F%BA%E7%A1%80/2-%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/str/
+[I 190521 18:42:11 watcher:92] Running task: <function builder at 0x101773140> (delay: None)
+INFO    -  Building documentation... 
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - 3-Django框架/DRF/00-介绍.md
+  - 3-Django框架/DRF/08-DRF分页.md
+  - 3-Django框架/DRF/09-DRF视图.md
+  - 3-Django框架/DRF/10-DRF渲染器.md
+  - 3-Django框架/DRF/15-Restful幂等.md
+  - docker/02-Docker进阶/01-Docker镜像生产实战.md
+  - docker/02-Docker进阶/02-Docker-registetry.md 
+WARNING -  A relative path to '3-Django框架/DRF/00-Restful幂等.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'api/ali/CommonInterface.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  Documentation file '3-Django框架/DRF/01-Restful.md' contains a link to '3-Django框架/DRF/www.cnblogs.com/wupeiqi/articles/7805382.html' which is not found in the documentation files. 
+[I 190521 18:42:13 handlers:92] Reload 1 waiters: /Users/lamber/mkdocs/mywiki/docs/1-Python基础/2-数据类型/str.md
+[I 190521 18:42:14 handlers:132] Browser Connected: http://library.wiki.local:2333/1-Python%E5%9F%BA%E7%A1%80/2-%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/str/
+[I 190521 18:42:27 watcher:92] Running task: <function builder at 0x101773140> (delay: None)
+INFO    -  Building documentation... 
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - 3-Django框架/DRF/00-介绍.md
+  - 3-Django框架/DRF/08-DRF分页.md
+  - 3-Django框架/DRF/09-DRF视图.md
+  - 3-Django框架/DRF/10-DRF渲染器.md
+  - 3-Django框架/DRF/15-Restful幂等.md
+  - docker/02-Docker进阶/01-Docker镜像生产实战.md
+  - docker/02-Docker进阶/02-Docker-registetry.md 
+WARNING -  A relative path to '3-Django框架/DRF/00-Restful幂等.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'api/ali/CommonInterface.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  Documentation file '3-Django框架/DRF/01-Restful.md' contains a link to '3-Django框架/DRF/www.cnblogs.com/wupeiqi/articles/7805382.html' which is not found in the documentation files. 
+[I 190521 18:42:29 handlers:92] Reload 1 waiters: /Users/lamber/mkdocs/mywiki/docs/1-Python基础/2-数据类型/str.md
+[I 190521 18:42:30 handlers:132] Browser Connected: http://library.wiki.local:2333/1-Python%E5%9F%BA%E7%A1%80/2-%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/str/
+[I 190521 18:42:33 watcher:92] Running task: <function builder at 0x101773140> (delay: None)
+INFO    -  Building documentation... 
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - 3-Django框架/DRF/00-介绍.md
+  - 3-Django框架/DRF/08-DRF分页.md
+  - 3-Django框架/DRF/09-DRF视图.md
+  - 3-Django框架/DRF/10-DRF渲染器.md
+  - 3-Django框架/DRF/15-Restful幂等.md
+  - docker/02-Docker进阶/01-Docker镜像生产实战.md
+  - docker/02-Docker进阶/02-Docker-registetry.md 
+WARNING -  A relative path to '3-Django框架/DRF/00-Restful幂等.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'api/ali/CommonInterface.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  Documentation file '3-Django框架/DRF/01-Restful.md' contains a link to '3-Django框架/DRF/www.cnblogs.com/wupeiqi/articles/7805382.html' which is not found in the documentation files. 
+[I 190521 18:42:35 handlers:92] Reload 1 waiters: /Users/lamber/mkdocs/mywiki/docs/1-Python基础/2-数据类型/str.md
+[I 190521 18:42:35 handlers:132] Browser Connected: http://library.wiki.local:2333/1-Python%E5%9F%BA%E7%A1%80/2-%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/str/
+[I 190521 18:42:42 watcher:92] Running task: <function builder at 0x101773140> (delay: None)
+INFO    -  Building documentation... 
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - 3-Django框架/DRF/00-介绍.md
+  - 3-Django框架/DRF/08-DRF分页.md
+  - 3-Django框架/DRF/09-DRF视图.md
+  - 3-Django框架/DRF/10-DRF渲染器.md
+  - 3-Django框架/DRF/15-Restful幂等.md
+  - docker/02-Docker进阶/01-Docker镜像生产实战.md
+  - docker/02-Docker进阶/02-Docker-registetry.md 
+WARNING -  A relative path to '3-Django框架/DRF/00-Restful幂等.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'api/ali/CommonInterface.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  Documentation file '3-Django框架/DRF/01-Restful.md' contains a link to '3-Django框架/DRF/www.cnblogs.com/wupeiqi/articles/7805382.html' which is not found in the documentation files. 
+[I 190521 18:42:44 handlers:92] Reload 1 waiters: /Users/lamber/mkdocs/mywiki/docs/1-Python基础/2-数据类型/str.md
+[I 190521 18:42:44 handlers:132] Browser Connected: http://library.wiki.local:2333/1-Python%E5%9F%BA%E7%A1%80/2-%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/str/
+[I 190521 18:42:47 watcher:92] Running task: <function builder at 0x101773140> (delay: None)
+INFO    -  Building documentation... 
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - 3-Django框架/DRF/00-介绍.md
+  - 3-Django框架/DRF/08-DRF分页.md
+  - 3-Django框架/DRF/09-DRF视图.md
+  - 3-Django框架/DRF/10-DRF渲染器.md
+  - 3-Django框架/DRF/15-Restful幂等.md
+  - docker/02-Docker进阶/01-Docker镜像生产实战.md
+  - docker/02-Docker进阶/02-Docker-registetry.md 
+WARNING -  A relative path to '3-Django框架/DRF/00-Restful幂等.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'api/ali/CommonInterface.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  Documentation file '3-Django框架/DRF/01-Restful.md' contains a link to '3-Django框架/DRF/www.cnblogs.com/wupeiqi/articles/7805382.html' which is not found in the documentation files. 
+[I 190521 18:42:48 handlers:92] Reload 1 waiters: /Users/lamber/mkdocs/mywiki/docs/1-Python基础/2-数据类型/str.md
+[I 190521 18:42:49 handlers:132] Browser Connected: http://library.wiki.local:2333/1-Python%E5%9F%BA%E7%A1%80/2-%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/str/
+[I 190521 18:42:55 watcher:92] Running task: <function builder at 0x101773140> (delay: None)
+INFO    -  Building documentation... 
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - 3-Django框架/DRF/00-介绍.md
+  - 3-Django框架/DRF/08-DRF分页.md
+  - 3-Django框架/DRF/09-DRF视图.md
+  - 3-Django框架/DRF/10-DRF渲染器.md
+  - 3-Django框架/DRF/15-Restful幂等.md
+  - docker/02-Docker进阶/01-Docker镜像生产实战.md
+  - docker/02-Docker进阶/02-Docker-registetry.md 
+WARNING -  A relative path to '3-Django框架/DRF/00-Restful幂等.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'api/ali/CommonInterface.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  Documentation file '3-Django框架/DRF/01-Restful.md' contains a link to '3-Django框架/DRF/www.cnblogs.com/wupeiqi/articles/7805382.html' which is not found in the documentation files. 
+[I 190521 18:42:57 handlers:92] Reload 1 waiters: /Users/lamber/mkdocs/mywiki/docs/1-Python基础/2-数据类型/str.md
+[I 190521 18:42:57 handlers:132] Browser Connected: http://library.wiki.local:2333/1-Python%E5%9F%BA%E7%A1%80/2-%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/str/
+[I 190521 18:42:59 watcher:92] Running task: <function builder at 0x101773140> (delay: None)
+INFO    -  Building documentation... 
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - 3-Django框架/DRF/00-介绍.md
+  - 3-Django框架/DRF/08-DRF分页.md
+  - 3-Django框架/DRF/09-DRF视图.md
+  - 3-Django框架/DRF/10-DRF渲染器.md
+  - 3-Django框架/DRF/15-Restful幂等.md
+  - docker/02-Docker进阶/01-Docker镜像生产实战.md
+  - docker/02-Docker进阶/02-Docker-registetry.md 
+WARNING -  A relative path to '3-Django框架/DRF/00-Restful幂等.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'api/ali/CommonInterface.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  Documentation file '3-Django框架/DRF/01-Restful.md' contains a link to '3-Django框架/DRF/www.cnblogs.com/wupeiqi/articles/7805382.html' which is not found in the documentation files. 
+[I 190521 18:43:00 handlers:92] Reload 1 waiters: /Users/lamber/mkdocs/mywiki/docs/1-Python基础/2-数据类型/str.md
+[I 190521 18:43:01 handlers:132] Browser Connected: http://library.wiki.local:2333/1-Python%E5%9F%BA%E7%A1%80/2-%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/str/
+[I 190521 18:43:03 watcher:92] Running task: <function builder at 0x101773140> (delay: None)
+INFO    -  Building documentation... 
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - 3-Django框架/DRF/00-介绍.md
+  - 3-Django框架/DRF/08-DRF分页.md
+  - 3-Django框架/DRF/09-DRF视图.md
+  - 3-Django框架/DRF/10-DRF渲染器.md
+  - 3-Django框架/DRF/15-Restful幂等.md
+  - docker/02-Docker进阶/01-Docker镜像生产实战.md
+  - docker/02-Docker进阶/02-Docker-registetry.md 
+WARNING -  A relative path to '3-Django框架/DRF/00-Restful幂等.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'api/ali/CommonInterface.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  Documentation file '3-Django框架/DRF/01-Restful.md' contains a link to '3-Django框架/DRF/www.cnblogs.com/wupeiqi/articles/7805382.html' which is not found in the documentation files. 
+[I 190521 18:43:04 handlers:92] Reload 1 waiters: /Users/lamber/mkdocs/mywiki/docs/1-Python基础/2-数据类型/str.md
+[I 190521 18:43:05 handlers:132] Browser Connected: http://library.wiki.local:2333/1-Python%E5%9F%BA%E7%A1%80/2-%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/str/
+[I 190521 18:43:31 watcher:92] Running task: <function builder at 0x101773140> (delay: None)
+INFO    -  Building documentation... 
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - 3-Django框架/DRF/00-介绍.md
+  - 3-Django框架/DRF/08-DRF分页.md
+  - 3-Django框架/DRF/09-DRF视图.md
+  - 3-Django框架/DRF/10-DRF渲染器.md
+  - 3-Django框架/DRF/15-Restful幂等.md
+  - docker/02-Docker进阶/01-Docker镜像生产实战.md
+  - docker/02-Docker进阶/02-Docker-registetry.md 
+WARNING -  A relative path to '3-Django框架/DRF/00-Restful幂等.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'api/ali/CommonInterface.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  Documentation file '3-Django框架/DRF/01-Restful.md' contains a link to '3-Django框架/DRF/www.cnblogs.com/wupeiqi/articles/7805382.html' which is not found in the documentation files. 
+[I 190521 18:43:32 handlers:92] Reload 1 waiters: /Users/lamber/mkdocs/mywiki/docs/1-Python基础/2-数据类型/str.md
+[I 190521 18:43:33 handlers:132] Browser Connected: http://library.wiki.local:2333/1-Python%E5%9F%BA%E7%A1%80/2-%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/str/
+[I 190521 18:43:36 watcher:92] Running task: <function builder at 0x101773140> (delay: None)
+INFO    -  Building documentation... 
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - 3-Django框架/DRF/00-介绍.md
+  - 3-Django框架/DRF/08-DRF分页.md
+  - 3-Django框架/DRF/09-DRF视图.md
+  - 3-Django框架/DRF/10-DRF渲染器.md
+  - 3-Django框架/DRF/15-Restful幂等.md
+  - docker/02-Docker进阶/01-Docker镜像生产实战.md
+  - docker/02-Docker进阶/02-Docker-registetry.md 
+WARNING -  A relative path to '3-Django框架/DRF/00-Restful幂等.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'api/ali/CommonInterface.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  Documentation file '3-Django框架/DRF/01-Restful.md' contains a link to '3-Django框架/DRF/www.cnblogs.com/wupeiqi/articles/7805382.html' which is not found in the documentation files. 
+[I 190521 18:43:38 handlers:92] Reload 1 waiters: /Users/lamber/mkdocs/mywiki/docs/1-Python基础/2-数据类型/str.md
+[I 190521 18:43:39 handlers:132] Browser Connected: http://library.wiki.local:2333/1-Python%E5%9F%BA%E7%A1%80/2-%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/str/
+[I 190521 18:45:10 watcher:92] Running task: <function builder at 0x101773140> (delay: None)
+INFO    -  Building documentation... 
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - 3-Django框架/DRF/00-介绍.md
+  - 3-Django框架/DRF/08-DRF分页.md
+  - 3-Django框架/DRF/09-DRF视图.md
+  - 3-Django框架/DRF/10-DRF渲染器.md
+  - 3-Django框架/DRF/15-Restful幂等.md
+  - docker/02-Docker进阶/01-Docker镜像生产实战.md
+  - docker/02-Docker进阶/02-Docker-registetry.md 
+WARNING -  A relative path to '3-Django框架/DRF/00-Restful幂等.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'api/ali/CommonInterface.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  Documentation file '3-Django框架/DRF/01-Restful.md' contains a link to '3-Django框架/DRF/www.cnblogs.com/wupeiqi/articles/7805382.html' which is not found in the documentation files. 
+[I 190521 18:45:12 handlers:92] Reload 1 waiters: /Users/lamber/mkdocs/mywiki/docs/1-Python基础/2-数据类型/str.md
+[I 190521 18:45:13 handlers:132] Browser Connected: http://library.wiki.local:2333/1-Python%E5%9F%BA%E7%A1%80/2-%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/str/
+[I 190521 18:45:23 watcher:92] Running task: <function builder at 0x101773140> (delay: None)
+INFO    -  Building documentation... 
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - 3-Django框架/DRF/00-介绍.md
+  - 3-Django框架/DRF/08-DRF分页.md
+  - 3-Django框架/DRF/09-DRF视图.md
+  - 3-Django框架/DRF/10-DRF渲染器.md
+  - 3-Django框架/DRF/15-Restful幂等.md
+  - docker/02-Docker进阶/01-Docker镜像生产实战.md
+  - docker/02-Docker进阶/02-Docker-registetry.md 
+WARNING -  A relative path to '3-Django框架/DRF/00-Restful幂等.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'api/ali/CommonInterface.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  Documentation file '3-Django框架/DRF/01-Restful.md' contains a link to '3-Django框架/DRF/www.cnblogs.com/wupeiqi/articles/7805382.html' which is not found in the documentation files. 
+[I 190521 18:45:25 handlers:92] Reload 1 waiters: /Users/lamber/mkdocs/mywiki/docs/1-Python基础/2-数据类型/str.md
+[I 190521 18:45:25 handlers:132] Browser Connected: http://library.wiki.local:2333/1-Python%E5%9F%BA%E7%A1%80/2-%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/str/
+[I 190521 18:49:35 watcher:92] Running task: <function builder at 0x101773140> (delay: None)
+INFO    -  Building documentation... 
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - 3-Django框架/DRF/00-介绍.md
+  - 3-Django框架/DRF/08-DRF分页.md
+  - 3-Django框架/DRF/09-DRF视图.md
+  - 3-Django框架/DRF/10-DRF渲染器.md
+  - 3-Django框架/DRF/15-Restful幂等.md
+  - docker/02-Docker进阶/01-Docker镜像生产实战.md
+  - docker/02-Docker进阶/02-Docker-registetry.md 
+WARNING -  A relative path to '3-Django框架/DRF/00-Restful幂等.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'api/ali/CommonInterface.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  Documentation file '3-Django框架/DRF/01-Restful.md' contains a link to '3-Django框架/DRF/www.cnblogs.com/wupeiqi/articles/7805382.html' which is not found in the documentation files. 
+[I 190521 18:49:37 handlers:92] Reload 1 waiters: /Users/lamber/mkdocs/mywiki/docs/1-Python基础/2-数据类型/str.md
+[I 190521 18:49:38 handlers:132] Browser Connected: http://library.wiki.local:2333/1-Python%E5%9F%BA%E7%A1%80/2-%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/str/
+[I 190521 18:49:45 watcher:92] Running task: <function builder at 0x101773140> (delay: None)
+INFO    -  Building documentation... 
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - 3-Django框架/DRF/00-介绍.md
+  - 3-Django框架/DRF/08-DRF分页.md
+  - 3-Django框架/DRF/09-DRF视图.md
+  - 3-Django框架/DRF/10-DRF渲染器.md
+  - 3-Django框架/DRF/15-Restful幂等.md
+  - docker/02-Docker进阶/01-Docker镜像生产实战.md
+  - docker/02-Docker进阶/02-Docker-registetry.md 
+WARNING -  A relative path to '3-Django框架/DRF/00-Restful幂等.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'api/ali/CommonInterface.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  Documentation file '3-Django框架/DRF/01-Restful.md' contains a link to '3-Django框架/DRF/www.cnblogs.com/wupeiqi/articles/7805382.html' which is not found in the documentation files. 
+[I 190521 18:49:47 handlers:92] Reload 1 waiters: /Users/lamber/mkdocs/mywiki/docs/1-Python基础/2-数据类型/str.md
+[I 190521 18:49:47 handlers:132] Browser Connected: http://library.wiki.local:2333/1-Python%E5%9F%BA%E7%A1%80/2-%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/str/
+[I 190521 18:49:50 watcher:92] Running task: <function builder at 0x101773140> (delay: None)
+INFO    -  Building documentation... 
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - 3-Django框架/DRF/00-介绍.md
+  - 3-Django框架/DRF/08-DRF分页.md
+  - 3-Django框架/DRF/09-DRF视图.md
+  - 3-Django框架/DRF/10-DRF渲染器.md
+  - 3-Django框架/DRF/15-Restful幂等.md
+  - docker/02-Docker进阶/01-Docker镜像生产实战.md
+  - docker/02-Docker进阶/02-Docker-registetry.md 
+WARNING -  A relative path to '3-Django框架/DRF/00-Restful幂等.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'api/ali/CommonInterface.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  Documentation file '3-Django框架/DRF/01-Restful.md' contains a link to '3-Django框架/DRF/www.cnblogs.com/wupeiqi/articles/7805382.html' which is not found in the documentation files. 
+[I 190521 18:49:52 handlers:92] Reload 1 waiters: /Users/lamber/mkdocs/mywiki/docs/1-Python基础/2-数据类型/str.md
+[I 190521 18:49:52 watcher:92] Running task: <function builder at 0x101773140> (delay: None)
+INFO    -  Building documentation... 
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - 3-Django框架/DRF/00-介绍.md
+  - 3-Django框架/DRF/08-DRF分页.md
+  - 3-Django框架/DRF/09-DRF视图.md
+  - 3-Django框架/DRF/10-DRF渲染器.md
+  - 3-Django框架/DRF/15-Restful幂等.md
+  - docker/02-Docker进阶/01-Docker镜像生产实战.md
+  - docker/02-Docker进阶/02-Docker-registetry.md 
+WARNING -  A relative path to '3-Django框架/DRF/00-Restful幂等.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'api/ali/CommonInterface.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  Documentation file '3-Django框架/DRF/01-Restful.md' contains a link to '3-Django框架/DRF/www.cnblogs.com/wupeiqi/articles/7805382.html' which is not found in the documentation files. 
+[I 190521 18:49:55 handlers:132] Browser Connected: http://library.wiki.local:2333/1-Python%E5%9F%BA%E7%A1%80/2-%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/str/
