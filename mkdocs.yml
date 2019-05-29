@@ -84,7 +84,7 @@ nav:
     - Kubernetes编排:
       - '01-k8s纯手工部署': 'kubernetes/01-k8s纯手工部署.md'
   - Django学习笔记:
-    - 'Django DRF':
+    - 'Django Rest Framework':
       - '00-Restful介绍': 3-Django框架/DRF/01-Restful.md
       - '01-Restful的幂等性': 3-Django框架/DRF/00-Restful幂等.md
       - '02-Request封装': 3-Django框架/DRF/02-Request的封装.md
@@ -93,5 +93,8 @@ nav:
       - '05-DRF访问限制': 3-Django框架/DRF/05-DRF访问限制.md
       - '06-DRF版本&解析器': 3-Django框架/DRF/06-DRF版本&解析器.md
       - '07-DRF序列化': 3-Django框架/DRF/07-DRF序列化.md
-  - API:
-    - '01-常用资源信息': api/ali/CommonInterface.md
+  - 前端:
+    - 'HTML+CSS'
+    - 'JavaScript'
+    - 'jQuery'
+    - 'Vue'
